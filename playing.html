@@ -27,7 +27,7 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="./index.html#about">About Me</a></li>
-                    <li><a href="./index.html#projects">Projects</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
 
                     <li><a href="./playing.html" class="nav-active">Playing</a></li>
                 </ul>
@@ -38,13 +38,24 @@
             <div class="playing-header">
                 <h1 class="playing-title">Playing</h1>
                 <p class="playing-subtitle">플레이한 게임 목록</p>
-                <div class="playing-count" id="game-count"></div>
+                <div class="playing-stats">
+                    <span class="playing-stat"><span class="stat-num" id="game-count">-</span> 게임</span>
+                    <span class="playing-stat-divider">·</span>
+                    <span class="playing-stat">총 과금 <span class="stat-num stat-money" id="total-payment">-</span></span>
+                </div>
             </div>
 
-            <div class="playing-sort">
-                <span class="sort-label">정렬:</span>
-                <button class="sort-btn active" data-sort="playtime">플레이 시간</button>
-                <button class="sort-btn" data-sort="payment">과금액</button>
+            <div class="playing-controls">
+                <div class="playing-tabs">
+                    <button class="tab-btn active" data-tab="all">전체</button>
+                    <button class="tab-btn" data-tab="live">라이브</button>
+                    <button class="tab-btn" data-tab="package">패키지</button>
+                </div>
+                <div class="playing-sort">
+                    <span class="sort-label">정렬:</span>
+                    <button class="sort-btn active" data-sort="payment">과금액</button>
+                    <button class="sort-btn" data-sort="playtime">플레이 시간</button>
+                </div>
             </div>
 
             <div class="playing-grid" id="playing-grid">

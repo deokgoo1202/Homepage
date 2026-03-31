@@ -22,10 +22,66 @@
     margin-bottom: 1rem;
 }
 
-.playing-count {
-    font-size: 0.85rem;
+.playing-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.stat-num {
     color: var(--accent-yellow);
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.stat-money {
+    font-size: 1rem;
+}
+
+.playing-stat-divider {
+    opacity: 0.4;
+}
+
+/* Controls row */
+.playing-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+/* Tabs */
+.playing-tabs {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tab-btn {
+    font-size: 0.85rem;
+    padding: 0.35rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #444;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+}
+
+.tab-btn:hover {
+    border-color: #666;
+    color: var(--text-light);
+}
+
+.tab-btn.active {
+    border-color: var(--text-light);
+    color: var(--text-light);
+    background: rgba(255,255,255,0.08);
 }
 
 /* Sort */

@@ -1,7 +1,0 @@
-name: Cyberpunk 2077
-release: 2020년 12월 10일
-developer: CD PROJEKT RED
-platform: PlayStation, Steam Deck, Windows, Xbox, macOS
-package: Yes
-comment: 
-payment: 34900

@@ -1,22 +1,23 @@
 let allGames = [];
-let currentSort = 'playtime';
+let currentSort = 'payment';
+let currentTab = 'all';
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadGames();
+    initTabs();
     initSortButtons();
     initScrollButtons();
 });
 
 async function loadGames() {
     const grid = document.getElementById('playing-grid');
-    const countEl = document.getElementById('game-count');
 
     try {
         const res = await fetch('./data/playing.json');
         allGames = await res.json();
 
-        countEl.textContent = `총 ${allGames.length}개`;
-        renderGames('playtime');
+        updateStats(allGames);
+        renderGames();
 
     } catch (e) {
         grid.innerHTML = '<p style="color:#888; text-align:center;">데이터를 불러오지 못했습니다.</p>';
@@ -24,14 +25,35 @@ async function loadGames() {
     }
 }
 
-function renderGames(sortKey) {
+function updateStats(games) {
+    const countEl = document.getElementById('game-count');
+    const paymentEl = document.getElementById('total-payment');
+
+    const filtered = getFilteredGames();
+    const totalPayment = filtered.reduce((sum, g) => sum + (g.payment_num || 0), 0);
+
+    countEl.textContent = filtered.length;
+    paymentEl.textContent = totalPayment > 0 ? totalPayment.toLocaleString() + '원' : '-';
+}
+
+function getFilteredGames() {
+    if (currentTab === 'all') return allGames;
+    if (currentTab === 'package') return allGames.filter(g => g.package === 'Yes');
+    if (currentTab === 'live') return allGames.filter(g => g.package !== 'Yes');
+    return allGames;
+}
+
+function renderGames() {
     const grid = document.getElementById('playing-grid');
 
-    const sorted = [...allGames].sort((a, b) => {
-        const aVal = sortKey === 'playtime' ? (a.playtime_num || 0) : (a.payment_num || 0);
-        const bVal = sortKey === 'playtime' ? (b.playtime_num || 0) : (b.payment_num || 0);
+    const filtered = getFilteredGames();
+    const sorted = [...filtered].sort((a, b) => {
+        const aVal = currentSort === 'playtime' ? (a.playtime_num || 0) : (a.payment_num || 0);
+        const bVal = currentSort === 'playtime' ? (b.playtime_num || 0) : (b.payment_num || 0);
         return bVal - aVal;
     });
+
+    updateStats();
 
     grid.innerHTML = sorted.map(g => {
         const thumb = g.thumbnail
@@ -60,13 +82,24 @@ function renderGames(sortKey) {
     }).join('');
 }
 
+function initTabs() {
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentTab = btn.dataset.tab;
+            renderGames();
+        });
+    });
+}
+
 function initSortButtons() {
     document.querySelectorAll('.sort-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentSort = btn.dataset.sort;
-            renderGames(currentSort);
+            renderGames();
         });
     });
 }
