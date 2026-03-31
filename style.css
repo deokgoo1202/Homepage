@@ -998,6 +998,26 @@ h4,
     .toc-nav { flex-direction: column; }
 }
 
+/* Hero intro */
+.hero-intro {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+/* Competency Section */
+.competency-section {
+    background-color: #1e1e1e;
+}
+
+.section-subtitle {
+    color: var(--text-muted);
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+
 /* Timeline project link */
 .timeline-project-link,
 .timeline-project-link:visited {
