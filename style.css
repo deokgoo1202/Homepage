@@ -170,13 +170,13 @@ h4,
 
 .role-title {
     color: var(--accent-yellow);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
 .role-sub {
     color: var(--accent-yellow);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -779,6 +779,21 @@ h4,
 }
 
 /* Skills with descriptions */
+.company-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.company-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
 .skill-group h3 {
     margin-bottom: 1.2rem;
 }
