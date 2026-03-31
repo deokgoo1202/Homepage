@@ -44,12 +44,14 @@ h4,
 
 /* Navigation */
 .framer-nav {
-    background: transparent;
-    position: absolute;
+    background: rgba(20, 20, 20, 0.95);
+    position: fixed;
     top: 0;
     width: 100%;
     height: var(--nav-height);
     z-index: 1000;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #333;
 }
 
 .nav-content {
