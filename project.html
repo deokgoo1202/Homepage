@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project | Game-Oriented</title>
     <meta name="description" content="게임 기획자 DeokGyu Kim의 프로젝트 상세 페이지">
+
+    <!-- OG Tags -->
+    <meta property="og:title" content="DeokGyu Kim | Game Designer Portfolio">
+    <meta property="og:description" content="게임 기획자 김덕규의 시스템 기획 포트폴리오">
+    <meta property="og:image" content="https://kastelio.github.io/Homepage/assets/profile.png">
+    <meta property="og:url" content="https://kastelio.github.io/Homepage/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -23,8 +32,7 @@
                 <ul class="nav-links">
                     <li><a href="./index.html#about">About Me</a></li>
                     <li><a href="./index.html#projects">Projects</a></li>
-                    <li><a href="./index.html#sub-projects">Sub-Projects</a></li>
-                    <li><a href="./index.html#archive">Archive</a></li>
+                    <li><a href="./index.html#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,21 +47,24 @@
                 </a>
             </div>
 
-            <!-- Hero: JS가 채워줌 -->
+            <!-- Hero -->
             <section class="detail-hero" id="detail-hero"></section>
 
             <div class="detail-divider"></div>
 
-            <!-- Systems: JS가 채워줌 -->
+            <!-- TOC -->
+            <div id="detail-toc"></div>
+
+            <!-- Systems -->
             <section class="detail-systems" id="detail-systems"></section>
 
-            <!-- 기타 이미지: JS가 채워줌 -->
+            <!-- 기타 -->
             <section class="other-improvements" id="detail-misc" style="display:none;">
                 <h2 class="detail-section-title">기타</h2>
                 <div class="improvements-grid" id="misc-grid"></div>
             </section>
 
-            <div class="back-btn-wrapper" style="margin-top: 4rem;">
+            <div class="back-btn-wrapper" style="margin-top:4rem;">
                 <a href="./index.html#projects" class="back-btn">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
                         <path d="M19 12H5M12 5l-7 7 7 7" />
@@ -68,7 +79,6 @@
         </footer>
     </div>
 
-    <!-- Lightbox -->
     <div id="lightbox" class="lightbox-modal">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">

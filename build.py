@@ -92,7 +92,8 @@ def build_project(project_id, project_folder):
         "tags": [t.strip() for t in info.get("tags", "").split(",") if t.strip()],
         "dev": info.get("dev", ""),
         "order": int(info.get("order", 99)),
-        "thumbnail": f"content/projects/{project_id}/기타/thumbnail.jpg",
+        "thumbnail": info.get("thumbnail", f"content/projects/{project_id}/기타/thumbnail.jpg"),
+        "card_class": info.get("card_class", ""),
         "systems": systems,
         "misc": misc_images,
     }

@@ -4,43 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Game Designer & Developer</title>
-    <meta name="description" content="게임 기획자 및 개발자 포트폴리오. 커리어, 게임 프로토타입, UI 레퍼런스 쇼케이스.">
+    <title>DeokGyu Kim | Game Designer Portfolio</title>
+    <meta name="description" content="게임 기획자 김덕규의 포트폴리오. 시스템 기획, 데이터 설계, 밸런싱 전문.">
 
-    <!-- Google Fonts: Inter & Outfit for premium look -->
+    <!-- OG Tags -->
+    <meta property="og:title" content="DeokGyu Kim | Game Designer Portfolio">
+    <meta property="og:description" content="게임 기획자 김덕규의 포트폴리오. 시스템 기획, 데이터 설계, 밸런싱 전문.">
+    <meta property="og:image" content="https://kastelio.github.io/Homepage/assets/profile.png">
+    <meta property="og:url" content="https://kastelio.github.io/Homepage/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div id="app">
-        <!-- Navigation -->
         <nav class="framer-nav">
             <div class="nav-content">
                 <div class="logo-area">
                     <span class="logo-text">Game-Oriented</span>
                 </div>
-                <!-- Updated 4-Tier Navigation -->
                 <ul class="nav-links">
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
         <main>
-            <!-- 1. About Me Section (Combined Hero, Career, Skills) -->
+            <!-- 1. About Me -->
             <section id="about" class="about-section">
-                <!-- Hero Part -->
                 <div class="hero-content">
                     <div class="profile-frame fade-in">
-                        <img src="./assets/profile.png" alt="Profile Image"
-                            style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="./assets/profile.png" alt="Profile Image" style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <h1 class="fade-in-delayed title-name">DeokGyu Kim</h1>
                     <div class="roles fade-in-delayed">
@@ -49,8 +50,8 @@
                     </div>
                 </div>
 
-                <!-- Career Part -->
-                <div class="career-content container fade-in" style="margin-top: 4rem;">
+                <!-- Career -->
+                <div class="career-content container fade-in" style="margin-top:4rem;">
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-date">2024.04 - Present</div>
@@ -75,161 +76,76 @@
                     </div>
                 </div>
 
-                <!-- Skills Part -->
-                <div class="skills-content container fade-in" style="margin-top: 3rem;">
+                <!-- Skills -->
+                <div class="skills-content container fade-in" style="margin-top:3rem;">
                     <div class="skill-groups">
                         <div class="skill-group">
                             <h3>Design & Tools</h3>
-                            <div class="tags">
-                                <span class="tag">Excel</span>
-                                <span class="tag">Figma</span>
-                                <span class="tag">Python</span>
-                                <span class="tag">n8n</span>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="tag">Excel</span>
+                                    <span class="skill-desc">데이터 기획 및 밸런싱</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="tag">Figma</span>
+                                    <span class="skill-desc">UI 와이어프레임 설계</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="tag">Python</span>
+                                    <span class="skill-desc">자동화 스크립트</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="tag">n8n</span>
+                                    <span class="skill-desc">워크플로우 자동화</span>
+                                </div>
                             </div>
                         </div>
                         <div class="skill-group">
                             <h3>Collaboration</h3>
-                            <div class="tags">
-                                <span class="tag">Notion</span>
-                                <span class="tag">Jira</span>
-                                <span class="tag">Confluence</span>
-                            </div>
-                        </div>
-                        <div class="skill-group">
-                            <h3>Contact</h3>
-                            <div class="tags">
-                                <a href="mailto:onkpeople@naver.com" style="text-decoration:none; color:inherit;">
-                                    <span class="tag"
-                                        style="background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3);">
-                                        📧 onkpeople@naver.com
-                                    </span>
-                                </a>
-                                <a href="https://youtube.com/@DeokGoo" target="_blank"
-                                    style="text-decoration:none; color:inherit;">
-                                    <span class="tag"
-                                        style="background: rgba(255,44,44,0.15); border-color: rgba(255,44,44,0.3);">
-                                        ▶ @DeokGoo YouTube
-                                    </span>
-                                </a>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="tag">Jira</span>
+                                    <span class="skill-desc">이슈 트래킹 및 스프린트</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="tag">Confluence</span>
+                                    <span class="skill-desc">기획 문서 관리</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- 2. Projects Section (Main Commercial Games) -->
+            <!-- 2. Projects -->
             <section id="projects" class="section projects-section">
                 <h2 class="section-title text-center">Projects</h2>
-                <div class="project-list container">
-                    <!-- GoT -->
-                    <div class="project-card got-card fade-in">
-                        <div class="project-image-wrapper">
-                            <img src="./assets/kingsroad.jpg" alt="Game of Thrones: Kingsroad" class="project-img">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">왕좌의 게임:<br>킹스로드</h3>
-                            <div class="divider"></div>
-                            <p class="project-desc">Action RPG, 실사</p>
-                            <a href="./project.html?id=kingsroad" class="btn-more">자세히 보기</a>
-                        </div>
-                    </div>
-                    <!-- Zenonia -->
-                    <div class="project-card fade-in">
-                        <div class="project-image-wrapper">
-                            <img src="./assets/zenonia.jpg" alt="Zenonia: Chronobreak" class="project-img">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">제노니아:<br>크로노브레이크</h3>
-                            <div class="divider"></div>
-                            <p class="project-desc">MMORPG, 카툰렌더링</p>
-                            <a href="./project.html?id=zenonia" class="btn-more">자세히 보기</a>
-                        </div>
-                    </div>
+                <div class="project-list container" id="projects-list">
+                    <!-- main.js가 data/projects.json 읽어서 렌더링 -->
+                    <div class="projects-loading">Loading...</div>
                 </div>
             </section>
 
-            <!-- 3. Sub-Projects Section (Playable Prototypes) -->
-            <section id="sub-projects" class="section sub-projects-section" style="display:none;">
-                <h2 class="section-title text-center">Sub-Projects</h2>
-                <p class="section-subtitle text-center fade-in"
-                    style="margin-bottom: 3rem; color: var(--text-secondary); opacity: 0.8;">웹 기반의 인터랙티브 프로토타입 및 토이
-                    프로젝트입니다.</p>
-                <div class="project-list container">
-                    <!-- Placeholder: Equipment Enchant -->
-                    <div class="project-card playable-card fade-in">
-                        <div class="playable-badge">Playable</div>
-                        <div class="project-image-wrapper"
-                            style="background: #1e1e1e; display:flex; align-items:center; justify-content:center;">
-                            <!-- 임시 이미지 대신 아이콘/텍스트 -->
-                            <span
-                                style="color: rgba(255,255,255,0.3); font-size: 1.5rem; font-weight: bold;">Enchant<br>Simulator</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">장비 강화 시뮬레이터</h3>
-                            <div class="divider"></div>
-                            <p class="project-desc">천장 시스템 및 강화 확률 검증 프로토타입</p>
-                            <a href="#" class="btn-play">▶ 플레이 하기</a>
-                        </div>
+            <!-- 3. Contact -->
+            <section id="contact" class="section contact-section">
+                <div class="container">
+                    <h2 class="section-title text-center">Contact</h2>
+                    <div class="contact-links">
+                        <a href="mailto:onkpeople@naver.com" class="contact-item">
+                            <div class="contact-icon email-icon">✉</div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">onkpeople@naver.com</span>
+                            </div>
+                        </a>
+                        <a href="https://youtube.com/@DeokGoo" target="_blank" class="contact-item">
+                            <div class="contact-icon yt-icon">▶</div>
+                            <div class="contact-info">
+                                <span class="contact-label">YouTube</span>
+                                <span class="contact-value">@DeokGoo</span>
+                            </div>
+                        </a>
                     </div>
-
-                    <!-- 추가 프로토타입 슬롯 -->
-                    <div class="project-card playable-card fade-in" style="opacity: 0.5;">
-                        <div class="project-image-wrapper"
-                            style="background: #161616; display:flex; align-items:center; justify-content:center;">
-                            <span style="color: rgba(255,255,255,0.2);">Coming Soon</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">차기 프로토타입</h3>
-                            <div class="divider"></div>
-                            <p class="project-desc">기획 검증용 미니 프로젝트</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- 4. Archive Section (UI Reference Category Cards) -->
-            <section id="archive" class="section archive-section" style="display:none;">
-                <!-- Lime Yellow Accent Header -->
-                <h2 class="section-title text-center" style="font-size: 3.5rem; color: #DFFF00; margin-bottom: 4rem;">UI
-                    Reference</h2>
-
-                <div class="archive-categories container">
-                    <!-- Category Card 1 -->
-                    <a href="./archive_detail.html?category=title" class="category-card fade-in">
-                        <div class="category-img-wrapper">
-                            <!-- Using Kingsroad image as a placeholder for the category thumbnail -->
-                            <img src="./assets/kingsroad.jpg" alt="Title Backgrounds" class="category-img">
-                        </div>
-                        <div class="category-info">
-                            <h3 class="category-title">타이틀</h3>
-                            <p class="category-desc">게임에 접속하기 전 필요한 처리를 담당</p>
-                        </div>
-                    </a>
-
-                    <!-- Category Card 2 -->
-                    <a href="./archive_detail.html?category=creation" class="category-card fade-in"
-                        style="animation-delay: 0.1s;">
-                        <div class="category-img-wrapper">
-                            <!-- Using Zenonia image as a placeholder -->
-                            <img src="./assets/zenonia.jpg" alt="Character Creation" class="category-img">
-                        </div>
-                        <div class="category-info">
-                            <h3 class="category-title">캐릭터 생성 및 선택</h3>
-                            <p class="category-desc">캐릭터를 생성하거나 선택</p>
-                        </div>
-                    </a>
-
-                    <!-- Category Card 3 -->
-                    <a href="./archive_detail.html?category=customizing" class="category-card fade-in"
-                        style="animation-delay: 0.2s;">
-                        <div class="category-img-wrapper">
-                            <img src="./assets/profile.png" alt="Customizing" class="category-img">
-                        </div>
-                        <div class="category-info">
-                            <h3 class="category-title">커스터마이징</h3>
-                            <p class="category-desc">캐릭터의 외형을 변경</p>
-                        </div>
-                    </a>
                 </div>
             </section>
         </main>
@@ -239,7 +155,6 @@
         </footer>
     </div>
 
-    <!-- Lightbox Modal -->
     <div id="lightbox" class="lightbox-modal">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">

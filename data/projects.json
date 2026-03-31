@@ -10,7 +10,8 @@
     ],
     "dev": "Netmarble Neo 개발 · Netmarble 유통",
     "order": 1,
-    "thumbnail": "content/projects/kingsroad/기타/thumbnail.jpg",
+    "thumbnail": "assets/kingsroad.jpg",
+    "card_class": "got-card",
     "systems": [
       {
         "name": "효과 상세 정보 팝업",
@@ -107,7 +108,8 @@
     ],
     "dev": "Com2us 개발 · Com2us Holdings 유통",
     "order": 2,
-    "thumbnail": "content/projects/zenonia/기타/thumbnail.jpg",
+    "thumbnail": "assets/zenonia.jpg",
+    "card_class": "",
     "systems": [
       {
         "name": "업적",

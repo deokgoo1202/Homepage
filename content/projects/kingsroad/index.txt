@@ -3,3 +3,5 @@ badge: 2025. 3. 26. Steam Early Access
 tags: Action RPG, Adventure, 실사
 dev: Netmarble Neo 개발 · Netmarble 유통
 order: 1
+thumbnail: assets/kingsroad.jpg
+card_class: got-card

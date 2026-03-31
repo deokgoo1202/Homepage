@@ -1,159 +1,93 @@
-// Main Interactivity for Portfolio
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     initNav();
     initScrollAnimations();
-    loadSectionData();
+    await renderProjects();
+    initLightbox();
 });
 
-/**
- * Navigation interaction (changing opacity on scroll)
- */
 function initNav() {
-    const nav = document.querySelector('.nav-glass');
+    const nav = document.querySelector('.framer-nav');
+    if (!nav) return;
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            nav.style.backgroundColor = 'rgba(15, 23, 42, 0.95)';
-            nav.style.padding = '0.5rem 0';
+            nav.style.backgroundColor = 'rgba(20,20,20,0.97)';
         } else {
-            nav.style.backgroundColor = 'rgba(15, 23, 42, 0.7)';
-            nav.style.padding = '0';
+            nav.style.backgroundColor = 'transparent';
         }
+    });
+
+    document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) window.scrollTo({ top: target.offsetTop - 70, behavior: 'smooth' });
+        });
     });
 }
 
-/**
- * Scroll reveal animations using Intersection Observer
- */
 function initScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1
-    };
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in');
+                entry.target.classList.add('visible');
                 observer.unobserve(entry.target);
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.1 });
 
-    document.querySelectorAll('.card-glass, .section-title, .timeline-item').forEach(el => {
-        el.style.opacity = '0';
+    document.querySelectorAll('.fade-in, .fade-in-delayed').forEach(el => {
         observer.observe(el);
     });
 }
 
-/**
- * Logic for loading dynamic data (if any) or enhanced interactions
- */
-function loadSectionData() {
-    console.log('Portfolio initialized successfully.');
+async function renderProjects() {
+    const container = document.getElementById('projects-list');
+    if (!container) return;
 
-    // Smooth scroll for nav links
-    document.querySelectorAll('.nav-links a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
+    try {
+        const res = await fetch('./data/projects.json');
+        const projects = await res.json();
 
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 70, // subtract nav height
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const categoryQuery = urlParams.get('category');
-    const categoryTitleEl = document.getElementById('category-main-title');
-    const gridEl = document.getElementById('reference-grid');
-
-    if (categoryTitleEl && gridEl && categoryQuery) {
-        // Mock data mapping
-        const archiveData = {
-            'title': {
-                name: '타이틀',
-                items: [
-                    { game: '원신', type: '타이틀', img: './assets/kingsroad.jpg' },
-                    { game: '프라시아 전기', type: '타이틀', img: './assets/zenonia.jpg' }
-                ]
-            },
-            'creation': {
-                name: '캐릭터 생성 및 선택',
-                items: [
-                    { game: '로스트아크', type: '캐릭터 선택', img: './assets/zenonia.jpg' },
-                    { game: '검은사막', type: '캐릭터 생성', img: './assets/kingsroad.jpg' }
-                ]
-            },
-            'customizing': {
-                name: '커스터마이징',
-                items: [
-                    { game: '검은사막', type: '커스터마이징', img: './assets/profile.png' }
-                ]
-            }
-        };
-
-        const data = archiveData[categoryQuery];
-        if (data) {
-            categoryTitleEl.textContent = data.name;
-            let html = '';
-
-            data.items.forEach(item => {
-                html += `
-                    <div class="reference-item fade-in">
-                        <h4 class="reference-title">[${item.game}] ${item.type}</h4>
-                        <div class="reference-img-wrapper gallery-item">
-                            <img src="${item.img}" alt="${item.game} UI" class="gallery-img">
-                            <div class="reference-overlay"><span class="zoom-icon">🔍 확대보기</span></div>
-                        </div>
+        container.innerHTML = projects.map(p => `
+            <div class="project-card ${p.card_class || ''} fade-in">
+                <div class="project-image-wrapper">
+                    <img src="${p.thumbnail}" alt="${p.title}" class="project-img">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">${p.title.replace(':', ':<br>')}</h3>
+                    <div class="divider"></div>
+                    <p class="project-desc">${p.tags.join(', ')}</p>
+                    <div class="project-meta">
+                        <span class="system-count">${p.systems.length}개 시스템 기획</span>
                     </div>
-                `;
-            });
-            gridEl.innerHTML = html;
-        } else {
-            categoryTitleEl.textContent = "Category Not Found";
-        }
-    }
+                    <a href="./project.html?id=${p.id}" class="btn-more">자세히 보기</a>
+                </div>
+            </div>
+        `).join('');
 
-    // Lightbox Functionality
+        // 렌더링 후 스크롤 애니메이션 재적용
+        initScrollAnimations();
+
+    } catch (e) {
+        console.error('Projects 로드 실패:', e);
+    }
+}
+
+function initLightbox() {
     const modal = document.getElementById('lightbox');
     const modalImg = document.getElementById('lightbox-img');
     const closeBtn = document.querySelector('.lightbox-close');
+    if (!modal) return;
 
-    if (modal && modalImg && closeBtn) {
-        // Need to use event delegation or attach after dynamic injection
-        document.body.addEventListener('click', function (e) {
-            // Check if clicking inside a gallery item
-            const galleryItem = e.target.closest('.gallery-item');
-            if (galleryItem) {
-                const img = galleryItem.querySelector('.gallery-img');
-                if (img) {
-                    modal.style.display = 'flex';
-                    modalImg.src = img.src;
-                }
-            }
-        });
+    document.body.addEventListener('click', (e) => {
+        const item = e.target.closest('.gallery-item');
+        if (item) {
+            const img = item.querySelector('.gallery-img');
+            if (img) { modal.style.display = 'flex'; modalImg.src = img.src; }
+        }
+    });
 
-        // Close when clicking X
-        closeBtn.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-
-        // Close when clicking outside image
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-
-        // Close on Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && modal.style.display === 'flex') {
-                modal.style.display = 'none';
-            }
-        });
-    }
+    closeBtn.addEventListener('click', () => modal.style.display = 'none');
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modal.style.display = 'none'; });
 }
