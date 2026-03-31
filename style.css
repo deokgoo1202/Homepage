@@ -974,9 +974,9 @@ h4,
 
 /* Timeline project link */
 .timeline-project-link {
-    color: inherit;
+    color: var(--text-light);
     text-decoration: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #666;
     transition: color 0.2s, border-color 0.2s;
 }
 
