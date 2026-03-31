@@ -1,0 +1,6 @@
+name: World Of Warcraft
+release: 2004년 11월 23일
+developer: Blizzard
+platform: Windows, macOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: Albion Online
+release: 
+developer: 
+platform: 
+package: No
+comment: 

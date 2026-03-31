@@ -1,0 +1,6 @@
+name: 던전앤파이터 모바일
+release: 2022년 3월 24일
+developer: 네오플
+platform: Android, Windows, iOS
+package: No
+comment: 

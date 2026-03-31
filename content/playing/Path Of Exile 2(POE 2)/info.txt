@@ -1,0 +1,6 @@
+name: Path Of Exile 2(POE 2)
+release: 2024년 12월 7일
+developer: 그라인딩 기어 게임즈
+platform: PS5, Windows, Xbox
+package: No
+comment: 

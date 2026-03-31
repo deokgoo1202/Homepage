@@ -1,0 +1,6 @@
+name: Brawl Stars
+release: 2018년 12월 12일
+developer: Supercell
+platform: Android, iOS
+package: No
+comment: 

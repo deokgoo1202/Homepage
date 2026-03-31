@@ -1,0 +1,6 @@
+name: 블루 아카이브
+release: 2021년 11월 9일
+developer: 넥슨게임즈
+platform: Windows, iOS
+package: No
+comment: 

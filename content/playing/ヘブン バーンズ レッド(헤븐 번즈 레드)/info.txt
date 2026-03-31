@@ -1,0 +1,6 @@
+name: ヘブン バーンズ レッド(헤븐 번즈 레드)
+release: 2023년 2월 10일
+developer: Wright Flyer Studios
+platform: Android, Windows, iOS
+package: No
+comment: 

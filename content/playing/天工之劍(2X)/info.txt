@@ -1,0 +1,6 @@
+name: 天工之劍(2X)
+release: 2022년 2월 10일
+developer: Jule Game
+platform: Android, iOS
+package: No
+comment: 

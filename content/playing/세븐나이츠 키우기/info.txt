@@ -1,0 +1,6 @@
+name: 세븐나이츠 키우기
+release: 2023년 9월 6일
+developer: 넷마블 넥서스
+platform: Android, iOS
+package: No
+comment: 

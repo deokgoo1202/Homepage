@@ -1,0 +1,6 @@
+name: 안녕 엘라
+release: 2022년 11월 9일
+developer: Com2us Holdings
+platform: Android, iOS
+package: No
+comment: 

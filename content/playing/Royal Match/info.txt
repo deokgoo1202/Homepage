@@ -1,0 +1,6 @@
+name: Royal Match
+release: 
+developer: 
+platform: 
+package: No
+comment: 

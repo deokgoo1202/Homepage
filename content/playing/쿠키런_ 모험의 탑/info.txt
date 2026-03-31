@@ -1,0 +1,6 @@
+name: 쿠키런: 모험의 탑
+release: 2024년 6월 26일
+developer: 데브시스터즈
+platform: Android, Windows, iOS, iPadOS
+package: No
+comment: 

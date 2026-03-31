@@ -1,0 +1,6 @@
+name: 오딘: 발할라 라이징
+release: 2021년 6월 29일
+developer: 라이온하트스튜디오
+platform: Android, Windows, iOS
+package: No
+comment: 

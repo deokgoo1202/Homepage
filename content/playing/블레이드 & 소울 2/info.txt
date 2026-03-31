@@ -1,0 +1,6 @@
+name: 블레이드 & 소울 2
+release: 2021년 8월 26일
+developer: 엔씨소프트
+platform: Android, Windows, iOS
+package: No
+comment: 

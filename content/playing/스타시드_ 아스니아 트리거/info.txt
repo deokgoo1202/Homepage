@@ -1,0 +1,6 @@
+name: 스타시드: 아스니아 트리거
+release: 2024년 3월 28일
+developer: 모히또게임즈
+platform: Android, iOS
+package: No
+comment: 

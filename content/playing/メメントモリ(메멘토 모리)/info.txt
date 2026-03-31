@@ -1,0 +1,6 @@
+name: メメントモリ(메멘토 모리)
+release: 2022년 10월 18일
+developer: BANK OF INNOVATION
+platform: Android, iOS
+package: No
+comment: 

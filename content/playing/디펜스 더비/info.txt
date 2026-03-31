@@ -1,0 +1,6 @@
+name: 디펜스 더비
+release: 
+developer: 
+platform: 
+package: No
+comment: 

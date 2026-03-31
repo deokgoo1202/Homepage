@@ -1,0 +1,6 @@
+name: 아키에이지 워
+release: 2023년 3월 21일
+developer: 엑스엘게임즈
+platform: Android, Windows, iOS
+package: No
+comment: 

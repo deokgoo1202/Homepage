@@ -1,0 +1,6 @@
+name: 마비노기 모바일
+release: 
+developer: 
+platform: 
+package: No
+comment: 

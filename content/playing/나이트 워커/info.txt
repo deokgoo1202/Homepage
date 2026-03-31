@@ -1,0 +1,6 @@
+name: 나이트 워커
+release: 2023년 1월 26일
+developer: 에이스톰
+platform: Windows
+package: No
+comment: 

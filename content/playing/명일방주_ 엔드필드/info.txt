@@ -1,0 +1,6 @@
+name: 명일방주: 엔드필드
+release: 
+developer: 
+platform: 
+package: No
+comment: 

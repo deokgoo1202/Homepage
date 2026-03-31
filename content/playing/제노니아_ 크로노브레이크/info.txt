@@ -1,0 +1,6 @@
+name: 제노니아: 크로노브레이크
+release: 2023년 6월 27일
+developer: 컴투스
+platform: Android, Windows, iOS
+package: No
+comment: 

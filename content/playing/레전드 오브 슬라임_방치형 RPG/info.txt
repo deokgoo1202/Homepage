@@ -1,0 +1,6 @@
+name: 레전드 오브 슬라임:방치형 RPG
+release: 2022년 8월 8일
+developer: 로드컴플릿
+platform: Android, iOS
+package: No
+comment: 

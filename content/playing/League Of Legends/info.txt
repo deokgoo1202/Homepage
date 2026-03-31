@@ -1,0 +1,6 @@
+name: League Of Legends
+release: 2011년 12월 4일
+developer: Riot Games
+platform: Windows, macOS
+package: No
+comment: 

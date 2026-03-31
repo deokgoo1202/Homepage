@@ -1,0 +1,6 @@
+name: 이터널 리턴
+release: 2020년 10월 14일
+developer: 님블뉴런
+platform: Windows
+package: No
+comment: 

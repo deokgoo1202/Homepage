@@ -1,0 +1,6 @@
+name: Game of Thrones: Kingsroad(왕좌의 게임: 킹스로드)
+release: 
+developer: 
+platform: 
+package: No
+comment: 

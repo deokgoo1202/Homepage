@@ -1,0 +1,6 @@
+name: Frostpunk: Beyond the ice(프로스트펑크: 비욘드 더 아이스)
+release: 2024년 10월 29일
+developer: 넷이즈
+platform: Android, iOS
+package: No
+comment: 

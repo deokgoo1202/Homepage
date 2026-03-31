@@ -1,0 +1,6 @@
+name: 에버소울
+release: 2023년 1월 5일
+developer: 나인아크
+platform: Android, iOS
+package: No
+comment: 

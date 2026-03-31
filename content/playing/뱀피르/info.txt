@@ -1,0 +1,6 @@
+name: 뱀피르
+release: 
+developer: 
+platform: 
+package: No
+comment: 

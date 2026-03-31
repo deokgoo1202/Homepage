@@ -1,0 +1,6 @@
+name: 아스달 연대기: 세 개의 세력
+release: 2024년 4월 24일
+developer: 넷마블에프앤씨
+platform: Android, Windows, iOS
+package: No
+comment: 

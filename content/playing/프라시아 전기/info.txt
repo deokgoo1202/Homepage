@@ -1,0 +1,6 @@
+name: 프라시아 전기
+release: 2023년 3월 30일
+developer: 넥슨
+platform: Android, Windows, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: 龙之国物语(아카디아M)
+release: 2023년 7월 13일
+developer: Zion Game
+platform: Android, Windows, iOS
+package: No
+comment: 

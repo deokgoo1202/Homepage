@@ -1,0 +1,6 @@
+name: 로드나인
+release: 2024년 7월 12일
+developer: 엔엑스쓰리게임즈
+platform: Android, Windows, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: 퍼스트 디센던트
+release: 
+developer: 
+platform: 
+package: No
+comment: 

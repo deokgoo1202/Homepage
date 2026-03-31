@@ -1,0 +1,6 @@
+name: RF 온라인 넥스트
+release: 
+developer: 
+platform: 
+package: No
+comment: 

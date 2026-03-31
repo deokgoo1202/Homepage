@@ -1,0 +1,6 @@
+name: 나 혼자만 레벨업: 어라이즈
+release: 2024년 5월 8일
+developer: 넷마블 네오
+platform: Android, Windows, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: ゴースト・オブ・ツシマ(고스트 오브 쓰시마)
+release: 2020년 7월 17일
+developer: 서커 펀치 프로덕션
+platform: PS4, PS5, Windows
+package: Yes
+comment: 

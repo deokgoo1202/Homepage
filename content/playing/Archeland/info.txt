@@ -1,0 +1,6 @@
+name: Archeland
+release: 2022년 12월 7일
+developer: Zlong Games
+platform: Android, Windows, iOS
+package: No
+comment: 

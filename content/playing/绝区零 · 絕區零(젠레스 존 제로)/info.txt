@@ -1,0 +1,6 @@
+name: 绝区零 · 絕區零(젠레스 존 제로)
+release: 2024년 7월 4일
+developer: HoYoverse
+platform: Android, PS5, Windows, iOS
+package: No
+comment: 

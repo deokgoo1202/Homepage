@@ -1,0 +1,6 @@
+name: 서머너즈 워 : 크로니클
+release: 2022년 8월 16일
+developer: 컴투스
+platform: Android, Windows, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: 어나더던전
+release: 2023년 2월 10일
+developer: 게임듀오
+platform: Android, iOS
+package: No
+comment: 

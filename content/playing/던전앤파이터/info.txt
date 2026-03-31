@@ -1,0 +1,6 @@
+name: 던전앤파이터
+release: 2005년 8월 10일
+developer: 네오플
+platform: Windows
+package: No
+comment: 

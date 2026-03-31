@@ -1,0 +1,6 @@
+name: 레이븐 2
+release: 2024년 5월 29일
+developer: 넷마블몬스터
+platform: Android, Windows, iOS
+package: No
+comment: 

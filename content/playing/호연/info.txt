@@ -1,0 +1,6 @@
+name: 호연
+release: 2024년 8월 28일
+developer: 엔씨소프트
+platform: Android, Windows, iOS
+package: No
+comment: 

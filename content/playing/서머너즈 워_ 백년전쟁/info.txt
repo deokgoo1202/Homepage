@@ -1,0 +1,6 @@
+name: 서머너즈 워: 백년전쟁
+release: 2021년 4월 29일
+developer: 컴투스
+platform: Android, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: 마비노기 영웅전
+release: 2020년 1월 21일
+developer: 넥슨
+platform: Windows
+package: No
+comment: 

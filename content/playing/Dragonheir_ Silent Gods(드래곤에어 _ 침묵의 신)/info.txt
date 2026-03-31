@@ -1,0 +1,6 @@
+name: Dragonheir: Silent Gods(드래곤에어 : 침묵의 신)
+release: 
+developer: SGRA Studio
+platform: Android, Windows, iOS
+package: No
+comment: 

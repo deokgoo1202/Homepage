@@ -1,0 +1,6 @@
+name: 리니지2M
+release: 2019년 11월 27일
+developer: 엔씨소프트
+platform: Android, Windows, iOS
+package: No
+comment: 

@@ -1,0 +1,6 @@
+name: 아이온 2
+release: 
+developer: 
+platform: 
+package: No
+comment: 

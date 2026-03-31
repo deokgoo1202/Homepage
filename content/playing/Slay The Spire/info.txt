@@ -1,0 +1,6 @@
+name: Slay The Spire
+release: 2017년 11월 15일
+developer: Mega Cirt Games
+platform: Android, Windows, iOS
+package: No
+comment: 

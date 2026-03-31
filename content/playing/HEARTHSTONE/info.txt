@@ -1,0 +1,6 @@
+name: HEARTHSTONE
+release: 2014년 3월 11일
+developer: Blizzard
+platform: Android, Windows, iOS, macOS
+package: No
+comment: 

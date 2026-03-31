@@ -1,0 +1,6 @@
+name: 컴투스프로야구 V22
+release: 2022년 4월 5일
+developer: 컴투스
+platform: Android, iOS
+package: No
+comment: 

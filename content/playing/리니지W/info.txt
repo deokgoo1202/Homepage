@@ -1,0 +1,6 @@
+name: 리니지W
+release: 2021년 11월 14일
+developer: 엔씨소프트
+platform: Android, Windows, iOS
+package: No
+comment: 

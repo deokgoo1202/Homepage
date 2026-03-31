@@ -1,0 +1,6 @@
+name: 소울 스트라이크
+release: 2024년 1월 17일
+developer: 티키타카 스튜디오
+platform: Android, iOS
+package: No
+comment: 

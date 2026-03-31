@@ -1,0 +1,6 @@
+name: 제2의 나라: Cross Worlds
+release: 2021년 6월 10일
+developer: 넷마블 네오
+platform: Android, Windows, iOS
+package: No
+comment: 

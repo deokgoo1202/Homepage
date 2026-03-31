@@ -1,0 +1,6 @@
+name: 카오스 제로 나이트메어
+release: 
+developer: 
+platform: 
+package: No
+comment: 

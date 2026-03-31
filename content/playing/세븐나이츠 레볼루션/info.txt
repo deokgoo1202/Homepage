@@ -1,0 +1,6 @@
+name: 세븐나이츠 레볼루션
+release: 2022년 7월 28일
+developer: 넷마블 넥서스
+platform: Android, Windows, iOS
+package: No
+comment: 

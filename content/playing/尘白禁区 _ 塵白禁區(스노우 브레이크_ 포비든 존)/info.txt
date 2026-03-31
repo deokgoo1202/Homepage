@@ -1,0 +1,6 @@
+name: 尘白禁区 | 塵白禁區(스노우 브레이크: 포비든 존)
+release: 2023년 7월 27일
+developer: Dragon Li Studios
+platform: Android, Windows, iOS
+package: No
+comment: 

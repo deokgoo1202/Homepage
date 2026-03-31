@@ -1,0 +1,6 @@
+name: 쓰론 앤 리버티
+release: 2023년 12월 7일
+developer: 엔씨소프트
+platform: Windows, macOS
+package: No
+comment: 

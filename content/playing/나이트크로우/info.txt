@@ -1,0 +1,6 @@
+name: 나이트크로우
+release: 2023년 4월 27일
+developer: 매드엔진
+platform: Android, Windows, iOS
+package: No
+comment: 

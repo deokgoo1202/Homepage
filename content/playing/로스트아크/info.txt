@@ -1,0 +1,6 @@
+name: 로스트아크
+release: 2019년 12월 4일
+developer: 스마일게이트알피지
+platform: Windows
+package: No
+comment: 

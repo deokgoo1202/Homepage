@@ -1,0 +1,6 @@
+name: 트릭컬 리바이브
+release: 2023년 9월 27일
+developer: 에피드게임즈
+platform: Android, iOS
+package: No
+comment: 

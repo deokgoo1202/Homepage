@@ -1,0 +1,6 @@
+name: 히트2
+release: 2022년 8월 26일
+developer: 넥슨게임즈
+platform: Android, Windows, iOS
+package: No
+comment: 

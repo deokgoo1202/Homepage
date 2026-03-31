@@ -1,0 +1,6 @@
+name: 메이플 키우기
+release: 
+developer: 
+platform: 
+package: No
+comment: 

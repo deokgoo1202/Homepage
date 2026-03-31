@@ -1,0 +1,6 @@
+name: 가디언 테일즈
+release: 2020년 7월 16일
+developer: Kong Studios
+platform: Android, iOS
+package: No
+comment: 

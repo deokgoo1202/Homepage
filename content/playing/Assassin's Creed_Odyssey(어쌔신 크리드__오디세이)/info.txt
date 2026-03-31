@@ -1,0 +1,6 @@
+name: Assassin's Creed Odyssey(어쌔신 크리드: 오디세이)
+release: 2018년 10월 2일
+developer: Ubisoft Québec
+platform: PS4, Switch, Xbox
+package: No
+comment: 

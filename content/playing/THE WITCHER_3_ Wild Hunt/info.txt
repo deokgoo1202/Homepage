@@ -1,0 +1,6 @@
+name: THE WITCHER 3: Wild Hunt
+release: 2015년 5월 18일
+developer: CD PROJEKT RED
+platform: PS4, PlayStation, Windows, Xbox
+package: No
+comment: 

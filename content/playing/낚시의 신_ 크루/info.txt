@@ -1,0 +1,6 @@
+name: 낚시의 신: 크루
+release: 2023년 7월 20일
+developer: 컴투스
+platform: Android, iOS
+package: No
+comment: 

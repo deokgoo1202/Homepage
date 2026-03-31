@@ -1,0 +1,6 @@
+name: 原神(원신)
+release: 2020년 9월 28일
+developer: miHoYo
+platform: Android, PS4, PS5, Windows, iOS
+package: No
+comment: 

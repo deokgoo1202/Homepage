@@ -1,0 +1,6 @@
+name: 엘든 링
+release: 
+developer: 
+platform: 
+package: No
+comment: 

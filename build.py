@@ -6,7 +6,9 @@ import os
 import json
 
 CONTENT_DIR = os.path.join(os.path.dirname(__file__), "content", "projects")
+PLAYING_DIR = os.path.join(os.path.dirname(__file__), "content", "playing")
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "data", "projects.json")
+PLAYING_FILE = os.path.join(os.path.dirname(__file__), "data", "playing.json")
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
 
@@ -100,6 +102,36 @@ def build_project(project_id, project_folder):
     return project
 
 
+def build_playing():
+    games = []
+    if not os.path.isdir(PLAYING_DIR):
+        return games
+    for entry in sorted(os.listdir(PLAYING_DIR)):
+        entry_path = os.path.join(PLAYING_DIR, entry)
+        if not os.path.isdir(entry_path):
+            continue
+        info = parse_info(os.path.join(entry_path, "info.txt"))
+
+        # 썸네일
+        thumbnail = ""
+        for fname in os.listdir(entry_path):
+            if os.path.splitext(fname)[1].lower() in IMAGE_EXTS:
+                thumbnail = f"content/playing/{entry}/{fname}"
+                break
+
+        games.append({
+            "id": entry,
+            "name": info.get("name", entry),
+            "release": info.get("release", ""),
+            "developer": info.get("developer", ""),
+            "platform": info.get("platform", ""),
+            "package": info.get("package", "No"),
+            "comment": info.get("comment", ""),
+            "thumbnail": thumbnail,
+        })
+    return games
+
+
 def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
@@ -109,15 +141,16 @@ def main():
         if os.path.isdir(entry_path):
             project = build_project(entry, entry_path)
             projects.append(project)
-
     projects.sort(key=lambda p: p["order"])
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(projects, f, ensure_ascii=False, indent=2)
-
     print(f"OK {len(projects)} projects -> {OUTPUT_FILE}")
-    for p in projects:
-        print(f"  [{p['order']}] {p['title']} - {len(p['systems'])} systems")
+
+    games = build_playing()
+    with open(PLAYING_FILE, "w", encoding="utf-8") as f:
+        json.dump(games, f, ensure_ascii=False, indent=2)
+    print(f"OK {len(games)} games -> {PLAYING_FILE}")
 
 
 if __name__ == "__main__":

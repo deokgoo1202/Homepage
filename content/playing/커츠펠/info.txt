@@ -1,0 +1,6 @@
+name: 커츠펠
+release: 2022년 2월 15일
+developer: KOG
+platform: Windows
+package: No
+comment: 
