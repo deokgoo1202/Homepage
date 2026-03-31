@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollAnimations();
     await renderProjects();
     initLightbox();
+    initScrollButtons();
 });
 
 function initNav() {
@@ -71,6 +72,22 @@ async function renderProjects() {
     } catch (e) {
         console.error('Projects 로드 실패:', e);
     }
+}
+
+function initScrollButtons() {
+    const btnTop = document.getElementById('btn-top');
+    const btnBottom = document.getElementById('btn-bottom');
+    if (!btnTop || !btnBottom) return;
+
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY > 300;
+        const atBottom = window.scrollY + window.innerHeight >= document.body.scrollHeight - 100;
+        btnTop.classList.toggle('visible', scrolled);
+        btnBottom.classList.toggle('visible', !atBottom);
+    });
+
+    btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    btnBottom.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
 }
 
 function initLightbox() {

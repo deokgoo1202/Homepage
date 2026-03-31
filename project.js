@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderMisc(project.misc);
         initScrollAnimations();
         initLightbox();
+        initScrollButtons();
 
     } catch (e) {
         showError('데이터를 불러오지 못했습니다. build.py를 먼저 실행해주세요.');
@@ -165,6 +166,22 @@ function initLightbox() {
     closeBtn.addEventListener('click', () => modal.style.display = 'none');
     modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modal.style.display = 'none'; });
+}
+
+function initScrollButtons() {
+    const btnTop = document.getElementById('btn-top');
+    const btnBottom = document.getElementById('btn-bottom');
+    if (!btnTop || !btnBottom) return;
+
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY > 300;
+        const atBottom = window.scrollY + window.innerHeight >= document.body.scrollHeight - 100;
+        btnTop.classList.toggle('visible', scrolled);
+        btnBottom.classList.toggle('visible', !atBottom);
+    });
+
+    btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    btnBottom.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
 }
 
 function showError(msg) {
