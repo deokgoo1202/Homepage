@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Game-Oriented</title>
+    <meta name="description" content="DeokGyu Kim의 게임 기획 프로젝트 목록">
+    <meta property="og:title" content="Projects | Game-Oriented">
+    <meta property="og:image" content="https://kastelio.github.io/Homepage/assets/profile.png">
+    <link rel="icon" type="image/png" href="./assets/profile.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav class="framer-nav">
+            <div class="nav-content">
+                <div class="logo-area">
+                    <a href="./index.html" style="text-decoration:none; color:inherit;">
+                        <span class="logo-text">Game-Oriented</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html#about">About Me</a></li>
+                    <li><a href="./projects.html" class="nav-active">Projects</a></li>
+                    <li><a href="./index.html#contact">Contact</a></li>
+                    <li><a href="./playing.html">Playing</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="projects-page-main">
+            <div class="container">
+                <h1 class="section-title" style="margin-bottom: 3rem;">Projects</h1>
+                <div class="project-list" id="projects-list">
+                    <div class="projects-loading">Loading...</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer text-center">
+            <p>&copy; 2026 DeokGyu Kim. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="scroll-btns">
+        <button class="scroll-btn" id="btn-top" title="맨 위로">↑</button>
+        <button class="scroll-btn" id="btn-bottom" title="맨 아래로">↓</button>
+    </div>
+
+    <script src="./projects.js" defer></script>
+</body>
+
+</html>

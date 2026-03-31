@@ -32,7 +32,7 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="./playing.html">Playing</a></li>
                 </ul>
@@ -136,16 +136,22 @@
                 </div>
             </section>
 
-            <!-- 3. Projects -->
-            <section id="projects" class="section projects-section">
-                <h2 class="section-title text-center">Projects</h2>
-                <div class="project-list container" id="projects-list">
-                    <!-- main.js가 data/projects.json 읽어서 렌더링 -->
-                    <div class="projects-loading">Loading...</div>
+            <!-- 3. Projects carousel -->
+            <section id="projects" class="section projects-carousel-section">
+                <div class="container">
+                    <div class="section-header-row">
+                        <h2 class="section-title">Projects</h2>
+                        <a href="./projects.html" class="view-all-link">전체 보기 →</a>
+                    </div>
+                </div>
+                <div class="project-carousel-wrapper">
+                    <div class="project-carousel" id="projects-carousel">
+                        <div class="projects-loading">Loading...</div>
+                    </div>
                 </div>
             </section>
 
-            <!-- 3. Contact -->
+            <!-- 4. Contact -->
             <section id="contact" class="section contact-section">
                 <div class="container">
                     <h2 class="section-title text-center">Contact</h2>

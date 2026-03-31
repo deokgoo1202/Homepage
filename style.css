@@ -258,7 +258,125 @@ h4,
     align-items: center;
 }
 
-/* Projects Section Overhaul */
+/* Projects Carousel Section */
+.projects-carousel-section {
+    padding-bottom: 5rem;
+}
+
+.section-header-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.view-all-link {
+    font-size: 0.9rem;
+    color: var(--accent-yellow);
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.view-all-link:hover {
+    opacity: 1;
+}
+
+.project-carousel-wrapper {
+    overflow: hidden;
+    padding: 1rem 0 2rem;
+}
+
+.project-carousel {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding: 0.5rem 2rem 1rem;
+    scroll-snap-type: x mandatory;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.project-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.project-carousel.dragging {
+    cursor: grabbing;
+    scroll-snap-type: none;
+}
+
+.carousel-card {
+    flex: 0 0 340px;
+    scroll-snap-align: start;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #444;
+    background: #222;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, border-color 0.2s;
+    display: block;
+}
+
+.carousel-card:hover {
+    transform: translateY(-4px);
+    border-color: #666;
+}
+
+.carousel-card-img-wrap {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.carousel-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+    display: block;
+}
+
+.carousel-card:hover .carousel-card-img {
+    transform: scale(1.04);
+}
+
+.got-card .carousel-card-img {
+    object-position: 68% center;
+}
+
+.carousel-card-info {
+    padding: 1.2rem 1.4rem;
+}
+
+.carousel-card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+}
+
+.carousel-card-tags {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+}
+
+.carousel-card-count {
+    font-size: 0.75rem;
+    color: var(--accent-yellow);
+    font-weight: 600;
+}
+
+/* projects.html 전용 */
+.projects-page-main {
+    padding: calc(var(--nav-height) + 4rem) 0 6rem;
+}
+
+/* Projects Section Overhaul (별도 projects.html용) */
 .projects-section {
     background-color: #262626;
 }

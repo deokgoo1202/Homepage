@@ -44,36 +44,51 @@ function initScrollAnimations() {
 }
 
 async function renderProjects() {
-    const container = document.getElementById('projects-list');
-    if (!container) return;
+    const carousel = document.getElementById('projects-carousel');
+    if (!carousel) return;
 
     try {
         const res = await fetch('./data/projects.json');
         const projects = await res.json();
 
-        container.innerHTML = projects.map(p => `
-            <div class="project-card ${p.card_class || ''} fade-in">
-                <div class="project-image-wrapper">
-                    <img src="${p.thumbnail}" alt="${p.title}" class="project-img">
+        carousel.innerHTML = projects.map(p => `
+            <a href="./project.html?id=${p.id}" class="carousel-card ${p.card_class || ''}">
+                <div class="carousel-card-img-wrap">
+                    <img src="${p.thumbnail}" alt="${p.title}" class="carousel-card-img">
                 </div>
-                <div class="project-info">
-                    <h3 class="project-title">${p.title.replace(':', ':<br>')}</h3>
-                    <div class="divider"></div>
-                    <p class="project-desc">${p.tags.join(', ')}</p>
-                    <div class="project-meta">
-                        <span class="system-count">${p.systems.length}개 시스템 기획</span>
-                    </div>
-                    <a href="./project.html?id=${p.id}" class="btn-more">자세히 보기</a>
+                <div class="carousel-card-info">
+                    <h3 class="carousel-card-title">${p.title}</h3>
+                    <p class="carousel-card-tags">${p.tags.join(' · ')}</p>
+                    <span class="carousel-card-count">${p.systems.length}개 시스템</span>
                 </div>
-            </div>
+            </a>
         `).join('');
 
-        // 렌더링 후 스크롤 애니메이션 재적용
+        initCarouselDrag(carousel);
         initScrollAnimations();
 
     } catch (e) {
         console.error('Projects 로드 실패:', e);
     }
+}
+
+function initCarouselDrag(el) {
+    let isDown = false, startX, scrollLeft;
+
+    el.addEventListener('mousedown', e => {
+        isDown = true;
+        el.classList.add('dragging');
+        startX = e.pageX - el.offsetLeft;
+        scrollLeft = el.scrollLeft;
+    });
+    el.addEventListener('mouseleave', () => { isDown = false; el.classList.remove('dragging'); });
+    el.addEventListener('mouseup', () => { isDown = false; el.classList.remove('dragging'); });
+    el.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - el.offsetLeft;
+        el.scrollLeft = scrollLeft - (x - startX) * 1.5;
+    });
 }
 
 function initGoalHover() {
@@ -127,8 +142,10 @@ async function renderHeroBg() {
             [withThumb[i], withThumb[j]] = [withThumb[j], withThumb[i]];
         }
 
-        // 화면 채울 충분한 수만큼 반복
-        const needed = 120;
+        // 뷰포트 전체를 채울 수만큼 계산
+        const cols = Math.ceil(window.innerWidth / 120) + 1;
+        const rows = Math.ceil(window.innerHeight / 68) + 1;
+        const needed = cols * rows;
         const imgs = [];
         for (let i = 0; i < needed; i++) {
             imgs.push(withThumb[i % withThumb.length]);
