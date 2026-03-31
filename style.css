@@ -131,6 +131,21 @@ h4,
     overflow: hidden;
 }
 
+/* Dark overlay between mosaic and content */
+#app {
+    position: relative;
+    z-index: 0;
+}
+
+#app::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 20, 20, 0.72);
+    z-index: -1;
+    pointer-events: none;
+}
+
 /* Game thumbnail mosaic background - fixed, full page */
 #hero-bg-grid {
     position: fixed;
