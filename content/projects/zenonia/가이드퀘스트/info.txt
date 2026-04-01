@@ -1,5 +1,6 @@
 name: 가이드 퀘스트
 roles: 데이터 구성
 order: 7
+category: Guide
 desc: 유저에게 특정 콘텐츠를 안내하기 위한 일회용 퀘스트 시스템
 sub: 게임 학습을 보조

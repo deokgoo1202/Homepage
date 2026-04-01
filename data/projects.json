@@ -16,7 +16,7 @@
       {
         "name": "업적",
         "order": 1,
-        "category": "",
+        "category": "Accomplishment",
         "date": "",
         "featured": false,
         "roles": [
@@ -26,12 +26,17 @@
         "desc": "조건에서 요구하는 행위를 정해진 횟수만큼 수행할 경우, 보상을 지급하는 시스템",
         "sub": "특정 행동 유도 및 반복적인 활동에 대한 정기적인 보상 피드백 목표",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/업적/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "칭호",
         "order": 2,
-        "category": "",
+        "category": "Accomplishment",
         "date": "",
         "featured": false,
         "roles": [
@@ -41,12 +46,17 @@
         "desc": "조건에서 요구하는 행위를 정해진 횟수만큼 수행할 경우, 칭호를 지급하는 시스템",
         "sub": "특정한 행위 달성을 직관적으로 노출 및 앞·뒤 칭호 조합으로 캐릭터 간 개성 부여",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/칭호/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "승급",
         "order": 3,
-        "category": "",
+        "category": "Growth",
         "date": "",
         "featured": false,
         "roles": [
@@ -56,12 +66,17 @@
         "desc": "캐릭터 경험치 누계에 따라, 아이템 또는 스탯 보상을 획득할 수 있는 시스템",
         "sub": "단계별 보상을 통해, 꾸준한 플레이 동기 부여",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/승급/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "도감",
         "order": 4,
-        "category": "",
+        "category": "Collect",
         "date": "",
         "featured": false,
         "roles": [
@@ -71,12 +86,21 @@
         "desc": "지역별 몬스터 반복 처치를 통해 캐릭터를 성장시킬 수 있는 시스템",
         "sub": "동일한 지역에서의 반복 사냥이 보다 의미를 가지도록 함",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/도감/01.jpg",
+            "caption": "지역 일람"
+          },
+          {
+            "file": "content/projects/zenonia/도감/02.jpg",
+            "caption": "지식 탐구"
+          }
+        ]
       },
       {
         "name": "의뢰 퀘스트",
         "order": 5,
-        "category": "",
+        "category": "Accomplishment",
         "date": "",
         "featured": false,
         "roles": [
@@ -85,12 +109,17 @@
         "desc": "지역별 몬스터를 반복 처치하는 퀘스트 시스템",
         "sub": "일일 플레이 콘텐츠 제공",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/의뢰퀘스트/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "기사단 퀘스트 & 기사단 성장",
         "order": 6,
-        "category": "",
+        "category": "Social",
         "date": "",
         "featured": false,
         "roles": [
@@ -100,12 +129,17 @@
         "desc": "길드원과 비동기로 협력할 수 있는 퀘스트 시스템 및 기사단 성장 밸런싱",
         "sub": "길드 간 협력 및 주간 플레이 콘텐츠 제공하고, 꾸준한 참여 시 기사단 레벨 성장",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/기사단퀘스트/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "가이드 퀘스트",
         "order": 7,
-        "category": "",
+        "category": "Guide",
         "date": "",
         "featured": false,
         "roles": [
@@ -114,7 +148,12 @@
         "desc": "유저에게 특정 콘텐츠를 안내하기 위한 일회용 퀘스트 시스템",
         "sub": "게임 학습을 보조",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/가이드퀘스트/01.jpg",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []
@@ -490,7 +529,7 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "roles": [
-          "시스템 기획",
+          "시스템 기획 (웨스턴)",
           "데이터 입력 (웨스턴)"
         ],
         "desc": "특정 조건 달성 시 보상을 지급하는 플레이 동기 부여 시스템입니다.",
@@ -516,8 +555,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "매일 초기화되는 미션을 완료하여 보상을 획득하는 반복 콘텐츠입니다.",
-        "sub": "일일 접속 및 플레이 패턴 형성을 유도",
+        "desc": "일일 또는 주간 초기화되는 미션을 완료하여 보상을 획득하는 반복 콘텐츠입니다.",
+        "sub": "유저 플레이 패턴 형성을 유도",
         "bullets": [],
         "images": [
           {

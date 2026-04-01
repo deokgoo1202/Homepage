@@ -1,5 +1,6 @@
 name: 의뢰 퀘스트
 roles: 데이터 구성 및 보상 밸런싱
 order: 5
+category: Accomplishment
 desc: 지역별 몬스터를 반복 처치하는 퀘스트 시스템
 sub: 일일 플레이 콘텐츠 제공
