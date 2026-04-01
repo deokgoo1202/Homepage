@@ -121,7 +121,12 @@
         "desc": "PC에 적용된 효과를 출력하는 시스템으로, 자신의 캐릭터에 부여된 효과에 대한 정보를 제공합니다.",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/효과상세팝업/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "획득처",
@@ -133,7 +138,12 @@
         "desc": "특정 자원(아이템, 재화 등)에 대해 획득할 수 있는 콘텐츠를 안내하는 시스템입니다.",
         "sub": "필요한 자원을 제공하는 콘텐츠로 빠르게 안내하여 플레이를 이어갈 수 있도록 지원",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/획득처/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "특정 상품 안내",
@@ -146,6 +156,23 @@
         "sub": "필요한 자원과 관련된 상품에 대한 정보를 적시에 제공",
         "bullets": [],
         "images": []
+      },
+      {
+        "name": "자원 부족 시 상품 안내",
+        "order": 3,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "특정 자원이 부족할 때 관련 상품을 자동으로 안내하는 시스템입니다.",
+        "sub": "필요한 자원과 관련된 상품에 대한 정보를 적시에 제공",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/자원 부족 시 상품 안내/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "상품 타입 (릴레이, 보너스 그룹, 출석)",
@@ -164,13 +191,35 @@
         "images": []
       },
       {
+        "name": "출석 상품",
+        "order": 4,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "출석 횟수에 따라 보상이 지급되는 상품 타입입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/출석 상품/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "효용",
         "order": 5,
         "roles": [],
         "desc": "계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템입니다.",
         "sub": "효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/효용/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "게임 설정, 키 바인딩, 언어",
@@ -179,7 +228,12 @@
         "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/게임설정/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "튜토리얼 다시보기",
@@ -191,7 +245,284 @@
         "desc": "플레이에 필요한 각종 콘텐츠에 대해 학습을 지원하는 시스템입니다.",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/튜토리얼다시보기/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "강화(슬롯 성장)",
+        "order": 8,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "장비 슬롯에 부품을 장착하여 캐릭터를 강화하는 시스템입니다.",
+        "sub": "슬롯 성장을 통해 캐릭터 전투력을 지속적으로 향상",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/강화(슬롯 성장)/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "교역",
+        "order": 9,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "다른 플레이어 또는 시스템과 자원을 교환하는 콘텐츠입니다.",
+        "sub": "자원 순환 구조를 지원하는 플레이어 간 경제 시스템",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/교역/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "단조",
+        "order": 10,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "재료 아이템을 소모하여 장비를 제작하는 생산 콘텐츠입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/단조/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "레드닷",
+        "order": 11,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "유저에게 처리 가능한 콘텐츠나 알림을 시각적으로 안내하는 시스템입니다.",
+        "sub": "미처리 항목을 직관적으로 노출해 유저 이탈을 방지",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/레드닷/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "무기 스킨",
+        "order": 12,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "무기의 외형을 변경할 수 있는 코스메틱 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/무기 스킨/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "각인 부여",
+        "order": 13,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "부품에 각인을 부여하여 캐릭터 능력치를 강화하는 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/각인 부여/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "각인 추출",
+        "order": 14,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "장착된 부품에서 각인 수치를 추출하여 재활용하는 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/각인 추출/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "생산",
+        "order": 15,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "특정 재료를 소모해 아이템을 제작하는 생산 콘텐츠입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/생산/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "시즌",
+        "order": 16,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "일정 기간 동안 운영되는 시즌 단위 콘텐츠 및 보상 시스템입니다.",
+        "sub": "시즌 패스 및 미션을 통해 플레이 동기 부여",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/시즌/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "업적",
+        "order": 17,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "특정 조건 달성 시 보상을 지급하는 장기 플레이 동기 부여 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/업적/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "일일 미션",
+        "order": 18,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "매일 초기화되는 미션을 완료하여 보상을 획득하는 반복 콘텐츠입니다.",
+        "sub": "일일 접속 및 플레이 패턴 형성을 유도",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/일일 미션/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "즉시 완료",
+        "order": 19,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "시간이 소요되는 콘텐츠를 재화를 소모해 즉시 완료하는 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/즉시 완료/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "타이틀",
+        "order": 20,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "특정 조건을 달성하면 획득할 수 있는 캐릭터 칭호 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/타이틀/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "마구",
+        "order": 21,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "탈것에 장착하는 장비 아이템으로 능력치를 강화하는 시스템입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/마구/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "확률 고지",
+        "order": 22,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "가챠 및 확률형 아이템의 확률 정보를 유저에게 투명하게 공개하는 시스템입니다.",
+        "sub": "법적 요건 충족 및 유저 신뢰 확보",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/확률 고지/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "훈련장",
+        "order": 23,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "전투 스킬과 조작을 연습할 수 있는 훈련 콘텐츠입니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/훈련장/01.jpg",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []
