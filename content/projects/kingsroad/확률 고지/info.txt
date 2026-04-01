@@ -1,5 +1,6 @@
 name: 확률 고지
 order: 24
+date: 2025년 4월 18일
 category: Service
 roles: 시스템 기획, 데이터 입력
 desc: 가챠 및 확률형 아이템의 확률 정보를 유저에게 투명하게 공개하는 시스템입니다.

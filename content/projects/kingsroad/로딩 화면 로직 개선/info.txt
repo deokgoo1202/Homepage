@@ -1,0 +1,5 @@
+name: 로딩 화면 로직 개선
+order: 36
+date: 2025년 9월 29일
+roles: 시스템 기획
+desc:

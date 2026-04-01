@@ -54,6 +54,7 @@ def build_system(project_id, system_folder, system_name):
         "name": info.get("name", system_name),
         "order": int(info.get("order", 99)),
         "category": info.get("category", ""),
+        "date": info.get("date", ""),
         "roles": [r.strip() for r in info.get("roles", "").split(",") if r.strip()],
         "desc": info.get("desc", ""),
         "sub": info.get("sub", ""),

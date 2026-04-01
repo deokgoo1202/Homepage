@@ -1,0 +1,5 @@
+name: 말풍선
+order: 37
+date: 2024년 11월 21일
+roles: 시스템 기획
+desc:

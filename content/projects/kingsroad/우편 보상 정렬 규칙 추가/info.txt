@@ -1,0 +1,5 @@
+name: 우편 보상 정렬 규칙 추가
+order: 43
+date: 2025년 8월 26일
+roles: 시스템 기획
+desc:

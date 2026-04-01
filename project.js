@@ -147,6 +147,7 @@ function renderSystems(systems) {
                 <h3 class="system-name">${s.name}</h3>
                 ${rolesHtml(s.roles)}
             </div>
+            ${s.date ? `<p class="system-date">${s.date}</p>` : ''}
             ${s.desc ? `<p class="system-desc-main">${s.desc}</p>` : ''}
             ${s.sub ? `<p class="system-desc-sub">${s.sub}</p>` : ''}
             ${bulletsHtml(s.bullets)}

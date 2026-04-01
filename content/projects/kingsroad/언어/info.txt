@@ -1,0 +1,5 @@
+name: 언어
+order: 41
+date: 2024년 10월 20일
+roles: 시스템 기획
+desc:

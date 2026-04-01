@@ -1,0 +1,5 @@
+name: PC 키매핑 타 게임 사례 조사
+order: 28
+date: 2026년 2월 20일
+roles: 데이터 입력
+desc:

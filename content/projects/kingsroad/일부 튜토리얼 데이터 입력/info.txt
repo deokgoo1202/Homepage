@@ -1,0 +1,5 @@
+name: 일부 튜토리얼 데이터 입력
+order: 53
+date: 2024년 9월 3일
+roles: 데이터 입력
+desc:

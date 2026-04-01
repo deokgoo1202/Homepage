@@ -1,5 +1,6 @@
 name: 시즌
 order: 18
+date: 2025년 3월 24일
 category: Accomplishment
 roles: 시스템 기획, 데이터 입력
 desc: 일정 기간 동안 운영되는 시즌 단위 콘텐츠 및 보상 시스템입니다.

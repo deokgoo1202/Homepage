@@ -1,0 +1,5 @@
+name: 일괄 장착
+order: 51
+date: 2025년 1월 16일
+roles: 시스템 기획
+desc:

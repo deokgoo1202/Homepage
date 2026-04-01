@@ -17,6 +17,7 @@
         "name": "업적",
         "order": 1,
         "category": "",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 구성 및 보상 밸런싱"
@@ -30,6 +31,7 @@
         "name": "칭호",
         "order": 2,
         "category": "",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 구성"
@@ -43,6 +45,7 @@
         "name": "승급",
         "order": 3,
         "category": "",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 구성 및 밸런싱"
@@ -56,6 +59,7 @@
         "name": "도감",
         "order": 4,
         "category": "",
+        "date": "",
         "roles": [
           "시스템 기획 (지역 일람)",
           "시스템 기획 (지식 탐구)"
@@ -69,6 +73,7 @@
         "name": "의뢰 퀘스트",
         "order": 5,
         "category": "",
+        "date": "",
         "roles": [
           "데이터 구성 및 보상 밸런싱"
         ],
@@ -81,6 +86,7 @@
         "name": "기사단 퀘스트 & 기사단 성장",
         "order": 6,
         "category": "",
+        "date": "",
         "roles": [
           "데이터 구성 및 밸런싱",
           "성장 밸런싱"
@@ -94,6 +100,7 @@
         "name": "가이드 퀘스트",
         "order": 7,
         "category": "",
+        "date": "",
         "roles": [
           "데이터 구성"
         ],
@@ -123,6 +130,7 @@
         "name": "효과 상세 정보 팝업",
         "order": 1,
         "category": "Core",
+        "date": "2024년 4월 25일",
         "roles": [
           "시스템 기획"
         ],
@@ -133,6 +141,10 @@
           {
             "file": "content/projects/kingsroad/효과상세팝업/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/효과상세팝업/01.png",
+            "caption": ""
           }
         ]
       },
@@ -140,6 +152,7 @@
         "name": "획득처",
         "order": 2,
         "category": "Guide",
+        "date": "2024년 4월 29일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -151,6 +164,10 @@
           {
             "file": "content/projects/kingsroad/획득처/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/획득처/01.png",
+            "caption": ""
           }
         ]
       },
@@ -158,6 +175,7 @@
         "name": "자원 부족 시 상품 안내",
         "order": 3,
         "category": "BM",
+        "date": "2024년 5월 24일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -169,6 +187,10 @@
           {
             "file": "content/projects/kingsroad/자원 부족 시 상품 안내/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/자원 부족 시 상품 안내/01.png",
+            "caption": ""
           }
         ]
       },
@@ -176,6 +198,7 @@
         "name": "릴레이 상품",
         "order": 4,
         "category": "BM",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -189,6 +212,7 @@
         "name": "출석 상품",
         "order": 5,
         "category": "BM",
+        "date": "2024년 5월 24일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -200,6 +224,10 @@
           {
             "file": "content/projects/kingsroad/출석 상품/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/출석 상품/01.png",
+            "caption": ""
           }
         ]
       },
@@ -207,6 +235,7 @@
         "name": "보너스 그룹 상품",
         "order": 6,
         "category": "BM",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -220,6 +249,7 @@
         "name": "효용",
         "order": 7,
         "category": "Core",
+        "date": "",
         "roles": [],
         "desc": "계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템입니다.",
         "sub": "효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도",
@@ -235,6 +265,7 @@
         "name": "게임 설정, 키 바인딩, 언어",
         "order": 8,
         "category": "Service",
+        "date": "2024년 6월 10일",
         "roles": [],
         "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
         "sub": "",
@@ -243,6 +274,10 @@
           {
             "file": "content/projects/kingsroad/게임설정/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/게임설정/01.png",
+            "caption": ""
           }
         ]
       },
@@ -250,6 +285,7 @@
         "name": "튜토리얼 다시보기",
         "order": 9,
         "category": "Guide",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -268,6 +304,7 @@
         "name": "강화(슬롯 성장)",
         "order": 10,
         "category": "Growth",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -286,6 +323,7 @@
         "name": "교역",
         "order": 11,
         "category": "Trade",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -304,6 +342,7 @@
         "name": "단조",
         "order": 12,
         "category": "Trade",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -322,6 +361,7 @@
         "name": "레드닷",
         "order": 13,
         "category": "Guide",
+        "date": "2024년 6월 7일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -333,6 +373,10 @@
           {
             "file": "content/projects/kingsroad/레드닷/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/레드닷/01.png",
+            "caption": ""
           }
         ]
       },
@@ -340,6 +384,7 @@
         "name": "무기 스킨",
         "order": 14,
         "category": "Collect",
+        "date": "2025년 4월 7일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -351,6 +396,14 @@
           {
             "file": "content/projects/kingsroad/무기 스킨/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/무기 스킨/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/무기 스킨/02.png",
+            "caption": ""
           }
         ]
       },
@@ -358,6 +411,7 @@
         "name": "각인 부여",
         "order": 15,
         "category": "Growth",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -376,6 +430,7 @@
         "name": "각인 추출",
         "order": 16,
         "category": "Growth",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -394,6 +449,7 @@
         "name": "생산",
         "order": 17,
         "category": "Idle",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -412,6 +468,7 @@
         "name": "시즌",
         "order": 18,
         "category": "Accomplishment",
+        "date": "2025년 3월 24일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -423,6 +480,14 @@
           {
             "file": "content/projects/kingsroad/시즌/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/시즌/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/시즌/02.png",
+            "caption": ""
           }
         ]
       },
@@ -430,6 +495,7 @@
         "name": "업적",
         "order": 19,
         "category": "Accomplishment",
+        "date": "2025년 1월 16일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -441,6 +507,14 @@
           {
             "file": "content/projects/kingsroad/업적/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/업적/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/업적/02.png",
+            "caption": ""
           }
         ]
       },
@@ -448,6 +522,7 @@
         "name": "일일 미션",
         "order": 20,
         "category": "Accomplishment",
+        "date": "2024년 8월 5일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -459,6 +534,10 @@
           {
             "file": "content/projects/kingsroad/일일 미션/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/일일 미션/01.png",
+            "caption": ""
           }
         ]
       },
@@ -466,6 +545,7 @@
         "name": "즉시 완료",
         "order": 21,
         "category": "UX",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -484,6 +564,7 @@
         "name": "타이틀",
         "order": 22,
         "category": "Collect",
+        "date": "2024년 6월 14일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -495,6 +576,10 @@
           {
             "file": "content/projects/kingsroad/타이틀/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/타이틀/01.png",
+            "caption": ""
           }
         ]
       },
@@ -502,6 +587,7 @@
         "name": "마구",
         "order": 23,
         "category": "Growth",
+        "date": "",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -520,6 +606,7 @@
         "name": "확률 고지",
         "order": 24,
         "category": "Service",
+        "date": "2025년 4월 18일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -531,6 +618,10 @@
           {
             "file": "content/projects/kingsroad/확률 고지/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/확률 고지/01.png",
+            "caption": ""
           }
         ]
       },
@@ -538,6 +629,7 @@
         "name": "훈련장",
         "order": 25,
         "category": "Guide",
+        "date": "2025년 8월 4일",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -548,6 +640,850 @@
         "images": [
           {
             "file": "content/projects/kingsroad/훈련장/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/훈련장/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/훈련장/02.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "2024 지스타 빌드 대응",
+        "order": 26,
+        "category": "",
+        "date": "2024년 9월 5일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/2024 지스타 빌드 대응/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "BM 효용",
+        "order": 27,
+        "category": "",
+        "date": "2024년 5월 21일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/BM 효용/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "PC 키매핑 타 게임 사례 조사",
+        "order": 28,
+        "category": "",
+        "date": "2026년 2월 20일",
+        "roles": [
+          "데이터 입력"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/03.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/04.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "RP 충전 시 상품 안내",
+        "order": 29,
+        "category": "",
+        "date": "2024년 5월 24일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/RP 충전 시 상품 안내/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가",
+        "order": 30,
+        "category": "",
+        "date": "2025년 4월 11일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "계정 탈퇴",
+        "order": 31,
+        "category": "",
+        "date": "2024년 9월 25일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/계정 탈퇴/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "교역로별 이미지를 다르게 출력할 수 있도록 처리",
+        "order": 32,
+        "category": "",
+        "date": "2024년 11월 15일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/교역로별 이미지를 다르게 출력할 수 있도록 처리/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "기억의 제단 티켓 소모 형태로 로직 변경",
+        "order": 33,
+        "category": "",
+        "date": "2025년 6월 5일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "네임플레이트",
+        "order": 34,
+        "category": "",
+        "date": "2025년 3월 27일",
+        "roles": [
+          "데이터 입력"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/네임플레이트/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/네임플레이트/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/네임플레이트/03.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "랭킹 도전 지렁이길 추가",
+        "order": 35,
+        "category": "",
+        "date": "2025년 7월 9일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/랭킹 도전 지렁이길 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "로딩 화면 로직 개선",
+        "order": 36,
+        "category": "",
+        "date": "2025년 9월 29일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/로딩 화면 로직 개선/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "말풍선",
+        "order": 37,
+        "category": "",
+        "date": "2024년 11월 21일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/말풍선/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "빠른 이동 시 비용 요구 기능 추가",
+        "order": 38,
+        "category": "",
+        "date": "2024년 5월 27일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/빠른 이동 시 비용 요구 기능 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "생산 즉시 완료",
+        "order": 39,
+        "category": "",
+        "date": "2024년 5월 8일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/생산 즉시 완료/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급",
+        "order": 40,
+        "category": "",
+        "date": "2025년 1월 16일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "언어",
+        "order": 41,
+        "category": "",
+        "date": "2024년 10월 20일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/언어/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "예비 RP",
+        "order": 42,
+        "category": "",
+        "date": "2025년 10월 29일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/예비 RP/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "우편 보상 정렬 규칙 추가",
+        "order": 43,
+        "category": "",
+        "date": "2025년 8월 26일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/우편 보상 정렬 규칙 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "우편에 ‘영구 보관’ 기능 추가",
+        "order": 44,
+        "category": "",
+        "date": "2024년 11월 8일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/우편에 ‘영구 보관’ 기능 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "월드맵 탐험 콘텐츠 출력 개선",
+        "order": 45,
+        "category": "",
+        "date": "2024년 7월 9일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/월드맵 탐험 콘텐츠 출력 개선/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/월드맵 탐험 콘텐츠 출력 개선/02.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "웹뷰",
+        "order": 46,
+        "category": "",
+        "date": "2024년 9월 23일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/웹뷰/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "유물 도감",
+        "order": 47,
+        "category": "",
+        "date": "2025년 1월 15일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 도감/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 도감/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 도감/03.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "유물 보유 효과 개선",
+        "order": 48,
+        "category": "",
+        "date": "2025년 7월 18일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 보유 효과 개선/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 보유 효과 개선/02.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리",
+        "order": 49,
+        "category": "",
+        "date": "2025년 5월 13일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응",
+        "order": 50,
+        "category": "",
+        "date": "2024년 9월 11일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응/02.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "일괄 장착",
+        "order": 51,
+        "category": "",
+        "date": "2025년 1월 16일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/일괄 장착/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정",
+        "order": 52,
+        "category": "",
+        "date": "2025년 8월 21일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "일부 튜토리얼 데이터 입력",
+        "order": 53,
+        "category": "",
+        "date": "2024년 9월 3일",
+        "roles": [
+          "데이터 입력"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/일부 튜토리얼 데이터 입력/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "장벽 너머 원정 건너뛰기 기능 추가",
+        "order": 54,
+        "category": "",
+        "date": "2025년 7월 23일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 건너뛰기 기능 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)",
+        "order": 55,
+        "category": "",
+        "date": "2024년 8월 12일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "장벽 너머 원정 플레이 시간 출력",
+        "order": 56,
+        "category": "",
+        "date": "2025년 7월 23일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 플레이 시간 출력/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "장시간 AFK 유저 킥 처리",
+        "order": 57,
+        "category": "",
+        "date": "2025년 7월 7일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장시간 AFK 유저 킥 처리/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "제작 즉시 완료",
+        "order": 58,
+        "category": "",
+        "date": "2024년 5월 8일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/제작 즉시 완료/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "조작",
+        "order": 59,
+        "category": "",
+        "date": "2024년 11월 27일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/조작/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "캐릭터 생성 후 다시 커스터마이징할 수 있는 기능",
+        "order": 60,
+        "category": "",
+        "date": "2025년 4월 23일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "캐릭터 선택 화면",
+        "order": 61,
+        "category": "",
+        "date": "2024년 9월 13일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/캐릭터 선택 화면/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "커스터마이징 PC 음성 선택 기능 추가",
+        "order": 62,
+        "category": "",
+        "date": "2024년 8월 5일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/커스터마이징 PC 음성 선택 기능 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "코스튬",
+        "order": 63,
+        "category": "",
+        "date": "2025년 3월 27일",
+        "roles": [
+          "데이터 입력"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/코스튬/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리",
+        "order": 64,
+        "category": "",
+        "date": "2025년 5월 22일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "탈것 & 마구 데이터 작업",
+        "order": 65,
+        "category": "",
+        "date": "2024년 6월 4일",
+        "roles": [
+          "데이터 입력"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/탈것 & 마구 데이터 작업/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/탈것 & 마구 데이터 작업/02.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "튜토리얼 모아보기",
+        "order": 66,
+        "category": "",
+        "date": "2024년 7월 5일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/튜토리얼 모아보기/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "패스 미션 UI에 일일 주간 탭 추가",
+        "order": 67,
+        "category": "",
+        "date": "2025년 6월 26일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/패스 미션 UI에 일일 주간 탭 추가/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "패스 즉시 달성 못하게 하는 처리",
+        "order": 68,
+        "category": "",
+        "date": "2025년 6월 17일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/패스 즉시 달성 못하게 하는 처리/01.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "프롤로그 스킵 기능 구현",
+        "order": 69,
+        "category": "",
+        "date": "2025년 6월 13일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/프롤로그 스킵 기능 구현/01.png",
             "caption": ""
           }
         ]
