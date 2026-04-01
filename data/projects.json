@@ -147,10 +147,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/효과상세팝업/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/효과상세팝업/01.png",
             "caption": ""
           }
@@ -171,10 +167,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/획득처/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/획득처/01.png",
             "caption": ""
           }
@@ -194,10 +186,6 @@
         "sub": "필요한 자원과 관련된 상품에 대한 정보를 적시에 제공",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/자원 부족 시 상품 안내/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/자원 부족 시 상품 안내/01.png",
             "caption": ""
@@ -233,10 +221,6 @@
         "sub": "",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/출석 상품/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/출석 상품/01.png",
             "caption": ""
@@ -383,10 +367,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/레드닷/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/레드닷/01.png",
             "caption": ""
           }
@@ -406,10 +386,6 @@
         "sub": "",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/무기 스킨/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/무기 스킨/01.png",
             "caption": ""
@@ -493,10 +469,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/시즌/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/시즌/01.png",
             "caption": ""
           },
@@ -513,16 +485,13 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "데이터 입력 (웨스턴)"
         ],
         "desc": "특정 조건 달성 시 보상을 지급하는 플레이 동기 부여 시스템입니다.",
         "sub": "",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/업적/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/업적/01.png",
             "caption": ""
@@ -546,10 +515,6 @@
         "sub": "일일 접속 및 플레이 패턴 형성을 유도",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/일일 미션/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/일일 미션/01.png",
             "caption": ""
@@ -591,10 +556,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/타이틀/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/타이틀/01.png",
             "caption": ""
           }
@@ -635,10 +596,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/확률 고지/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/확률 고지/01.png",
             "caption": ""
           }
@@ -658,10 +615,6 @@
         "sub": "",
         "bullets": [],
         "images": [
-          {
-            "file": "content/projects/kingsroad/훈련장/01.jpg",
-            "caption": ""
-          },
           {
             "file": "content/projects/kingsroad/훈련장/01.png",
             "caption": ""
