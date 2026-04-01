@@ -1,6 +1,6 @@
 name: 탈것 & 마구 데이터 작업
 order: 65
-category: Growth
+category: Data
 date: 2024년 6월 4일
 roles: 데이터 입력
 desc:
