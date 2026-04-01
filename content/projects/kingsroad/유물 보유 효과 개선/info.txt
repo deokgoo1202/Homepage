@@ -1,4 +1,4 @@
-name: 유물 보유 효과 개선
+name: 유물 보유 효과
 order: 48
 category: Growth
 featured: yes

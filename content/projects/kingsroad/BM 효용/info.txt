@@ -1,7 +1,0 @@
-name: BM 효용
-order: 27
-category: BM
-featured: yes
-date: 2024년 5월 21일
-roles: 시스템 기획
-desc: 유료 상품 구매 시 부여되는 효용 혜택으로 플레이 편의성을 제공하는 시스템입니다.

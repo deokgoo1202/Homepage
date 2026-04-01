@@ -3,5 +3,5 @@ order: 63
 category: Collect
 featured: yes
 date: 2025년 3월 27일
-roles: 데이터 입력
-desc: 캐릭터 외형을 변경할 수 있는 코스튬 아이템의 데이터를 입력한 작업입니다.
+roles: 시스템 기획, 데이터 입력
+desc: 캐릭터의 복식을 변경할 수 있는 시스템입니다.
