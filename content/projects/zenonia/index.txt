@@ -3,4 +3,5 @@ badge: 2023. 6. 27. Launching
 tags: MMORPG, 리니지라이크, 카툰렌더링
 dev: Com2us 개발 · Com2us Holdings 유통
 order: 2
+summary: 시스템 기획 · 데이터 구성 및 밸런싱
 thumbnail: assets/zenonia.jpg

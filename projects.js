@@ -22,9 +22,7 @@ async function renderProjects() {
                     <h3 class="project-title">${p.title.replace(':', ':<br>')}</h3>
                     <div class="divider"></div>
                     <p class="project-desc">${p.tags.join(', ')}</p>
-                    <div class="project-meta">
-                        <span class="system-count">${p.systems.length}개 시스템 기획</span>
-                    </div>
+                    ${p.summary ? `<div class="project-meta"><span class="system-count">${p.summary}</span></div>` : ''}
                     <a href="./project.html?id=${p.id}" class="btn-more">자세히 보기</a>
                 </div>
             </div>

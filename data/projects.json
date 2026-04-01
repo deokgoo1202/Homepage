@@ -12,6 +12,7 @@
     "order": 1,
     "thumbnail": "assets/kingsroad.jpg",
     "card_class": "got-card",
+    "summary": "시스템 기획 · BM · UX · 서비스 · 데이터 입력",
     "systems": [
       {
         "name": "효과 상세 정보 팝업",
@@ -1073,6 +1074,7 @@
     "order": 2,
     "thumbnail": "assets/zenonia.jpg",
     "card_class": "",
+    "summary": "시스템 기획 · 데이터 구성 및 밸런싱",
     "systems": [
       {
         "name": "업적",

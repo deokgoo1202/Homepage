@@ -99,6 +99,7 @@ def build_project(project_id, project_folder):
         "order": int(info.get("order", 99)),
         "thumbnail": info.get("thumbnail", f"content/projects/{project_id}/기타/thumbnail.jpg"),
         "card_class": info.get("card_class", ""),
+        "summary": info.get("summary", ""),
         "systems": systems,
         "misc": misc_images,
     }

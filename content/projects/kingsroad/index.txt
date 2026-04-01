@@ -3,5 +3,6 @@ badge: 2025. 3. 26. Steam Early Access  ·  2025. 5. 23. Grand Launching (Wester
 tags: Action RPG, Adventure, 실사
 dev: NetmarbleNeo 개발 · Netmarble 유통
 order: 1
+summary: 시스템 기획 · BM · UX · 서비스 · 데이터 입력
 thumbnail: assets/kingsroad.jpg
 card_class: got-card
