@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         document.title = `${project.title} | Game-Oriented`;
         hideLoading();
+        renderProjectBg(project);
         renderHero(project);
         const sorted = sortByDateDesc(project.systems);
         const mainSystems = sorted.filter(s => (s.images && s.images.length > 0) || s.featured);
@@ -30,6 +31,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error(e);
     }
 });
+
+function renderProjectBg(project) {
+    if (!project.thumbnail) return;
+    const bg = document.createElement('div');
+    bg.id = 'project-bg';
+    bg.style.cssText = `
+        position: fixed; inset: 0; z-index: -1;
+        background: url('${project.thumbnail}') center/cover no-repeat;
+        opacity: 0.06; filter: blur(2px) saturate(0.4);
+        pointer-events: none;
+    `;
+    document.body.appendChild(bg);
+}
 
 function showLoading() {
     document.getElementById('detail-hero').innerHTML = `
@@ -72,7 +86,7 @@ const CATEGORY_LABELS = {
     Management: '경영', Idle: '방치', BM: 'BM', Event: '행사',
     UX: 'UX', Guide: '가이드', Service: '운영/서비스', Environment: '환경', World: '월드', Data: '데이터', Misc: '기타'
 };
-const CATEGORY_ORDER = ['Core','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','BM','Event','UX','Guide','Service','Environment','World','Data','Misc'];
+const CATEGORY_ORDER = ['Core','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','BM','UX','Guide','Service','Environment','World','Data','Misc','Event'];
 
 function groupByCategory(systems) {
     const grouped = {};
