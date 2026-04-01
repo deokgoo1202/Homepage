@@ -11,6 +11,8 @@ async function renderProjects() {
         const res = await fetch('./data/projects.json');
         const projects = await res.json();
 
+        renderProjectsBg(projects);
+
         container.innerHTML = projects.map(p => `
             <div class="project-card ${p.card_class || ''}">
                 <div class="project-image-wrapper">
@@ -32,6 +34,29 @@ async function renderProjects() {
         container.innerHTML = '<p style="color:#888; text-align:center;">데이터를 불러오지 못했습니다.</p>';
         console.error(e);
     }
+}
+
+function renderProjectsBg(projects) {
+    const thumbs = projects.map(p => p.thumbnail).filter(Boolean);
+    if (!thumbs.length) return;
+
+    const bg = document.createElement('div');
+    bg.id = 'projects-bg';
+    bg.style.cssText = `
+        position: fixed; inset: 0; z-index: -1;
+        display: flex; overflow: hidden;
+        opacity: 0.07; filter: blur(3px) saturate(0.3);
+        pointer-events: none;
+    `;
+    thumbs.forEach(src => {
+        const img = document.createElement('div');
+        img.style.cssText = `
+            flex: 1;
+            background: url('${src}') center/cover no-repeat;
+        `;
+        bg.appendChild(img);
+    });
+    document.body.appendChild(bg);
 }
 
 function initScrollButtons() {
