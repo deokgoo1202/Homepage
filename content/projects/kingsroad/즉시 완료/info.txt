@@ -1,5 +1,5 @@
 name: 즉시 완료
 order: 21
-category: UX
+category: BM
 roles: 시스템 기획, 데이터 입력
 desc: 자원을 소모해 시간이 소요되는 콘텐츠를 즉시 완료하는 시스템입니다.

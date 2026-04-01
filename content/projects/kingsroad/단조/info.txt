@@ -1,5 +1,5 @@
 name: 단조
 order: 12
-category: Trade
-roles: 시스템 기획, 데이터 입력
-desc: 재료 아이템을 소모하여 장비를 제작하는 생산 콘텐츠입니다.
+category: Growth
+roles: 시스템 기획
+desc: 장비 획득 시 최초에 부여된 기본 능력치의 단계를 상승시킬 수 있는 시스템입니다.

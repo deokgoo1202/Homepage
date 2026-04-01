@@ -2,5 +2,5 @@ name: 업적
 order: 19
 date: 2025년 1월 16일
 category: Accomplishment
-roles: 시스템 기획, 데이터 입력
-desc: 특정 조건 달성 시 보상을 지급하는 장기 플레이 동기 부여 시스템입니다.
+roles: 시스템 기획
+desc: 특정 조건 달성 시 보상을 지급하는 플레이 동기 부여 시스템입니다.
