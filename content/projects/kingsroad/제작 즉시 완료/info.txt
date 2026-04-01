@@ -1,5 +1,6 @@
 name: 제작 즉시 완료
 order: 58
+category: UX
 date: 2024년 5월 8일
 roles: 시스템 기획
 desc:

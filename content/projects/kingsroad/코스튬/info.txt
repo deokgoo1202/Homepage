@@ -1,5 +1,6 @@
 name: 코스튬
 order: 63
+category: Collect
 date: 2025년 3월 27일
 roles: 데이터 입력
 desc:

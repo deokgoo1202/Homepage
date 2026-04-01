@@ -1,5 +1,6 @@
 name: 세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급
 order: 40
+category: Growth
 date: 2025년 1월 16일
 roles: 시스템 기획
 desc:

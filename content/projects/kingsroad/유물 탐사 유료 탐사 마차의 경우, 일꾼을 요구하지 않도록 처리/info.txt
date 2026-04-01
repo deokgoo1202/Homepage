@@ -1,5 +1,6 @@
 name: 유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리
 order: 49
+category: BM
 date: 2025년 5월 13일
 roles: 시스템 기획
 desc:

@@ -1,5 +1,6 @@
 name: 장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)
 order: 55
+category: Dungeon
 date: 2024년 8월 12일
 roles: 시스템 기획
 desc:

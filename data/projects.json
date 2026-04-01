@@ -139,7 +139,7 @@
       {
         "name": "게임 설정, 키 바인딩, 언어",
         "order": 8,
-        "category": "Service",
+        "category": "UX",
         "date": "2024년 6월 10일",
         "roles": [],
         "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
@@ -530,7 +530,7 @@
       {
         "name": "2024 지스타 빌드 대응",
         "order": 26,
-        "category": "",
+        "category": "Service",
         "date": "2024년 9월 5일",
         "roles": [
           "시스템 기획"
@@ -548,7 +548,7 @@
       {
         "name": "BM 효용",
         "order": 27,
-        "category": "",
+        "category": "BM",
         "date": "2024년 5월 21일",
         "roles": [
           "시스템 기획"
@@ -566,7 +566,7 @@
       {
         "name": "PC 키매핑 타 게임 사례 조사",
         "order": 28,
-        "category": "",
+        "category": "UX",
         "date": "2026년 2월 20일",
         "roles": [
           "데이터 입력"
@@ -596,7 +596,7 @@
       {
         "name": "RP 충전 시 상품 안내",
         "order": 29,
-        "category": "",
+        "category": "BM",
         "date": "2024년 5월 24일",
         "roles": [
           "시스템 기획"
@@ -614,7 +614,7 @@
       {
         "name": "가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가",
         "order": 30,
-        "category": "",
+        "category": "BM",
         "date": "2025년 4월 11일",
         "roles": [
           "시스템 기획"
@@ -632,7 +632,7 @@
       {
         "name": "계정 탈퇴",
         "order": 31,
-        "category": "",
+        "category": "Service",
         "date": "2024년 9월 25일",
         "roles": [
           "시스템 기획"
@@ -650,7 +650,7 @@
       {
         "name": "교역로별 이미지를 다르게 출력할 수 있도록 처리",
         "order": 32,
-        "category": "",
+        "category": "Trade",
         "date": "2024년 11월 15일",
         "roles": [
           "시스템 기획"
@@ -668,7 +668,7 @@
       {
         "name": "기억의 제단 티켓 소모 형태로 로직 변경",
         "order": 33,
-        "category": "",
+        "category": "Core",
         "date": "2025년 6월 5일",
         "roles": [
           "시스템 기획"
@@ -686,7 +686,7 @@
       {
         "name": "네임플레이트",
         "order": 34,
-        "category": "",
+        "category": "Collect",
         "date": "2025년 3월 27일",
         "roles": [
           "데이터 입력"
@@ -712,7 +712,7 @@
       {
         "name": "랭킹 도전 지렁이길 추가",
         "order": 35,
-        "category": "",
+        "category": "Dungeon",
         "date": "2025년 7월 9일",
         "roles": [
           "시스템 기획"
@@ -730,7 +730,7 @@
       {
         "name": "로딩 화면 로직 개선",
         "order": 36,
-        "category": "",
+        "category": "UX",
         "date": "2025년 9월 29일",
         "roles": [
           "시스템 기획"
@@ -748,7 +748,7 @@
       {
         "name": "말풍선",
         "order": 37,
-        "category": "",
+        "category": "Social",
         "date": "2024년 11월 21일",
         "roles": [
           "시스템 기획"
@@ -766,7 +766,7 @@
       {
         "name": "빠른 이동 시 비용 요구 기능 추가",
         "order": 38,
-        "category": "",
+        "category": "World",
         "date": "2024년 5월 27일",
         "roles": [
           "시스템 기획"
@@ -784,7 +784,7 @@
       {
         "name": "생산 즉시 완료",
         "order": 39,
-        "category": "",
+        "category": "UX",
         "date": "2024년 5월 8일",
         "roles": [
           "시스템 기획"
@@ -802,7 +802,7 @@
       {
         "name": "세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급",
         "order": 40,
-        "category": "",
+        "category": "Growth",
         "date": "2025년 1월 16일",
         "roles": [
           "시스템 기획"
@@ -820,7 +820,7 @@
       {
         "name": "언어",
         "order": 41,
-        "category": "",
+        "category": "Service",
         "date": "2024년 10월 20일",
         "roles": [
           "시스템 기획"
@@ -838,7 +838,7 @@
       {
         "name": "예비 RP",
         "order": 42,
-        "category": "",
+        "category": "Core",
         "date": "2025년 10월 29일",
         "roles": [
           "시스템 기획"
@@ -856,7 +856,7 @@
       {
         "name": "우편 보상 정렬 규칙 추가",
         "order": 43,
-        "category": "",
+        "category": "UX",
         "date": "2025년 8월 26일",
         "roles": [
           "시스템 기획"
@@ -874,7 +874,7 @@
       {
         "name": "우편에 ‘영구 보관’ 기능 추가",
         "order": 44,
-        "category": "",
+        "category": "UX",
         "date": "2024년 11월 8일",
         "roles": [
           "시스템 기획"
@@ -892,7 +892,7 @@
       {
         "name": "월드맵 탐험 콘텐츠 출력 개선",
         "order": 45,
-        "category": "",
+        "category": "World",
         "date": "2024년 7월 9일",
         "roles": [
           "시스템 기획"
@@ -914,7 +914,7 @@
       {
         "name": "웹뷰",
         "order": 46,
-        "category": "",
+        "category": "Service",
         "date": "2024년 9월 23일",
         "roles": [
           "시스템 기획"
@@ -932,7 +932,7 @@
       {
         "name": "유물 도감",
         "order": 47,
-        "category": "",
+        "category": "Collect",
         "date": "2025년 1월 15일",
         "roles": [
           "시스템 기획"
@@ -958,7 +958,7 @@
       {
         "name": "유물 보유 효과 개선",
         "order": 48,
-        "category": "",
+        "category": "Growth",
         "date": "2025년 7월 18일",
         "roles": [
           "시스템 기획"
@@ -980,7 +980,7 @@
       {
         "name": "유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리",
         "order": 49,
-        "category": "",
+        "category": "BM",
         "date": "2025년 5월 13일",
         "roles": [
           "시스템 기획"
@@ -998,7 +998,7 @@
       {
         "name": "유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응",
         "order": 50,
-        "category": "",
+        "category": "UX",
         "date": "2024년 9월 11일",
         "roles": [
           "시스템 기획"
@@ -1020,7 +1020,7 @@
       {
         "name": "일괄 장착",
         "order": 51,
-        "category": "",
+        "category": "UX",
         "date": "2025년 1월 16일",
         "roles": [
           "시스템 기획"
@@ -1038,7 +1038,7 @@
       {
         "name": "일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정",
         "order": 52,
-        "category": "",
+        "category": "Management",
         "date": "2025년 8월 21일",
         "roles": [
           "시스템 기획"
@@ -1056,7 +1056,7 @@
       {
         "name": "일부 튜토리얼 데이터 입력",
         "order": 53,
-        "category": "",
+        "category": "Guide",
         "date": "2024년 9월 3일",
         "roles": [
           "데이터 입력"
@@ -1074,7 +1074,7 @@
       {
         "name": "장벽 너머 원정 건너뛰기 기능 추가",
         "order": 54,
-        "category": "",
+        "category": "Dungeon",
         "date": "2025년 7월 23일",
         "roles": [
           "시스템 기획"
@@ -1092,7 +1092,7 @@
       {
         "name": "장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)",
         "order": 55,
-        "category": "",
+        "category": "Dungeon",
         "date": "2024년 8월 12일",
         "roles": [
           "시스템 기획"
@@ -1110,7 +1110,7 @@
       {
         "name": "장벽 너머 원정 플레이 시간 출력",
         "order": 56,
-        "category": "",
+        "category": "Dungeon",
         "date": "2025년 7월 23일",
         "roles": [
           "시스템 기획"
@@ -1128,7 +1128,7 @@
       {
         "name": "장시간 AFK 유저 킥 처리",
         "order": 57,
-        "category": "",
+        "category": "Service",
         "date": "2025년 7월 7일",
         "roles": [
           "시스템 기획"
@@ -1146,7 +1146,7 @@
       {
         "name": "제작 즉시 완료",
         "order": 58,
-        "category": "",
+        "category": "UX",
         "date": "2024년 5월 8일",
         "roles": [
           "시스템 기획"
@@ -1164,7 +1164,7 @@
       {
         "name": "조작",
         "order": 59,
-        "category": "",
+        "category": "UX",
         "date": "2024년 11월 27일",
         "roles": [
           "시스템 기획"
@@ -1182,7 +1182,7 @@
       {
         "name": "캐릭터 생성 후 다시 커스터마이징할 수 있는 기능",
         "order": 60,
-        "category": "",
+        "category": "Collect",
         "date": "2025년 4월 23일",
         "roles": [
           "시스템 기획"
@@ -1200,7 +1200,7 @@
       {
         "name": "캐릭터 선택 화면",
         "order": 61,
-        "category": "",
+        "category": "UX",
         "date": "2024년 9월 13일",
         "roles": [
           "시스템 기획"
@@ -1218,7 +1218,7 @@
       {
         "name": "커스터마이징 PC 음성 선택 기능 추가",
         "order": 62,
-        "category": "",
+        "category": "Collect",
         "date": "2024년 8월 5일",
         "roles": [
           "시스템 기획"
@@ -1236,7 +1236,7 @@
       {
         "name": "코스튬",
         "order": 63,
-        "category": "",
+        "category": "Collect",
         "date": "2025년 3월 27일",
         "roles": [
           "데이터 입력"
@@ -1254,7 +1254,7 @@
       {
         "name": "코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리",
         "order": 64,
-        "category": "",
+        "category": "Collect",
         "date": "2025년 5월 22일",
         "roles": [
           "시스템 기획"
@@ -1272,7 +1272,7 @@
       {
         "name": "탈것 & 마구 데이터 작업",
         "order": 65,
-        "category": "",
+        "category": "Growth",
         "date": "2024년 6월 4일",
         "roles": [
           "데이터 입력"
@@ -1294,7 +1294,7 @@
       {
         "name": "튜토리얼 모아보기",
         "order": 66,
-        "category": "",
+        "category": "Guide",
         "date": "2024년 7월 5일",
         "roles": [
           "시스템 기획"
@@ -1312,7 +1312,7 @@
       {
         "name": "패스 미션 UI에 일일 주간 탭 추가",
         "order": 67,
-        "category": "",
+        "category": "Accomplishment",
         "date": "2025년 6월 26일",
         "roles": [
           "시스템 기획"
@@ -1330,7 +1330,7 @@
       {
         "name": "패스 즉시 달성 못하게 하는 처리",
         "order": 68,
-        "category": "",
+        "category": "BM",
         "date": "2025년 6월 17일",
         "roles": [
           "시스템 기획"
@@ -1348,7 +1348,7 @@
       {
         "name": "프롤로그 스킵 기능 구현",
         "order": 69,
-        "category": "",
+        "category": "UX",
         "date": "2025년 6월 13일",
         "roles": [
           "시스템 기획"

@@ -1,5 +1,6 @@
 name: BM 효용
 order: 27
+category: BM
 date: 2024년 5월 21일
 roles: 시스템 기획
 desc:

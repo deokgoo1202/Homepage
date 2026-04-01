@@ -1,5 +1,6 @@
 name: 웹뷰
 order: 46
+category: Service
 date: 2024년 9월 23일
 roles: 시스템 기획
 desc:

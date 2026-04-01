@@ -1,5 +1,6 @@
 name: 장벽 너머 원정 플레이 시간 출력
 order: 56
+category: Dungeon
 date: 2025년 7월 23일
 roles: 시스템 기획
 desc:

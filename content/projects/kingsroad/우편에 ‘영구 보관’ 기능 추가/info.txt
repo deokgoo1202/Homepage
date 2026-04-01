@@ -1,5 +1,6 @@
 name: 우편에 ‘영구 보관’ 기능 추가
 order: 44
+category: UX
 date: 2024년 11월 8일
 roles: 시스템 기획
 desc:

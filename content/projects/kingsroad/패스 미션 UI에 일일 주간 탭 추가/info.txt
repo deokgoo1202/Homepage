@@ -1,5 +1,6 @@
 name: 패스 미션 UI에 일일 주간 탭 추가
 order: 67
+category: Accomplishment
 date: 2025년 6월 26일
 roles: 시스템 기획
 desc:

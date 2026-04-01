@@ -1,5 +1,6 @@
 name: 프롤로그 스킵 기능 구현
 order: 69
+category: UX
 date: 2025년 6월 13일
 roles: 시스템 기획
 desc:

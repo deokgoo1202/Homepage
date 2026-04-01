@@ -1,5 +1,6 @@
 name: 예비 RP
 order: 42
+category: Core
 date: 2025년 10월 29일
 roles: 시스템 기획
 desc:

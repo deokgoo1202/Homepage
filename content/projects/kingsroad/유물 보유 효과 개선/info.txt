@@ -1,5 +1,6 @@
 name: 유물 보유 효과 개선
 order: 48
+category: Growth
 date: 2025년 7월 18일
 roles: 시스템 기획
 desc:

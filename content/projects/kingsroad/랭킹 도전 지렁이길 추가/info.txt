@@ -1,5 +1,6 @@
 name: 랭킹 도전 지렁이길 추가
 order: 35
+category: Dungeon
 date: 2025년 7월 9일
 roles: 시스템 기획
 desc:

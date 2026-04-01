@@ -1,5 +1,6 @@
 name: 장시간 AFK 유저 킥 처리
 order: 57
+category: Service
 date: 2025년 7월 7일
 roles: 시스템 기획
 desc:

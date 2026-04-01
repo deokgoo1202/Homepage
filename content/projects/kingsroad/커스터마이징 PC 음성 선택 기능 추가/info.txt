@@ -1,5 +1,6 @@
 name: 커스터마이징 PC 음성 선택 기능 추가
 order: 62
+category: Collect
 date: 2024년 8월 5일
 roles: 시스템 기획
 desc:

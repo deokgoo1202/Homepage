@@ -1,5 +1,6 @@
 name: 2024 지스타 빌드 대응
 order: 26
+category: Service
 date: 2024년 9월 5일
 roles: 시스템 기획
 desc:
