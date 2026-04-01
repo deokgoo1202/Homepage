@@ -621,6 +621,22 @@ h4,
     justify-content: center;
 }
 
+/* Page enter animations */
+@keyframes pageEnter {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+    opacity: 0;
+    animation: pageEnter 0.55s ease-out forwards;
+}
+
+.page-card-enter {
+    opacity: 0;
+    animation: pageEnter 0.5s ease-out forwards;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {

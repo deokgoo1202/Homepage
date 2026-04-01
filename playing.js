@@ -1,6 +1,7 @@
 let allGames = [];
 let currentSort = 'payment';
 let currentTab = 'all';
+let firstRender = true;
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadGames();
@@ -71,7 +72,7 @@ function renderGames() {
             : '';
 
         return `
-            <div class="game-card">
+            <div class="game-card${firstRender ? ' page-card-enter' : ''}">
                 <div class="game-thumb-wrapper">${thumb}</div>
                 <div class="game-info">
                     <div class="game-name">${g.name}</div>
@@ -82,6 +83,13 @@ function renderGames() {
             </div>
         `;
     }).join('');
+
+    if (firstRender) {
+        document.querySelectorAll('.page-card-enter').forEach((el, i) => {
+            el.style.animationDelay = `${0.35 + i * 0.04}s`;
+        });
+        firstRender = false;
+    }
 }
 
 const TAB_DEFAULT_SORT = {

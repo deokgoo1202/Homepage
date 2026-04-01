@@ -13,8 +13,10 @@ async function renderProjects() {
 
         renderProjectsBg(projects);
 
+        document.querySelector('.section-title')?.classList.add('page-enter');
+
         container.innerHTML = projects.map(p => `
-            <div class="project-card ${p.card_class || ''}">
+            <div class="project-card ${p.card_class || ''} page-card-enter">
                 <div class="project-image-wrapper">
                     <img src="${p.thumbnail}" alt="${p.title}" class="project-img">
                 </div>
@@ -27,6 +29,10 @@ async function renderProjects() {
                 </div>
             </div>
         `).join('');
+
+        document.querySelectorAll('.page-card-enter').forEach((el, i) => {
+            el.style.animationDelay = `${0.15 + i * 0.12}s`;
+        });
 
     } catch (e) {
         container.innerHTML = '<p style="color:#888; text-align:center;">데이터를 불러오지 못했습니다.</p>';
