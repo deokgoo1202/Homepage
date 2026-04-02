@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderProjectBg(project);
         renderHero(project);
         const sorted = sortByDateDesc(project.systems.filter(s => !s.hidden));
-        const mainSystems = sorted.filter(s => (s.images && s.images.length > 0) || s.featured);
-        const otherSystems = sorted.filter(s => (!s.images || s.images.length === 0) && !s.featured);
+        const mainSystems = sorted.filter(s => ((s.images && s.images.length > 0) || s.featured) && !s.minor);
+        const otherSystems = sorted.filter(s => ((!s.images || s.images.length === 0) && !s.featured) || s.minor);
         renderTOC(mainSystems);
         renderSystems(mainSystems);
         renderOtherSystems(otherSystems);

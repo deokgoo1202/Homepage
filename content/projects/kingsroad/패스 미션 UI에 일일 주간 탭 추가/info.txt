@@ -4,3 +4,4 @@ category: Accomplishment
 date: 2025년 6월 26일
 roles: 시스템 기획
 desc:
+minor: yes

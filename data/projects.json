@@ -21,6 +21,7 @@
         "date": "2024년 4월 25일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -41,6 +42,7 @@
         "date": "2024년 4월 29일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -62,6 +64,7 @@
         "date": "2024년 5월 24일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -83,6 +86,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -99,6 +103,7 @@
         "date": "2024년 5월 24일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -120,6 +125,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -136,6 +142,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -156,6 +163,7 @@
         "date": "2024년 6월 10일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -176,6 +184,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -197,6 +206,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -217,6 +227,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -237,6 +248,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -257,6 +269,7 @@
         "date": "2024년 6월 7일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -278,6 +291,7 @@
         "date": "2025년 4월 7일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -303,6 +317,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -323,6 +338,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -343,6 +359,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -364,6 +381,7 @@
         "date": "2025년 3월 24일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -389,6 +407,7 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획 (웨스턴)",
           "데이터 입력 (웨스턴)"
@@ -414,6 +433,7 @@
         "date": "2024년 8월 5일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -434,6 +454,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -455,6 +476,7 @@
         "date": "2024년 6월 14일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -476,6 +498,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -497,6 +520,7 @@
         "date": "2025년 4월 18일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -518,6 +542,7 @@
         "date": "2025년 8월 4일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -543,6 +568,7 @@
         "date": "2024년 9월 5일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -563,6 +589,7 @@
         "date": "2026년 2월 20일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "데이터 입력"
         ],
@@ -578,6 +605,7 @@
         "date": "2024년 5월 24일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -598,6 +626,7 @@
         "date": "2025년 4월 11일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -613,6 +642,7 @@
         "date": "2024년 9월 25일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -633,6 +663,7 @@
         "date": "2024년 11월 15일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -648,6 +679,7 @@
         "date": "2025년 6월 5일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -672,6 +704,7 @@
         "date": "2025년 3월 27일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "데이터 입력"
         ],
@@ -692,6 +725,7 @@
         "date": "2025년 7월 9일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -712,6 +746,7 @@
         "date": "2025년 9월 29일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -727,6 +762,7 @@
         "date": "2024년 11월 21일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -751,6 +787,7 @@
         "date": "2024년 5월 27일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -766,6 +803,7 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -781,6 +819,7 @@
         "date": "2024년 10월 20일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -801,6 +840,7 @@
         "date": "2025년 10월 29일",
         "featured": false,
         "hidden": true,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -816,6 +856,7 @@
         "date": "2025년 8월 26일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -831,6 +872,7 @@
         "date": "2024년 11월 8일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -846,6 +888,7 @@
         "date": "2024년 7월 9일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -861,6 +904,7 @@
         "date": "2024년 9월 23일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -885,6 +929,7 @@
         "date": "2025년 1월 15일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -905,6 +950,7 @@
         "date": "2025년 7월 18일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -929,6 +975,7 @@
         "date": "2025년 5월 13일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -944,6 +991,7 @@
         "date": "2024년 9월 11일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -959,6 +1007,7 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -983,6 +1032,7 @@
         "date": "2025년 8월 21일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -998,6 +1048,7 @@
         "date": "2025년 7월 23일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1013,6 +1064,7 @@
         "date": "2024년 8월 12일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1028,6 +1080,7 @@
         "date": "2025년 7월 23일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1043,6 +1096,7 @@
         "date": "2025년 7월 7일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1058,6 +1112,7 @@
         "date": "2024년 11월 27일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1073,6 +1128,7 @@
         "date": "2025년 4월 23일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1088,6 +1144,7 @@
         "date": "2024년 9월 13일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1103,6 +1160,7 @@
         "date": "2024년 8월 5일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1118,6 +1176,7 @@
         "date": "2025년 3월 27일",
         "featured": true,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -1134,6 +1193,7 @@
         "date": "2025년 5월 22일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1154,6 +1214,7 @@
         "date": "2025년 6월 26일",
         "featured": false,
         "hidden": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -1174,6 +1235,7 @@
         "date": "2025년 6월 17일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1189,6 +1251,7 @@
         "date": "2025년 6월 13일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1204,6 +1267,7 @@
         "date": "2024년 6월 10일",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1224,6 +1288,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1262,6 +1327,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 구성 및 보상 밸런싱"
@@ -1283,6 +1349,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 구성"
@@ -1304,6 +1371,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획",
           "데이터 구성 및 밸런싱"
@@ -1325,6 +1393,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "시스템 기획 (지역 일람)",
           "시스템 기획 (지식 탐구)"
@@ -1350,6 +1419,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "데이터 구성 및 보상 밸런싱"
         ],
@@ -1370,6 +1440,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "데이터 구성 및 밸런싱",
           "성장 밸런싱"
@@ -1391,6 +1462,7 @@
         "date": "",
         "featured": false,
         "hidden": false,
+        "minor": false,
         "roles": [
           "데이터 구성"
         ],
