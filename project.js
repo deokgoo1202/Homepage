@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         hideLoading();
         renderProjectBg(project);
         renderHero(project);
-        const sorted = sortByDateDesc(project.systems);
+        const sorted = sortByDateDesc(project.systems.filter(s => !s.hidden));
         const mainSystems = sorted.filter(s => (s.images && s.images.length > 0) || s.featured);
         const otherSystems = sorted.filter(s => (!s.images || s.images.length === 0) && !s.featured);
         renderTOC(mainSystems);
