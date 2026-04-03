@@ -1047,6 +1047,16 @@ h4,
     color: var(--text-muted);
 }
 
+.tool-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
 /* Project meta (system count) */
 .project-meta {
     margin-bottom: 1.5rem;
