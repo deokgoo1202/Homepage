@@ -1042,6 +1042,13 @@ h4,
     gap: 1.2rem;
 }
 
+.tool-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-light);
+    min-width: 100px;
+}
+
 .skill-desc {
     font-size: 0.85rem;
     color: var(--text-muted);
