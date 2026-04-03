@@ -1042,6 +1042,19 @@ h4,
     gap: 1.2rem;
 }
 
+.skill-item > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.comp-icon {
+    font-size: 1.4rem;
+    width: 36px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 .tool-name {
     font-size: 0.9rem;
     font-weight: 600;
