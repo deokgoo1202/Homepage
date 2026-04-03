@@ -2,4 +2,4 @@ name: 계정 연동
 order: 99
 category: Service
 roles: 시스템 기획
-desc: Google, Steam, Apple 등 외부 플랫폼 계정과 게임 계정을 연동하는 시스템입니다. 여러 디바이스에서 동일한 계정으로 플레이를 이어갈 수 있습니다.
+desc: Google, Steam, Apple 등 외부 플랫폼 계정과 게임 계정을 연동하는 시스템. 여러 디바이스에서 동일한 계정으로 플레이를 이어갈 수 있

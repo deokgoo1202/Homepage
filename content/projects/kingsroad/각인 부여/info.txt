@@ -2,4 +2,4 @@ name: 각인 부여
 order: 15
 category: Growth
 roles: 시스템 기획
-desc: 장비에 캐릭터 스킬 강화 효과를 부여하는 시스템입니다.
+desc: 장비에 캐릭터 스킬 강화 효과를 부여하는 시스템

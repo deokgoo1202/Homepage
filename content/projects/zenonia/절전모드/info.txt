@@ -2,4 +2,4 @@ name: 절전 모드
 order: 13
 category: UX
 roles: 시스템 기획
-desc: 배터리 소모를 줄이기 위한 절전 모드 시스템입니다.
+desc: 배터리 소모를 줄이기 위한 절전 모드 시스템

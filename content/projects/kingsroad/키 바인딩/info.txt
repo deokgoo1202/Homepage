@@ -3,4 +3,4 @@ order: 81
 date: 2024년 6월 10일
 category: Environment
 roles: 시스템 기획
-desc: PC 환경에서 유저가 키를 직접 설정할 수 있는 입력 매핑 시스템입니다.
+desc: PC 환경에서 유저가 키를 직접 설정할 수 있는 입력 매핑 시스템

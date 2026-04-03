@@ -2,5 +2,5 @@ name: 창고
 order: 9
 category: Item
 roles: 시스템 기획
-desc: 인벤토리와 별도로 아이템을 보관할 수 있는 창고 시스템입니다.
+desc: 인벤토리와 별도로 아이템을 보관할 수 있는 창고 시스템
 featured: yes

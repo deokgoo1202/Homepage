@@ -4,4 +4,4 @@ category: BM
 featured: yes
 date: 2024년 5월 24일
 roles: 시스템 기획
-desc: RP 충전 시 관련 상품을 자동으로 안내하는 시스템입니다.
+desc: RP 충전 시 관련 상품을 자동으로 안내하는 시스템
