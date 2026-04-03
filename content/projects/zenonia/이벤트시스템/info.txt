@@ -1,0 +1,6 @@
+name: 이벤트 시스템 (인터렉션 버프)
+order: 14
+category: Event
+roles: 시스템 기획
+featured: yes
+desc: 필드 내 특정 오브젝트와 상호작용 시 버프를 획득하는 이벤트 시스템입니다.

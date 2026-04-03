@@ -1,0 +1,5 @@
+name: 스탯 검색/필터
+order: 12
+category: UX
+roles: 시스템 기획
+desc: 캐릭터 스탯을 조건에 따라 검색하고 필터링할 수 있는 기능입니다.
