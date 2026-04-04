@@ -1,7 +1,0 @@
-name: 鸣潮(명조: 워더링 웨이브)
-release: 2024년 5월 23일
-developer: KURO GAMES
-platform: Android, Windows, iOS
-package: No
-comment: 
-payment: 368400

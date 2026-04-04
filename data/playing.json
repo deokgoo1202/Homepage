@@ -600,21 +600,6 @@
     "current": false
   },
   {
-    "id": "崩坏：星穹铁道(붕괴_ 스타레일)",
-    "name": "崩坏：星穹铁道(붕괴: 스타레일)",
-    "release": "2023년 4월 26일",
-    "developer": "miHoYo",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "2930000",
-    "payment_num": 2930000.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "白夜極光(백야극광)",
     "name": "白夜極光(백야극광)",
     "release": "2021년 6월 17일",
@@ -687,21 +672,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "鸣潮(명조_ 워더링 웨이브)",
-    "name": "鸣潮(명조: 워더링 웨이브)",
-    "release": "2024년 5월 23일",
-    "developer": "KURO GAMES",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "368400",
-    "payment_num": 368400.0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -1752,21 +1722,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/탕탕특공대(Survivor io)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "탕탕특공대(Survivor.io)",
-    "name": "탕탕특공대(Survivor.io)",
-    "release": "2022년 8월 9일",
-    "developer": "Habby",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "10700",
-    "payment_num": 10700.0,
-    "thumbnail": "",
     "current": false
   },
   {

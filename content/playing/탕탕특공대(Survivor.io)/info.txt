@@ -1,7 +1,0 @@
-name: 탕탕특공대(Survivor.io)
-release: 2022년 8월 9일
-developer: Habby
-platform: Android, iOS
-package: No
-comment: 
-payment: 10700

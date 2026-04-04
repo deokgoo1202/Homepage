@@ -1,7 +1,0 @@
-name: 崩坏：星穹铁道(붕괴: 스타레일)
-release: 2023년 4월 26일
-developer: miHoYo
-platform: Android, Windows, iOS
-package: No
-comment: 
-payment: 2930000
