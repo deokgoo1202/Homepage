@@ -264,13 +264,7 @@ function initOtherSystemPopup() {
     const isMobile = () => window.matchMedia('(hover: none)').matches;
     let activeItem = null;
 
-    const show = (item, mouseX, mouseY) => {
-        const imgs = JSON.parse(item.dataset.imgs || '[]');
-        const container = document.getElementById('other-preview-imgs');
-        container.innerHTML = imgs.map(src => `<img src="${src}" alt="" class="other-preview-img-item">`).join('');
-        document.getElementById('other-preview-desc').textContent = item.dataset.desc;
-        document.getElementById('other-preview-date').textContent = item.dataset.date;
-        popup.classList.add('visible');
+    const positionDesktop = (mouseX, mouseY) => {
         const popupW = 560;
         const offset = 14;
         let left = mouseX + offset + window.scrollX;
@@ -278,14 +272,19 @@ function initOtherSystemPopup() {
         popup.style.left = left + 'px';
         popup.style.top = (mouseY - 20 + window.scrollY) + 'px';
     };
+
+    const show = (item, mouseX, mouseY) => {
+        const imgs = JSON.parse(item.dataset.imgs || '[]');
+        const container = document.getElementById('other-preview-imgs');
+        container.innerHTML = imgs.map(src => `<img src="${src}" alt="" class="other-preview-img-item">`).join('');
+        document.getElementById('other-preview-desc').textContent = item.dataset.desc;
+        document.getElementById('other-preview-date').textContent = item.dataset.date;
+        popup.classList.add('visible');
+        if (!isMobile()) positionDesktop(mouseX, mouseY);
+    };
     const move = (item, mouseX, mouseY) => {
-        if (!popup.classList.contains('visible')) return;
-        const popupW = 560;
-        const offset = 14;
-        let left = mouseX + offset + window.scrollX;
-        if (left + popupW > window.innerWidth - 16) left = mouseX - popupW - offset + window.scrollX;
-        popup.style.left = left + 'px';
-        popup.style.top = (mouseY - 20 + window.scrollY) + 'px';
+        if (!popup.classList.contains('visible') || isMobile()) return;
+        positionDesktop(mouseX, mouseY);
     };
     const hide = () => { popup.classList.remove('visible'); activeItem = null; };
 

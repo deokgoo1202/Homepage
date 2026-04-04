@@ -401,6 +401,19 @@
     .role-tags {
         justify-content: flex-start;
     }
+
+    #other-preview-popup {
+        position: fixed;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translateY(-50%) translateX(-50%);
+        width: calc(100vw - 2rem);
+        max-width: 480px;
+    }
+
+    #other-preview-popup.visible {
+        transform: translateY(-50%) translateX(-50%);
+    }
 }
 /* History Toggle */
 #detail-view-toggle {
