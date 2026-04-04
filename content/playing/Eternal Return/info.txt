@@ -1,4 +1,4 @@
-name: 이터널 리턴
+name: Eternal Return
 release: 2020년 10월 14일
 developer: 님블뉴런
 platform: Windows

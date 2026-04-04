@@ -1,4 +1,4 @@
-name: 엘든 링
+name: ELDEN RING
 release: 
 developer: 
 platform: 

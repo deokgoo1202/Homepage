@@ -1,4 +1,4 @@
-name: 스카이림
+name: The Elder Scrolls V: Skyrim
 release: 
 developer: 
 platform: 
