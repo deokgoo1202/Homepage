@@ -1,4 +1,4 @@
-name: 뺕괴: 스타레일
+name: 붕괴: 스타레일
 developer: HoYoverse
 platform: Mobile, PC
 package: No

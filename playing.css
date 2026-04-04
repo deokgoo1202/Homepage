@@ -115,6 +115,23 @@
     font-weight: 600;
 }
 
+.np-stat-payment {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+@media (hover: hover) {
+    .now-playing-card:hover .np-stat-payment {
+        opacity: 1;
+    }
+}
+
+@media (hover: none) {
+    .now-playing-card.show-payment .np-stat-payment {
+        opacity: 1;
+    }
+}
+
 .now-playing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

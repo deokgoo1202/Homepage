@@ -28,11 +28,13 @@ function renderNowPlaying() {
                     ? `<img src="${g.thumbnail}" alt="${g.name}" class="now-playing-thumb" loading="lazy">`
                     : `<div class="now-playing-thumb-placeholder">🎮</div>`;
                 const isPackage = g.package === 'Yes';
-                const statEl = g.playtime
+                const playtimeStat = g.playtime
                     ? `<div class="now-playing-stat"><span class="np-stat-label">플레이</span><span class="np-stat-value">${g.playtime}시간</span></div>`
-                    : (!isPackage && g.payment)
-                    ? `<div class="now-playing-stat"><span class="np-stat-label">과금</span><span class="np-stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
                     : '';
+                const paymentStat = (!isPackage && g.payment)
+                    ? `<div class="now-playing-stat np-stat-payment"><span class="np-stat-label">과금</span><span class="np-stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
+                    : '';
+                const statEl = playtimeStat + paymentStat;
                 return `
                     <div class="now-playing-card">
                         <div class="now-playing-thumb-wrapper">${thumb}</div>
@@ -164,6 +166,11 @@ function renderGames() {
 
     // 모바일: 탭으로 과금 토글
     grid.querySelectorAll('.game-card').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('show-payment');
+        });
+    });
+    document.querySelectorAll('.now-playing-card').forEach(card => {
         card.addEventListener('click', () => {
             card.classList.toggle('show-payment');
         });
