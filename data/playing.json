@@ -957,7 +957,7 @@
     "payment_num": 66000.0,
     "thumbnail": "content/playing/ヘブン バーンズ レッド(헤븐 번즈 레드)/thumbnail.png",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "メメントモリ(메멘토 모리)",
@@ -1069,7 +1069,7 @@
     "payment_num": 1600.0,
     "thumbnail": "content/playing/龙之国物语(아카디아M)/thumbnail.png",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "가디언 테일즈",
@@ -1629,6 +1629,6 @@
     "payment_num": 111000.0,
     "thumbnail": "content/playing/히트2/thumbnail.png",
     "current": false,
-    "tasting": false
+    "tasting": true
   }
 ]

@@ -6,3 +6,4 @@ package: No
 comment: 
 payment: 66000
 playtime: 5.7
+tasting: yes
