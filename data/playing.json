@@ -2093,7 +2093,7 @@
     "release": "",
     "developer": "",
     "platform": "",
-    "package": "Yes",
+    "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
@@ -2103,7 +2103,7 @@
     "current": false,
     "current_order": 99,
     "tasting": false,
-    "childhood": false
+    "childhood": true
   },
   {
     "id": "오딘_ 발할라 라이징",
