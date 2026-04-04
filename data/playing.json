@@ -1308,7 +1308,7 @@
     "payment": "9000",
     "payment_num": 9000.0,
     "thumbnail": "content/playing/메이플 키우기/thumbnail.jpg",
-    "current": false,
+    "current": true,
     "tasting": false
   },
   {

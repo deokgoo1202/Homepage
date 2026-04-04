@@ -5,3 +5,4 @@ platform:
 package: No
 comment: 
 payment: 9000
+current: yes
