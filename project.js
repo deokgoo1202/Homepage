@@ -261,23 +261,33 @@ function initOtherSystemPopup() {
     const isMobile = () => window.matchMedia('(hover: none)').matches;
     let activeItem = null;
 
-    const show = (item) => {
+    const show = (item, mouseX, mouseY) => {
         document.getElementById('other-preview-img').src = item.dataset.img;
         document.getElementById('other-preview-desc').textContent = item.dataset.desc;
         document.getElementById('other-preview-date').textContent = item.dataset.date;
         popup.classList.add('visible');
-        const rect = item.getBoundingClientRect();
         const popupW = 280;
-        let left = rect.right + 12 + window.scrollX;
-        if (left + popupW > window.innerWidth - 16) left = rect.left - popupW - 12 + window.scrollX;
+        const offset = 14;
+        let left = mouseX + offset + window.scrollX;
+        if (left + popupW > window.innerWidth - 16) left = mouseX - popupW - offset + window.scrollX;
         popup.style.left = left + 'px';
-        popup.style.top = (rect.top + window.scrollY) + 'px';
+        popup.style.top = (mouseY - 20 + window.scrollY) + 'px';
+    };
+    const move = (item, mouseX, mouseY) => {
+        if (!popup.classList.contains('visible')) return;
+        const popupW = 280;
+        const offset = 14;
+        let left = mouseX + offset + window.scrollX;
+        if (left + popupW > window.innerWidth - 16) left = mouseX - popupW - offset + window.scrollX;
+        popup.style.left = left + 'px';
+        popup.style.top = (mouseY - 20 + window.scrollY) + 'px';
     };
     const hide = () => { popup.classList.remove('visible'); activeItem = null; };
 
     document.querySelectorAll('.other-system-item.has-preview').forEach(item => {
         if (!isMobile()) {
-            item.addEventListener('mouseenter', () => show(item));
+            item.addEventListener('mouseenter', (e) => show(item, e.clientX, e.clientY));
+            item.addEventListener('mousemove', (e) => move(item, e.clientX, e.clientY));
             item.addEventListener('mouseleave', hide);
         } else {
             item.addEventListener('click', (e) => {
