@@ -1,0 +1,6 @@
+name: 2026 유저 초청회
+order: 308
+category: Event
+date: 2026년 1월 22일
+roles: 행사 참여
+desc: 킹스로드 유저 초청 행사 참여

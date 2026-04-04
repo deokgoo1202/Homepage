@@ -1,0 +1,6 @@
+name: 2025 스팀 넥스트 페스트
+order: 307
+category: Event
+date: 2025년 2월 24일
+roles: 행사 참여
+desc: 스팀 넥스트 페스트 전시 참여

@@ -1,0 +1,6 @@
+name: 패치 프로세스
+order: 306
+category: Launching
+roles: 시스템 기획
+desc: 프롤로그 패치 파일 별도 분리, 분할 다운로드, 플레이 중 다운로드 기능 추가
+featured: yes

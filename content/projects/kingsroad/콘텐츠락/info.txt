@@ -1,0 +1,6 @@
+name: 콘텐츠 타입
+order: 305
+category: Core
+roles: 시스템 기획
+desc: 캐릭터가 위치한 월드 또는 캐릭터 상태에 따른 콘텐츠 접근 여부 관리
+minor: yes
