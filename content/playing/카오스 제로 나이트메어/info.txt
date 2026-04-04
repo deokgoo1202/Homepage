@@ -1,6 +1,6 @@
 name: 카오스 제로 나이트메어
 release: 
-developer: 
+developer: 슈퍼 크리에이티브
 platform: 
 package: No
 comment: 

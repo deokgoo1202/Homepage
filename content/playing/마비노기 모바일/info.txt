@@ -1,6 +1,6 @@
 name: 마비노기 모바일
 release: 
-developer: 
+developer: 넥슨
 platform: 
 package: No
 comment: 

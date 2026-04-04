@@ -1,6 +1,6 @@
 name: 메이플 키우기
 release: 
-developer: 
+developer: 에이블게임즈
 platform: 
 package: No
 comment: 

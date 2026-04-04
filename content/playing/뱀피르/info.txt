@@ -1,6 +1,6 @@
 name: 뱀피르
 release: 
-developer: 
+developer: 넷마블네오
 platform: 
 package: No
 comment: 
