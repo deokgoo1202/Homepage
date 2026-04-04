@@ -1156,7 +1156,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/커스터마이징 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "캐릭터 선택 화면",
@@ -1213,7 +1218,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/코스튬/코스튬 시스템 개선.png",
+            "file": "content/projects/kingsroad/코스튬/코스튬 1.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/코스튬/코스튬 2.png",
             "caption": ""
           }
         ]
