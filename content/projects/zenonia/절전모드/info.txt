@@ -1,5 +1,6 @@
-name: 절전 모드
+name: 절전 모드 개선
 order: 13
 category: UX
 roles: 시스템 기획
-desc: 배터리 소모를 줄이기 위한 절전 모드 시스템
+desc: UI 개선, 절전 모드 메인 리소스 반영
+minor: yes

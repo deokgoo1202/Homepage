@@ -1,0 +1,6 @@
+name: 제작 개선
+order: 15
+category: Trade
+roles: 시스템 기획
+desc: 선택된 레시피 변경 시 발생하는 기능 이슈 수정
+minor: yes

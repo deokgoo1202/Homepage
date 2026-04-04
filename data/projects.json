@@ -1489,10 +1489,23 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "아이템 상세 팝업의 정보 구조와 UI를 개선하여 유저가 아이템 정보를 더 직관적으로 확인할 수 있도록 한 작업",
+        "desc": "수동으로 입력하는 효과 정보 제거, 장비 강화 단계별 스탯 정보 제공, 귀속 아이템에서 비귀속 아이템 거래소 연결, 소환권 팝업 구성 및 확률 정보 추가",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/아이템상세팝업/아이템 상세 정보 팝업 개선 1.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/zenonia/아이템상세팝업/아이템 상세 정보 팝업 개선 2.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/zenonia/아이템상세팝업/아이템 상세 정보 팝업 개선 3.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "창고",
@@ -1521,7 +1534,7 @@
         "category": "Collect",
         "date": "",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "시스템 기획"
@@ -1538,46 +1551,56 @@
         "date": "",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "유효기간이 있는 아이템의 제어 방식을 개선한 작업",
+        "desc": "아이템 수령 일자를 기준으로 사용 불가/삭제가 계산되는 로직 추가, 기간제 아이템도 스택이 가능하도록 처리",
         "sub": "",
         "bullets": [],
         "images": []
       },
       {
-        "name": "스탯 검색/필터",
+        "name": "스탯 검색/필터 개선",
         "order": 12,
         "category": "UX",
         "date": "",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "캐릭터 스탯을 조건에 따라 검색하고 필터링할 수 있는 기능",
+        "desc": "UI 개선, 하나의 테이블로 관리",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/스탯검색필터/스탯 검색 필터 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
-        "name": "절전 모드",
+        "name": "절전 모드 개선",
         "order": 13,
         "category": "UX",
         "date": "",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "배터리 소모를 줄이기 위한 절전 모드 시스템",
+        "desc": "UI 개선, 절전 모드 메인 리소스 반영",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/zenonia/절전모드/절전 모드 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "기도사 (인터랙션 버프)",
@@ -1594,6 +1617,27 @@
         "sub": "",
         "bullets": [],
         "images": []
+      },
+      {
+        "name": "제작 개선",
+        "order": 15,
+        "category": "Trade",
+        "date": "",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "선택된 레시피 변경 시 발생하는 기능 이슈 수정",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/zenonia/제작개선/제작 개선.png",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []

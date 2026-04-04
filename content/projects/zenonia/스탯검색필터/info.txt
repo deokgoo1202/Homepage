@@ -1,5 +1,6 @@
-name: 스탯 검색/필터
+name: 스탯 검색/필터 개선
 order: 12
 category: UX
 roles: 시스템 기획
-desc: 캐릭터 스탯을 조건에 따라 검색하고 필터링할 수 있는 기능
+desc: UI 개선, 하나의 테이블로 관리
+minor: yes
