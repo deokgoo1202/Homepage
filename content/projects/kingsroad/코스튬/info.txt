@@ -3,5 +3,5 @@ order: 63
 category: Collect
 featured: yes
 date: 2025년 3월 27일
-roles: 시스템 기획, 데이터 입력
+roles: 시스템 개선, 데이터 입력
 desc: 캐릭터의 복식을 변경할 수 있는 시스템. 코스튬 장착 시 특정 투구가 장착되도록 처리
