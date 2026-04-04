@@ -56,7 +56,7 @@
     "playtime_num": 34.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Assassin's Creed Origins/thumbnail.jpg",
     "current": false
   },
   {
@@ -86,7 +86,7 @@
     "playtime_num": 36.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Baldur's Gate 3/thumbnail.jpg",
     "current": false
   },
   {
@@ -101,7 +101,7 @@
     "playtime_num": 24.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Battle Brothers/thumbnail.jpg",
     "current": false
   },
   {
@@ -116,7 +116,7 @@
     "playtime_num": 15.0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/BioShock Infinite/thumbnail.jpg",
     "current": false
   },
   {
@@ -131,7 +131,7 @@
     "playtime_num": 29.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Borderlands 2/thumbnail.jpg",
     "current": false
   },
   {
@@ -161,7 +161,7 @@
     "playtime_num": 565.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Crusader Kings III/thumbnail.jpg",
     "current": false
   },
   {
@@ -191,7 +191,7 @@
     "playtime_num": 212.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Darkest Dungeon®/thumbnail.jpg",
     "current": false
   },
   {
@@ -206,7 +206,7 @@
     "playtime_num": 148.1,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Divinity Original Sin 2/thumbnail.jpg",
     "current": false
   },
   {
@@ -221,7 +221,7 @@
     "playtime_num": 107.4,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Dota 2/thumbnail.jpg",
     "current": false
   },
   {
@@ -251,7 +251,7 @@
     "playtime_num": 285.9,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Fallout 4/thumbnail.jpg",
     "current": false
   },
   {
@@ -266,7 +266,7 @@
     "playtime_num": 45.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Fallout New Vegas/thumbnail.jpg",
     "current": false
   },
   {
@@ -281,7 +281,7 @@
     "playtime_num": 11.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Far Cry 4/thumbnail.jpg",
     "current": false
   },
   {
@@ -296,7 +296,7 @@
     "playtime_num": 420.5,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Football Manager 2016/thumbnail.jpg",
     "current": false
   },
   {
@@ -311,7 +311,7 @@
     "playtime_num": 611.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Football Manager 2017/thumbnail.jpg",
     "current": false
   },
   {
@@ -326,7 +326,7 @@
     "playtime_num": 257.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Football Manager 2019/thumbnail.jpg",
     "current": false
   },
   {
@@ -341,7 +341,7 @@
     "playtime_num": 33.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Frostpunk/thumbnail.jpg",
     "current": false
   },
   {
@@ -386,7 +386,7 @@
     "playtime_num": 52.0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Grand Theft Auto V Legacy/thumbnail.jpg",
     "current": false
   },
   {
@@ -431,7 +431,7 @@
     "playtime_num": 13.7,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Kingdom Come Deliverance/thumbnail.jpg",
     "current": false
   },
   {
@@ -476,7 +476,7 @@
     "playtime_num": 53.9,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/MISTOVER/thumbnail.jpg",
     "current": false
   },
   {
@@ -491,7 +491,7 @@
     "playtime_num": 24.4,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Middle-earth™ Shadow of Mordor™/thumbnail.jpg",
     "current": false
   },
   {
@@ -506,7 +506,7 @@
     "playtime_num": 55.9,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Middle-earth™ Shadow of War™/thumbnail.jpg",
     "current": false
   },
   {
@@ -521,7 +521,7 @@
     "playtime_num": 65.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Mount & Blade II Bannerlord/thumbnail.jpg",
     "current": false
   },
   {
@@ -536,7 +536,7 @@
     "playtime_num": 210.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Mount & Blade Warband/thumbnail.jpg",
     "current": false
   },
   {
@@ -566,7 +566,7 @@
     "playtime_num": 175.0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/PUBG BATTLEGROUNDS/thumbnail.jpg",
     "current": false
   },
   {
@@ -581,7 +581,7 @@
     "playtime_num": 13.0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Palworld/thumbnail.jpg",
     "current": false
   },
   {
@@ -611,7 +611,7 @@
     "playtime_num": 28.3,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Pillars of Eternity II Deadfire/thumbnail.jpg",
     "current": false
   },
   {
@@ -641,7 +641,7 @@
     "playtime_num": 20.1,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Ratropolis/thumbnail.jpg",
     "current": false
   },
   {
@@ -656,7 +656,7 @@
     "playtime_num": 44.4,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Red Dead Redemption 2/thumbnail.jpg",
     "current": false
   },
   {
@@ -671,7 +671,7 @@
     "playtime_num": 79.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/RimWorld/thumbnail.jpg",
     "current": false
   },
   {
@@ -701,7 +701,7 @@
     "playtime_num": 50.5,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Romance of the Three Kingdoms XIII/thumbnail.jpg",
     "current": false
   },
   {
@@ -731,7 +731,7 @@
     "playtime_num": 28.8,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Sid Meier's Civilization Beyond Earth/thumbnail.jpg",
     "current": false
   },
   {
@@ -746,7 +746,7 @@
     "playtime_num": 146.5,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Sid Meier's Civilization V/thumbnail.jpg",
     "current": false
   },
   {
@@ -761,7 +761,7 @@
     "playtime_num": 21.0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/South Park The Fractured But Whole/thumbnail.jpg",
     "current": false
   },
   {
@@ -776,7 +776,7 @@
     "playtime_num": 29.5,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/South Park™ The Stick of Truth™/thumbnail.jpg",
     "current": false
   },
   {
@@ -791,7 +791,7 @@
     "playtime_num": 94.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.jpg",
     "current": false
   },
   {
@@ -821,7 +821,7 @@
     "playtime_num": 17.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/This War of Mine/thumbnail.jpg",
     "current": false
   },
   {
@@ -836,7 +836,7 @@
     "playtime_num": 30.9,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Thronebreaker The Witcher Tales/thumbnail.jpg",
     "current": false
   },
   {
@@ -851,7 +851,7 @@
     "playtime_num": 192.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War ATTILA/thumbnail.jpg",
     "current": false
   },
   {
@@ -866,7 +866,7 @@
     "playtime_num": 74.5,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War ROME II - Emperor Edition/thumbnail.jpg",
     "current": false
   },
   {
@@ -881,7 +881,7 @@
     "playtime_num": 521.3,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War THREE KINGDOMS/thumbnail.jpg",
     "current": false
   },
   {
@@ -896,7 +896,7 @@
     "playtime_num": 39.3,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War WARHAMMER/thumbnail.jpg",
     "current": false
   },
   {
@@ -911,7 +911,7 @@
     "playtime_num": 444.7,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War WARHAMMER II/thumbnail.jpg",
     "current": false
   },
   {
@@ -926,7 +926,7 @@
     "playtime_num": 105.7,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Total War WARHAMMER III/thumbnail.jpg",
     "current": false
   },
   {
@@ -941,7 +941,7 @@
     "playtime_num": 67.3,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Tropico 5/thumbnail.jpg",
     "current": false
   },
   {
@@ -986,7 +986,7 @@
     "playtime_num": 56.4,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/XCOM 2/thumbnail.jpg",
     "current": false
   },
   {
@@ -1001,7 +1001,7 @@
     "playtime_num": 13.2,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/XCOM Enemy Unknown/thumbnail.jpg",
     "current": false
   },
   {
