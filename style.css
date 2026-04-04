@@ -1318,6 +1318,15 @@ h4,
     margin-top: 1.5rem;
 }
 
+.preference-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #666;
+    margin: 0;
+}
+
 .goal-tags {
     display: flex;
     justify-content: center;
