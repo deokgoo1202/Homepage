@@ -1,0 +1,7 @@
+name: 점검 랭킹 처리
+order: 305
+category: Service
+date: 2025년 7월 14일
+roles: 시스템 기획
+desc: 점검 시간 동안 랭킹 기록이 누적되지 않도록 처리
+minor: yes

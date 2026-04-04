@@ -1,0 +1,7 @@
+name: 던전 입장 메뉴 추가
+order: 307
+category: Dungeon
+date: 2025년 8월 12일
+roles: 시스템 기획
+desc: 
+minor: yes

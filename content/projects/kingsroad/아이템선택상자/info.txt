@@ -1,0 +1,7 @@
+name: 아이템 선택 상자 처리 개선
+order: 301
+category: Item
+date: 2025년 7월 14일
+roles: 시스템 기획
+desc: 선택 상자 아이템 사용 시 인벤토리 상태에 따라 수량 선택 범위를 유연하게 처리
+minor: yes

@@ -4,3 +4,4 @@ category: Collect
 date: 2024년 9월 11일
 roles: 시스템 기획
 desc: 유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응
+sub: 첫 유물 탐사 보상 처리 추가

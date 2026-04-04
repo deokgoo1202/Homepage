@@ -1,0 +1,7 @@
+name: 일꾼 스태미나 개념 제거
+order: 306
+category: Management
+date: 2025년 8월 2일
+roles: 시스템 기획
+desc: 
+minor: yes

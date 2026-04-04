@@ -1,0 +1,7 @@
+name: 부활
+order: 303
+category: Core
+date: 2024년 11월 22일
+roles: 시스템 기획
+desc: N초 뒤 버튼을 눌러 부활하는 처리
+minor: yes

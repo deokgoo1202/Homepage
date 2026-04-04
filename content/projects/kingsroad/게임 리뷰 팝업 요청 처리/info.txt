@@ -1,0 +1,7 @@
+name: 게임 리뷰 팝업 요청 처리
+order: 302
+category: Service
+date: 2024년 11월 15일
+roles: 시스템 기획
+desc: 
+minor: yes

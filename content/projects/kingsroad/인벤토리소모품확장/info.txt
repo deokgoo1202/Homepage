@@ -1,0 +1,7 @@
+name: 인벤토리/소모품 확장 UI에 점령된 구역 정보 추가
+order: 302
+category: Item
+date: 2025년 9월 12일
+roles: 시스템 기획
+desc:
+minor: yes

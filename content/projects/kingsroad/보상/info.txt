@@ -1,0 +1,7 @@
+name: 보상
+order: 303
+category: Core
+date: 2025년 1월 17일
+roles: 시스템 기획
+desc: 중복 보상 발생 시 실패 처리 & 대체 보상 처리
+featured: yes

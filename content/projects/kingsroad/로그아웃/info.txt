@@ -1,0 +1,7 @@
+name: 로그아웃
+order: 300
+category: Service
+date: 2024년 10월 18일
+roles: 시스템 기획
+desc: 
+minor: yes
