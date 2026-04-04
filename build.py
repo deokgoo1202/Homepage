@@ -152,6 +152,7 @@ def build_playing():
             "payment": payment_raw,
             "payment_num": payment_num,
             "thumbnail": thumbnail,
+            "current": info.get("current", "").lower() == "yes",
         })
     return games
 

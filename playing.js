@@ -10,6 +10,37 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollButtons();
 });
 
+function renderNowPlaying() {
+    const current = allGames.filter(g => g.current);
+    const container = document.getElementById('now-playing-section');
+    if (!container) return;
+    if (current.length === 0) {
+        container.style.display = 'none';
+        return;
+    }
+    container.style.display = '';
+    container.innerHTML = `
+        <span class="now-playing-label">Now Playing</span>
+        <div class="now-playing-grid">
+            ${current.map(g => {
+                const thumb = g.thumbnail
+                    ? `<img src="${g.thumbnail}" alt="${g.name}" class="now-playing-thumb" loading="lazy">`
+                    : `<div class="now-playing-thumb-placeholder">🎮</div>`;
+                return `
+                    <div class="now-playing-card">
+                        <div class="now-playing-thumb-wrapper">${thumb}</div>
+                        <div class="now-playing-info">
+                            <div class="now-playing-name">${g.name}</div>
+                            ${g.developer ? `<div class="now-playing-dev">${g.developer}</div>` : ''}
+                            ${g.comment ? `<div class="now-playing-comment">${g.comment}</div>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('')}
+        </div>
+    `;
+}
+
 async function loadGames() {
     const grid = document.getElementById('playing-grid');
 
@@ -18,6 +49,7 @@ async function loadGames() {
         allGames = await res.json();
 
         updateStats(allGames);
+        renderNowPlaying();
         renderGames();
 
     } catch (e) {

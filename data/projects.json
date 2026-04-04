@@ -89,8 +89,7 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획",
-          "데이터 입력"
+          "시스템 기획"
         ],
         "desc": "순차적으로 구매하는 상품 타입으로, 이전 단계 구매 시 다음 상품이 활성화",
         "sub": "단계별 구매 유도로 유저의 지속적인 소비 패턴 형성",
@@ -106,8 +105,7 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획",
-          "데이터 입력"
+          "시스템 기획"
         ],
         "desc": "출석 횟수에 따라 보상이 지급되는 상품 타입",
         "sub": "",
@@ -128,8 +126,7 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획",
-          "데이터 입력"
+          "시스템 기획"
         ],
         "desc": "N회 구매 시 보너스 보상을 지급하는 상품 타입",
         "sub": "반복 구매를 유도하고 구매 가치를 높이는 BM 구조",
@@ -1213,14 +1210,19 @@
         "date": "2025년 7월 7일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
+        "desc": "유효 입력이 없는 상태로 일정 시간 경과 시 강제 연결 종료, 서버 자원 낭비 및 접속 대기열 심화 방지",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장시간 AFK 유저 킥 처리/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "조작",
@@ -1254,7 +1256,7 @@
         "date": "2025년 4월 23일",
         "featured": false,
         "hidden": false,
-        "minor": true,
+        "minor": false,
         "roles": [
           "시스템 개선",
           "데이터 입력"
@@ -1263,6 +1265,10 @@
         "sub": "커스터마이징 PC 음성 선택 기능 추가",
         "bullets": [],
         "images": [
+          {
+            "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/01.png",
+            "caption": ""
+          },
           {
             "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/커스터마이징 2.png",
             "caption": ""
@@ -1603,7 +1609,7 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "N초 뒤 버튼을 눌러 부활하는 처리",
+        "desc": "사망 시 부활까지 N초 간 대기해야하는 로직 추가, 사망 횟수가 증가할수록 부활 대기 시간 증가",
         "sub": "",
         "bullets": [],
         "images": []
@@ -1617,9 +1623,9 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 개선"
         ],
-        "desc": "중복 보상 발생 시 실패 처리 & 대체 보상 처리",
+        "desc": "중복 보상 발생 시 실패 처리, 필요시 대체 보상 처리",
         "sub": "",
         "bullets": [],
         "images": [

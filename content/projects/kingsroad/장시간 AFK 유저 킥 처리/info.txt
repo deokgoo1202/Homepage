@@ -3,4 +3,5 @@ order: 57
 category: Service
 date: 2025년 7월 7일
 roles: 시스템 기획
-desc:
+desc: 유효 입력이 없는 상태로 일정 시간 경과 시 강제 연결 종료, 서버 자원 낭비 및 접속 대기열 심화 방지
+minor: yes

@@ -6,3 +6,4 @@ package: Yes
 playtime:
 payment: 79800
 comment:
+current: yes
