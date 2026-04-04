@@ -393,3 +393,90 @@
         justify-content: flex-start;
     }
 }
+/* History Toggle */
+#detail-view-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.view-tab {
+    background: none;
+    border: 1px solid #333;
+    color: #666;
+    font-size: 0.85rem;
+    padding: 0.4rem 1.1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+}
+
+.view-tab:hover {
+    color: #ccc;
+    border-color: #555;
+}
+
+.view-tab.active {
+    background: #222;
+    border-color: #555;
+    color: var(--text-light);
+}
+
+/* History List */
+.history-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-row {
+    display: grid;
+    grid-template-columns: 160px 80px 1fr;
+    align-items: baseline;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #1e1e1e;
+    gap: 1rem;
+}
+
+.history-row:hover {
+    background: rgba(255,255,255,0.02);
+}
+
+.history-date {
+    font-size: 0.78rem;
+    color: #999;
+    white-space: nowrap;
+}
+
+.history-cat {
+    font-size: 0.72rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+}
+
+.history-name {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+}
+
+.history-tag {
+    font-size: 0.65rem;
+    color: #555;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.history-group-label {
+    font-size: 0.72rem;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}

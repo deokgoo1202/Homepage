@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderSystems(mainSystems);
         renderOtherSystems(otherSystems);
         renderMisc(project.misc);
+        if (id === 'kingsroad') renderHistoryToggle(sorted);
         initScrollAnimations();
         initLightbox();
         initScrollButtons();
@@ -372,6 +373,71 @@ function initScrollButtons() {
 
     btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     btnBottom.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
+}
+
+function renderHistoryToggle(allSystems) {
+    const toggle = document.getElementById('detail-view-toggle');
+    const historySection = document.getElementById('detail-history');
+    const categoryEls = ['detail-toc', 'detail-systems', 'detail-misc-systems', 'detail-misc'];
+
+    toggle.style.display = 'flex';
+
+    // 히스토리 렌더링
+    const withDate = allSystems.filter(s => s.date);
+    const noDate = allSystems.filter(s => !s.date);
+
+    const rows = withDate.map(s => {
+        const catLabel = CATEGORY_LABELS[s.category] || s.category || '';
+        const tag = s.minor ? '<span class="history-tag">기타</span>' : '';
+        return `
+        <div class="history-row">
+            <span class="history-date">${s.date}</span>
+            <span class="history-cat">${catLabel}</span>
+            <span class="history-name">${s.name}${tag}</span>
+        </div>`;
+    }).join('');
+
+    const noDateRows = noDate.length ? `
+        <div class="history-group-label">날짜 미상</div>
+        ${noDate.map(s => {
+            const catLabel = CATEGORY_LABELS[s.category] || s.category || '';
+            const tag = s.minor ? '<span class="history-tag">기타</span>' : '';
+            return `<div class="history-row">
+                <span class="history-date">—</span>
+                <span class="history-cat">${catLabel}</span>
+                <span class="history-name">${s.name}${tag}</span>
+            </div>`;
+        }).join('')}` : '';
+
+    historySection.innerHTML = `<div class="history-list">${rows}${noDateRows}</div>`;
+
+    // 탭 토글
+    const tabCat = document.getElementById('tab-category');
+    const tabHist = document.getElementById('tab-history');
+
+    const showCategory = () => {
+        categoryEls.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = '';
+        });
+        historySection.style.display = 'none';
+        tabCat.classList.add('active');
+        tabHist.classList.remove('active');
+    };
+
+    const showHistory = () => {
+        categoryEls.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = 'none';
+        });
+        historySection.style.display = 'block';
+        tabHist.classList.add('active');
+        tabCat.classList.remove('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    tabCat.addEventListener('click', showCategory);
+    tabHist.addEventListener('click', showHistory);
 }
 
 function showError(msg) {
