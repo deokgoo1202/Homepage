@@ -3,5 +3,5 @@ order: 305
 category: Core
 date: 2025년 9월 26일
 roles: 시스템 기획
-desc: 캐릭터가 위치한 월드 또는 캐릭터 상태에 따른 콘텐츠 접근 여부 관리
+desc: 콘텐츠 해금 여부를 관리하는 시스템
 minor: yes
