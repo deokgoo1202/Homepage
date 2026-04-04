@@ -2,7 +2,7 @@ name: 유물 도감
 order: 47
 category: Growth
 featured: yes
-date: 2025년 1월 15일
+date: 2025년 7월 18일
 roles: 시스템 기획
 desc: 유물 정보를 미리 확인하거나, 미획득한 유물을 설계도를 통해 획득 가능
 sub: 주요 성장, 수집 시스템인 유물에 대한 정보 제공
