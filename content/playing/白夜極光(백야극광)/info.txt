@@ -1,6 +1,0 @@
-name: 白夜極光(백야극광)
-release: 2021년 6월 17일
-developer: TourDog Studio
-platform: Android, iOS
-package: No
-comment: 

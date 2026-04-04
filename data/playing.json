@@ -1,20 +1,5 @@
 [
   {
-    "id": "Albion Online",
-    "name": "Albion Online",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "1.0",
-    "playtime_num": 1.0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "Archeland",
     "name": "Archeland",
     "release": "2022년 12월 7일",
@@ -27,22 +12,8 @@
     "payment": "33500",
     "payment_num": 33500.0,
     "thumbnail": "content/playing/Archeland/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "Assassin's Creed Odyssey(어쌔신 크리드 오디세이)",
-    "name": "Assassin's Creed Odyssey(어쌔신 크리드 오디세이)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/Assassin's Creed Odyssey(어쌔신 크리드 오디세이)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "Assassin's Creed Origins",
@@ -57,7 +28,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Assassin's Creed Origins/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Baldur's Gate 3",
@@ -72,7 +44,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Baldur's Gate 3/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Battle Brothers",
@@ -87,7 +60,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Battle Brothers/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "BioShock Infinite",
@@ -102,7 +76,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/BioShock Infinite/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Borderlands 2",
@@ -117,7 +92,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Borderlands 2/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Brawl Stars",
@@ -132,7 +108,8 @@
     "payment": "36000",
     "payment_num": 36000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "Crimson Desert",
@@ -147,7 +124,8 @@
     "payment": "79800",
     "payment_num": 79800.0,
     "thumbnail": "content/playing/Crimson Desert/thumbnail.jpg",
-    "current": true
+    "current": true,
+    "tasting": false
   },
   {
     "id": "Crusader Kings III",
@@ -162,7 +140,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Crusader Kings III/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Cyberpunk 2077",
@@ -177,7 +156,8 @@
     "payment": "34900",
     "payment_num": 34900.0,
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Darkest Dungeon®",
@@ -192,7 +172,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Darkest Dungeon®/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Divinity Original Sin 2",
@@ -207,7 +188,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Divinity Original Sin 2/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Dota 2",
@@ -222,22 +204,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Dota 2/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "Dragonheir Silent Gods(드래곤에어 침묵의 신)",
-    "name": "Dragonheir Silent Gods(드래곤에어 침묵의 신)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/Dragonheir Silent Gods(드래곤에어 침묵의 신)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "ELDEN RING",
@@ -252,7 +220,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/ELDEN RING/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Eternal Return",
@@ -267,7 +236,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Eternal Return/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Fallout 4",
@@ -282,7 +252,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Fallout 4/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Fallout New Vegas",
@@ -297,7 +268,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Fallout New Vegas/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Far Cry 4",
@@ -312,7 +284,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Far Cry 4/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Football Manager 2016",
@@ -327,7 +300,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2016/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Football Manager 2017",
@@ -342,7 +316,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2017/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Football Manager 2019",
@@ -357,7 +332,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2019/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Frostpunk",
@@ -372,37 +348,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Frostpunk/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)",
-    "name": "Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "Game of Thrones Kingsroad(왕좌의 게임 킹스로드)",
-    "name": "Game of Thrones Kingsroad(왕좌의 게임 킹스로드)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/Game of Thrones Kingsroad(왕좌의 게임 킹스로드)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Grand Theft Auto V Legacy",
@@ -417,7 +364,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Grand Theft Auto V Legacy/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "HEARTHSTONE",
@@ -432,7 +380,8 @@
     "payment": "30000",
     "payment_num": 30000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Heroes Of The Storm(히어로즈 오브 더 스톰)",
@@ -447,7 +396,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Heroes Of The Storm(히어로즈 오브 더 스톰)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Kingdom Come Deliverance",
@@ -462,7 +412,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Kingdom Come Deliverance/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "League Of Legends",
@@ -477,7 +428,8 @@
     "payment": "148800",
     "payment_num": 148800.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "MISTOVER",
@@ -492,7 +444,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/MISTOVER/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Middle-earth™ Shadow of Mordor™",
@@ -507,7 +460,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Middle-earth™ Shadow of Mordor™/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Middle-earth™ Shadow of War™",
@@ -522,7 +476,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Middle-earth™ Shadow of War™/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Mount & Blade II Bannerlord",
@@ -537,7 +492,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Mount & Blade II Bannerlord/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Mount & Blade Warband",
@@ -552,22 +508,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Mount & Blade Warband/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "OVERWATCH 2",
-    "name": "OVERWATCH 2",
-    "release": "2022년 10월 5일",
-    "developer": "Blizzard",
-    "platform": "Windows",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/OVERWATCH 2/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "PUBG BATTLEGROUNDS",
@@ -582,7 +524,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/PUBG BATTLEGROUNDS/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Palworld",
@@ -597,7 +540,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Palworld/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Path Of Exile 2(POE 2)",
@@ -612,7 +556,8 @@
     "payment": "66000",
     "payment_num": 66000.0,
     "thumbnail": "content/playing/Path Of Exile 2(POE 2)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Pillars of Eternity II Deadfire",
@@ -627,22 +572,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Pillars of Eternity II Deadfire/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "RF 온라인 넥스트",
-    "name": "RF 온라인 넥스트",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Ratropolis",
@@ -657,7 +588,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Ratropolis/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Red Dead Redemption 2",
@@ -672,7 +604,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Red Dead Redemption 2/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "RimWorld",
@@ -687,22 +620,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/RimWorld/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "Rise Of Empires Ice and Fire(라이즈 오브 엠파이어)",
-    "name": "Rise Of Empires Ice and Fire(라이즈 오브 엠파이어)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/Rise Of Empires Ice and Fire(라이즈 오브 엠파이어)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Romance of the Three Kingdoms XIII",
@@ -717,7 +636,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Romance of the Three Kingdoms XIII/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Royal Match",
@@ -732,7 +652,8 @@
     "payment": "14000",
     "payment_num": 14000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Sid Meier's Civilization Beyond Earth",
@@ -747,7 +668,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Sid Meier's Civilization Beyond Earth/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Sid Meier's Civilization V",
@@ -762,7 +684,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Sid Meier's Civilization V/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "South Park The Fractured But Whole",
@@ -777,7 +700,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/South Park The Fractured But Whole/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "South Park™ The Stick of Truth™",
@@ -792,7 +716,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/South Park™ The Stick of Truth™/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "THRONE AND LIBERTY",
@@ -807,7 +732,8 @@
     "payment": "49800",
     "payment_num": 49800.0,
     "thumbnail": "content/playing/THRONE AND LIBERTY/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "The Elder Scrolls V Skyrim Special Edition",
@@ -822,22 +748,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "The Legend of Neverland(레전드 오브 네버랜드)",
-    "name": "The Legend of Neverland(레전드 오브 네버랜드)",
-    "release": "2022년 11월 9일",
-    "developer": "Ark Games Global",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "52000",
-    "payment_num": 52000.0,
-    "thumbnail": "content/playing/The Legend of Neverland(레전드 오브 네버랜드)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "This War of Mine",
@@ -852,7 +764,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/This War of Mine/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Thronebreaker The Witcher Tales",
@@ -867,7 +780,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Thronebreaker The Witcher Tales/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War ATTILA",
@@ -882,7 +796,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War ATTILA/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War ROME II - Emperor Edition",
@@ -897,7 +812,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War ROME II - Emperor Edition/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War THREE KINGDOMS",
@@ -912,7 +828,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War THREE KINGDOMS/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War WARHAMMER",
@@ -927,7 +844,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War WARHAMMER II",
@@ -942,7 +860,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER II/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Total War WARHAMMER III",
@@ -957,7 +876,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER III/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "Tropico 5",
@@ -972,7 +892,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Tropico 5/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "World Of Warcraft",
@@ -987,7 +908,8 @@
     "payment": "39600",
     "payment_num": 39600.0,
     "thumbnail": "content/playing/World Of Warcraft/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "XCOM 2",
@@ -1002,7 +924,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/XCOM 2/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "XCOM Enemy Unknown",
@@ -1017,22 +940,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/XCOM Enemy Unknown/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "ウマ娘(우마무스메)",
-    "name": "ウマ娘(우마무스메)",
-    "release": "2022년 6월 20일",
-    "developer": "Cygames",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "47900",
-    "payment_num": 47900.0,
-    "thumbnail": "content/playing/ウマ娘(우마무스메)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "ヘブン バーンズ レッド(헤븐 번즈 레드)",
@@ -1047,7 +956,8 @@
     "payment": "66000",
     "payment_num": 66000.0,
     "thumbnail": "content/playing/ヘブン バーンズ レッド(헤븐 번즈 레드)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "メメントモリ(메멘토 모리)",
@@ -1062,7 +972,8 @@
     "payment": "29000",
     "payment_num": 29000.0,
     "thumbnail": "content/playing/メメントモリ(메멘토 모리)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "原神(원신)",
@@ -1077,7 +988,8 @@
     "payment": "4887000",
     "payment_num": 4887000.0,
     "thumbnail": "content/playing/原神(원신)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "天工之劍(2X)",
@@ -1092,37 +1004,8 @@
     "payment": "25700",
     "payment_num": 25700.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "少女前线 云图计划(뉴럴 클라우드)",
-    "name": "少女前线 云图计划(뉴럴 클라우드)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/少女前线 云图计划(뉴럴 클라우드)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "尘白禁区 塵白禁區(스노우 브레이크 포비든 존)",
-    "name": "尘白禁区 塵白禁區(스노우 브레이크 포비든 존)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/尘白禁区 塵白禁區(스노우 브레이크 포비든 존)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "崩坏：星穹铁道(붕괴 스타레일)",
@@ -1137,22 +1020,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/崩坏：星穹铁道(붕괴 스타레일)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "白夜極光(백야극광)",
-    "name": "白夜極光(백야극광)",
-    "release": "2021년 6월 17일",
-    "developer": "TourDog Studio",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/白夜極光(백야극광)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "绝区零 · 絕區零(젠레스 존 제로)",
@@ -1167,22 +1036,8 @@
     "payment": "380900",
     "payment_num": 380900.0,
     "thumbnail": "content/playing/绝区零 · 絕區零(젠레스 존 제로)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "重返未来 1999(리버스 1999)",
-    "name": "重返未来 1999(리버스 1999)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/重返未来 1999(리버스 1999)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "鸣潮(명조 워더링 웨이브)",
@@ -1197,7 +1052,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "龙之国物语(아카디아M)",
@@ -1212,7 +1068,8 @@
     "payment": "1600",
     "payment_num": 1600.0,
     "thumbnail": "content/playing/龙之国物语(아카디아M)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "가디언 테일즈",
@@ -1227,7 +1084,8 @@
     "payment": "157000",
     "payment_num": 157000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "나 혼자만 레벨업 어라이즈",
@@ -1242,7 +1100,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/나 혼자만 레벨업 어라이즈/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "나이트 워커",
@@ -1257,7 +1116,8 @@
     "payment": "30000",
     "payment_num": 30000.0,
     "thumbnail": "content/playing/나이트 워커/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "나이트크로우",
@@ -1272,22 +1132,8 @@
     "payment": "253000",
     "payment_num": 253000.0,
     "thumbnail": "content/playing/나이트크로우/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "낚시의 신 크루",
-    "name": "낚시의 신 크루",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/낚시의 신 크루/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "더 스타라이트",
@@ -1302,7 +1148,8 @@
     "payment": "162600",
     "payment_num": 162600.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "던전앤파이터",
@@ -1317,7 +1164,8 @@
     "payment": "500000",
     "payment_num": 500000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "던전앤파이터 모바일",
@@ -1332,22 +1180,8 @@
     "payment": "103600",
     "payment_num": 103600.0,
     "thumbnail": "content/playing/던전앤파이터 모바일/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "드래곤소드",
-    "name": "드래곤소드",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/드래곤소드/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "디펜스 더비",
@@ -1362,22 +1196,8 @@
     "payment": "97700",
     "payment_num": 97700.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "레이드 컨닝페이퍼",
-    "name": "레이드 컨닝페이퍼",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/레이드 컨닝페이퍼/thumbnail.jpg",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "레이븐 2",
@@ -1392,37 +1212,8 @@
     "payment": "58800",
     "payment_num": 58800.0,
     "thumbnail": "content/playing/레이븐 2/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "레전드 오브 슬라임 방치형 RPG",
-    "name": "레전드 오브 슬라임 방치형 RPG",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/레전드 오브 슬라임 방치형 RPG/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "로드나인",
-    "name": "로드나인",
-    "release": "2024년 7월 12일",
-    "developer": "엔엑스쓰리게임즈",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/로드나인/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "로스트아크",
@@ -1437,22 +1228,8 @@
     "payment": "12098500",
     "payment_num": 12098500.0,
     "thumbnail": "content/playing/로스트아크/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "리니지2 레볼루션",
-    "name": "리니지2 레볼루션",
-    "release": "2016년 12월 14일",
-    "developer": "넷마블 네오",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/리니지2 레볼루션/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "리니지2M",
@@ -1467,7 +1244,8 @@
     "payment": "1815000",
     "payment_num": 1815000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "리니지W",
@@ -1482,7 +1260,8 @@
     "payment": "10582000",
     "payment_num": 10582000.0,
     "thumbnail": "content/playing/리니지W/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "마비노기 모바일",
@@ -1497,7 +1276,8 @@
     "payment": "519300",
     "payment_num": 519300.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "마비노기 영웅전",
@@ -1512,7 +1292,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/마비노기 영웅전/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "메이플 키우기",
@@ -1527,7 +1308,8 @@
     "payment": "9000",
     "payment_num": 9000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "명일방주_ 엔드필드",
@@ -1542,7 +1324,8 @@
     "payment": "85100",
     "payment_num": 85100.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "뱀피르",
@@ -1557,22 +1340,8 @@
     "payment": "491700",
     "payment_num": 491700.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "브라운더스트 2",
-    "name": "브라운더스트 2",
-    "release": "2023년 2월 22일",
-    "developer": "겜프스",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/브라운더스트 2/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "블레이드 & 소울 2",
@@ -1587,7 +1356,8 @@
     "payment": "33000",
     "payment_num": 33000.0,
     "thumbnail": "content/playing/블레이드 & 소울 2/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "블루 아카이브",
@@ -1602,7 +1372,8 @@
     "payment": "239900",
     "payment_num": 239900.0,
     "thumbnail": "content/playing/블루 아카이브/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "서머너즈 워 _ 크로니클",
@@ -1617,7 +1388,8 @@
     "payment": "487800",
     "payment_num": 487800.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "서머너즈 워 백년전쟁",
@@ -1632,7 +1404,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "세븐나이츠 레볼루션",
@@ -1647,7 +1420,8 @@
     "payment": "262000",
     "payment_num": 262000.0,
     "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "세븐나이츠 키우기",
@@ -1662,7 +1436,8 @@
     "payment": "12900",
     "payment_num": 12900.0,
     "thumbnail": "content/playing/세븐나이츠 키우기/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "소울 스트라이크",
@@ -1677,22 +1452,8 @@
     "payment": "114380",
     "payment_num": 114380.0,
     "thumbnail": "content/playing/소울 스트라이크/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "스타시드 아스니아 트리거",
-    "name": "스타시드 아스니아 트리거",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/스타시드 아스니아 트리거/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "승리의 여신 니케",
@@ -1707,37 +1468,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "아스달 연대기 세 개의 세력",
-    "name": "아스달 연대기 세 개의 세력",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/아스달 연대기 세 개의 세력/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "아이온 2",
-    "name": "아이온 2",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "아키에이지 워",
@@ -1752,22 +1484,8 @@
     "payment": "79000",
     "payment_num": 79000.0,
     "thumbnail": "content/playing/아키에이지 워/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "안녕 엘라",
-    "name": "안녕 엘라",
-    "release": "2022년 11월 9일",
-    "developer": "Com2us Holdings",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/안녕 엘라/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "어나더던전",
@@ -1782,7 +1500,8 @@
     "payment": "67400",
     "payment_num": 67400.0,
     "thumbnail": "content/playing/어나더던전/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "에버소울",
@@ -1797,22 +1516,8 @@
     "payment": "3000",
     "payment_num": 3000.0,
     "thumbnail": "content/playing/에버소울/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "연운",
-    "name": "연운",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
+    "current": false,
+    "tasting": true
   },
   {
     "id": "오딘_ 발할라 라이징",
@@ -1827,37 +1532,8 @@
     "payment": "2287600",
     "payment_num": 2287600.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "제2의 나라 Cross Worlds",
-    "name": "제2의 나라 Cross Worlds",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/제2의 나라 Cross Worlds/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "제노니아 크로노브레이크",
-    "name": "제노니아 크로노브레이크",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/제노니아 크로노브레이크/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "카오스 제로 나이트메어",
@@ -1872,22 +1548,8 @@
     "payment": "210500",
     "payment_num": 210500.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "커츠펠",
-    "name": "커츠펠",
-    "release": "2022년 2월 15일",
-    "developer": "KOG",
-    "platform": "Windows",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/커츠펠/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "컴투스프로야구 V22",
@@ -1902,37 +1564,8 @@
     "payment": "379900",
     "payment_num": 379900.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "쿠키런 모험의 탑",
-    "name": "쿠키런 모험의 탑",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/쿠키런 모험의 탑/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "탕탕특공대(Survivor io)",
-    "name": "탕탕특공대(Survivor io)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/탕탕특공대(Survivor io)/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "트릭컬 리바이브",
@@ -1947,22 +1580,8 @@
     "payment": "2374500",
     "payment_num": 2374500.0,
     "thumbnail": "content/playing/트릭컬 리바이브/thumbnail.png",
-    "current": true
-  },
-  {
-    "id": "퍼스트 디센던트",
-    "name": "퍼스트 디센던트",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
+    "current": true,
+    "tasting": false
   },
   {
     "id": "프라시아 전기",
@@ -1977,7 +1596,8 @@
     "payment": "27228890",
     "payment_num": 27228890.0,
     "thumbnail": "content/playing/프라시아 전기/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "호연",
@@ -1992,7 +1612,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/호연/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   },
   {
     "id": "히트2",
@@ -2007,6 +1628,7 @@
     "payment": "111000",
     "payment_num": 111000.0,
     "thumbnail": "content/playing/히트2/thumbnail.png",
-    "current": false
+    "current": false,
+    "tasting": false
   }
 ]

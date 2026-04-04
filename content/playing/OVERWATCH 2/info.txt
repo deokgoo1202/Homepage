@@ -1,6 +1,0 @@
-name: OVERWATCH 2
-release: 2022년 10월 5일
-developer: Blizzard
-platform: Windows
-package: No
-comment: 

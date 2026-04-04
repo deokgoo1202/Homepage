@@ -5,3 +5,4 @@ platform: Android, Windows, iOS
 package: No
 comment: 
 payment: 79000
+tasting: yes

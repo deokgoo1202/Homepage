@@ -1,6 +1,0 @@
-name: 브라운더스트 2
-release: 2023년 2월 22일
-developer: 겜프스
-platform: Android, iOS
-package: No
-comment: 

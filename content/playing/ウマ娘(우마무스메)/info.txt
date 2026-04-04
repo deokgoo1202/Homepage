@@ -1,7 +1,0 @@
-name: ウマ娘(우마무스메)
-release: 2022년 6월 20일
-developer: Cygames
-platform: Android, iOS
-package: No
-comment: 
-payment: 47900

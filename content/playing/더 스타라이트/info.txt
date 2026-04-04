@@ -5,3 +5,4 @@ platform:
 package: No
 comment: 
 payment: 162600
+tasting: yes

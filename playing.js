@@ -1,12 +1,10 @@
 let allGames = [];
-let currentSort = 'playtime';
 let currentTab = 'all';
 let firstRender = true;
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadGames();
     initTabs();
-    initSortButtons();
     initScrollButtons();
 });
 
@@ -71,20 +69,39 @@ function updateStats(games) {
 
 function getFilteredGames() {
     if (currentTab === 'all') return allGames;
-    if (currentTab === 'package') return allGames.filter(g => g.package === 'Yes');
-    if (currentTab === 'live') return allGames.filter(g => g.package !== 'Yes');
+    if (currentTab === 'live') return allGames.filter(g => g.package !== 'Yes' && !g.tasting);
+    if (currentTab === 'package') return allGames.filter(g => g.package === 'Yes' && !g.tasting);
+    if (currentTab === 'tasting') return allGames.filter(g => g.tasting);
     return allGames;
+}
+
+function getSortKey(g) {
+    if (currentTab === 'live' || currentTab === 'tasting') return g.payment_num || 0;
+    if (currentTab === 'package') return g.playtime_num || 0;
+    // 전체: tasting 맨 아래, 라이브는 과금순, 패키지는 플레이시간순
+    return 0;
 }
 
 function renderGames() {
     const grid = document.getElementById('playing-grid');
 
     const filtered = getFilteredGames();
-    const sorted = [...filtered].sort((a, b) => {
-        const aVal = a.playtime_num || 0;
-        const bVal = b.playtime_num || 0;
-        return bVal - aVal;
-    });
+    let sorted;
+
+    if (currentTab === 'all') {
+        const normal = filtered.filter(g => !g.tasting);
+        const tasting = filtered.filter(g => g.tasting);
+        const sortNormal = (a, b) => {
+            if (a.package === 'Yes' && b.package !== 'Yes') return -1;
+            if (a.package !== 'Yes' && b.package === 'Yes') return 1;
+            if (a.package === 'Yes') return (b.playtime_num || 0) - (a.playtime_num || 0);
+            return (b.payment_num || 0) - (a.payment_num || 0);
+        };
+        const sortTasting = (a, b) => (b.payment_num || 0) - (a.payment_num || 0);
+        sorted = [...normal].sort(sortNormal).concat([...tasting].sort(sortTasting));
+    } else {
+        sorted = [...filtered].sort((a, b) => getSortKey(b) - getSortKey(a));
+    }
 
     updateStats();
 
@@ -131,30 +148,12 @@ function renderGames() {
     });
 }
 
-const TAB_DEFAULT_SORT = {
-    all: 'playtime',
-    package: 'playtime',
-    live: 'playtime',
-};
-
 function initTabs() {
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentTab = btn.dataset.tab;
-            currentSort = TAB_DEFAULT_SORT[currentTab] || 'playtime';
-            renderGames();
-        });
-    });
-}
-
-function initSortButtons() {
-    document.querySelectorAll('.sort-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentSort = btn.dataset.sort;
             renderGames();
         });
     });

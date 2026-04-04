@@ -1,6 +1,0 @@
-name: 드래곤소드
-release: 
-developer: 
-platform: 
-package: No
-comment: 

@@ -1,7 +1,0 @@
-name: The Legend of Neverland(레전드 오브 네버랜드)
-release: 2022년 11월 9일
-developer: Ark Games Global
-platform: Android, iOS
-package: No
-comment: 
-payment: 52000
