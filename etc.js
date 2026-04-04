@@ -19,7 +19,7 @@ async function loadEtc() {
                 <div class="etc-card page-card-enter" style="animation-delay:${0.2 + i * 0.06}s">
                     <div class="etc-thumb-wrapper">${thumb}</div>
                     <div class="etc-info">
-                        <div class="etc-dates">${item.start} – ${item.end}</div>
+                        <div class="etc-dates">${item.end}</div>
                         <div class="etc-name">${item.title}</div>
                         ${item.desc ? `<div class="etc-desc">${item.desc}</div>` : ''}
                     </div>
