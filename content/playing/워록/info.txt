@@ -1,2 +1,3 @@
 name: 워록
 childhood: yes
+release: 2004

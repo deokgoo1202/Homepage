@@ -1,2 +1,3 @@
 name: 바람의 나라
 childhood: yes
+release: 1996

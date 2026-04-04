@@ -1,2 +1,3 @@
 name: 디아블로 3: 영혼을 거두는 자
 childhood: yes
+release: 2014

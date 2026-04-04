@@ -1,2 +1,3 @@
 name: 믹스마스터
 childhood: yes
+release: 2003

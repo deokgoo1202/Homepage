@@ -1,2 +1,3 @@
 name: 서든어택
 childhood: yes
+release: 2005

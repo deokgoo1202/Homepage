@@ -1,2 +1,3 @@
 name: 스타크래프트 2
 childhood: yes
+release: 2010

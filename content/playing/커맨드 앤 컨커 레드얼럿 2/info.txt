@@ -1,2 +1,3 @@
 name: 커맨드 앤 컨커 레드얼럿 2
 childhood: yes
+release: 2000

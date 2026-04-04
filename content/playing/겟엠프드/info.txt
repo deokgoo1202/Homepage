@@ -1,2 +1,3 @@
 name: 겟엠프드
 childhood: yes
+release: 2002

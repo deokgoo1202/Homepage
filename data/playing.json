@@ -128,7 +128,7 @@
   {
     "id": "C9",
     "name": "C9",
-    "release": "",
+    "release": "2012",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -416,7 +416,7 @@
   {
     "id": "GTA 4",
     "name": "GTA 4",
-    "release": "",
+    "release": "2008",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -434,7 +434,7 @@
   {
     "id": "GTA 바이스 시티",
     "name": "GTA: 바이스 시티",
-    "release": "",
+    "release": "2002",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1280,7 +1280,7 @@
   {
     "id": "건즈",
     "name": "건즈",
-    "release": "",
+    "release": "2003",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1298,7 +1298,7 @@
   {
     "id": "겟엠프드",
     "name": "겟엠프드",
-    "release": "",
+    "release": "2002",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1370,7 +1370,7 @@
   {
     "id": "다크에덴",
     "name": "다크에덴",
-    "release": "",
+    "release": "1997",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1442,7 +1442,7 @@
   {
     "id": "디아블로 1",
     "name": "디아블로 1",
-    "release": "",
+    "release": "1996",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1460,7 +1460,7 @@
   {
     "id": "디아블로 2",
     "name": "디아블로 2",
-    "release": "",
+    "release": "2000",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1478,7 +1478,7 @@
   {
     "id": "디아블로 3",
     "name": "디아블로 3",
-    "release": "",
+    "release": "2012",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1496,7 +1496,7 @@
   {
     "id": "디아블로 3 영혼을 거두는 자",
     "name": "디아블로 3: 영혼을 거두는 자",
-    "release": "",
+    "release": "2014",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1568,7 +1568,7 @@
   {
     "id": "롤러코스터 타이쿤",
     "name": "롤러코스터 타이쿤",
-    "release": "",
+    "release": "1999",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1658,7 +1658,7 @@
   {
     "id": "마인크래프트",
     "name": "마인크래프트",
-    "release": "",
+    "release": "2011",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1694,7 +1694,7 @@
   {
     "id": "메이플스토리",
     "name": "메이플스토리",
-    "release": "",
+    "release": "2003",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1730,7 +1730,7 @@
   {
     "id": "믹스마스터",
     "name": "믹스마스터",
-    "release": "",
+    "release": "2003",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1748,7 +1748,7 @@
   {
     "id": "바람의 나라",
     "name": "바람의 나라",
-    "release": "",
+    "release": "1996",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1766,7 +1766,7 @@
   {
     "id": "배틀필드 온라인",
     "name": "배틀필드 온라인",
-    "release": "",
+    "release": "2009",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1838,7 +1838,7 @@
   {
     "id": "서든어택",
     "name": "서든어택",
-    "release": "",
+    "release": "2005",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1946,7 +1946,7 @@
   {
     "id": "스타크래프트",
     "name": "스타크래프트",
-    "release": "",
+    "release": "1998",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -1964,7 +1964,7 @@
   {
     "id": "스타크래프트 2",
     "name": "스타크래프트 2",
-    "release": "",
+    "release": "2010",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2000,7 +2000,7 @@
   {
     "id": "아발론 온라인",
     "name": "아발론 온라인",
-    "release": "",
+    "release": "2005",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2072,7 +2072,7 @@
   {
     "id": "엘더스크롤 4 오블리비언",
     "name": "엘더스크롤 4: 오블리비언",
-    "release": "",
+    "release": "2006",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2090,7 +2090,7 @@
   {
     "id": "엘리온",
     "name": "엘리온",
-    "release": "",
+    "release": "2021",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2126,7 +2126,7 @@
   {
     "id": "워록",
     "name": "워록",
-    "release": "",
+    "release": "2004",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2144,7 +2144,7 @@
   {
     "id": "워크래프트 III 레인 오브 카오스",
     "name": "워크래프트 III: 레인 오브 카오스",
-    "release": "",
+    "release": "2002",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2162,7 +2162,7 @@
   {
     "id": "워크래프트 III 프로즌 쓰론",
     "name": "워크래프트 III: 프로즌 쓰론",
-    "release": "",
+    "release": "2003",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2180,7 +2180,7 @@
   {
     "id": "천하제일 거상",
     "name": "천하제일 거상",
-    "release": "",
+    "release": "2002",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2216,7 +2216,7 @@
   {
     "id": "카트라이더",
     "name": "카트라이더",
-    "release": "",
+    "release": "2004",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2234,7 +2234,7 @@
   {
     "id": "커맨드 앤 컨커 레드얼럿 2",
     "name": "커맨드 앤 컨커 레드얼럿 2",
-    "release": "",
+    "release": "2000",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2270,7 +2270,7 @@
   {
     "id": "쿠키런",
     "name": "쿠키런",
-    "release": "",
+    "release": "2013",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2288,7 +2288,7 @@
   {
     "id": "큐플레이",
     "name": "큐플레이",
-    "release": "",
+    "release": "2004",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2306,7 +2306,7 @@
   {
     "id": "크레이지 아케이드",
     "name": "크레이지 아케이드",
-    "release": "",
+    "release": "2002",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2324,7 +2324,7 @@
   {
     "id": "테일즈런너",
     "name": "테일즈런너",
-    "release": "",
+    "release": "2005",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2360,7 +2360,7 @@
   {
     "id": "포트리스",
     "name": "포트리스",
-    "release": "",
+    "release": "1999",
     "developer": "",
     "platform": "",
     "package": "No",
@@ -2396,7 +2396,7 @@
   {
     "id": "헬게이트 런던",
     "name": "헬게이트 런던",
-    "release": "",
+    "release": "2007",
     "developer": "",
     "platform": "",
     "package": "No",

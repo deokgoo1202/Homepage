@@ -85,7 +85,8 @@ function getFilteredGames() {
 
 function getSortKey(g) {
     if (currentTab === 'live' || currentTab === 'tasting') return g.payment_num || 0;
-    if (currentTab === 'package' || currentTab === 'childhood') return g.playtime_num || 0;
+    if (currentTab === 'package') return g.playtime_num || 0;
+    if (currentTab === 'childhood') return parseInt(g.release) || 0;
     return 0;
 }
 

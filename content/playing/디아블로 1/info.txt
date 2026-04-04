@@ -1,2 +1,3 @@
 name: 디아블로 1
 childhood: yes
+release: 1996

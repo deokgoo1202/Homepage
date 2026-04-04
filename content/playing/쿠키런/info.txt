@@ -1,2 +1,3 @@
 name: 쿠키런
 childhood: yes
+release: 2013

@@ -1,2 +1,3 @@
 name: 디아블로 2
 childhood: yes
+release: 2000
