@@ -8,6 +8,15 @@
     margin-bottom: 3rem;
 }
 
+.etc-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.6rem;
+}
+
 .etc-title {
     font-size: 2.8rem;
     font-weight: 700;
