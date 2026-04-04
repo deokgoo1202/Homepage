@@ -2,6 +2,6 @@ name: The Elder Scrolls V: Skyrim
 release: 
 developer: 
 platform: 
-package: No
+package: Yes
 comment: 
 playtime: 94.6

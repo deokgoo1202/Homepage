@@ -2,6 +2,6 @@ name: ELDEN RING
 release: 
 developer: 
 platform: 
-package: No
+package: Yes
 comment: 
 playtime: 95.7
