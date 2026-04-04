@@ -1,0 +1,2 @@
+name: 롤러코스터 타이쿤
+childhood: yes

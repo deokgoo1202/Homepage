@@ -1,0 +1,2 @@
+name: 믹스마스터
+childhood: yes

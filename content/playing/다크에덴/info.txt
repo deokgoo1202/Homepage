@@ -1,0 +1,2 @@
+name: 다크에덴
+childhood: yes

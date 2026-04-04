@@ -1,0 +1,2 @@
+name: 천하제일 거상
+childhood: yes

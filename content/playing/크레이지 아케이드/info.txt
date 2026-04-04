@@ -1,0 +1,2 @@
+name: 크레이지 아케이드
+childhood: yes

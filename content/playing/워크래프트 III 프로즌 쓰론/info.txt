@@ -1,0 +1,2 @@
+name: 워크래프트 III: 프로즌 쓰론
+childhood: yes

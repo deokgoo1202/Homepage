@@ -1,0 +1,2 @@
+name: 아발론 온라인
+childhood: yes
