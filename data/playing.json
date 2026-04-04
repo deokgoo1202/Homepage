@@ -1354,7 +1354,7 @@
     "playtime_num": 0,
     "payment": "519300",
     "payment_num": 519300.0,
-    "thumbnail": "content/playing/마비노기 모바일/thumbnail.jpg",
+    "thumbnail": "content/playing/마비노기 모바일/thumbnail.webp",
     "current": false,
     "current_order": 99,
     "tasting": false
@@ -1422,7 +1422,7 @@
     "playtime_num": 0,
     "payment": "491700",
     "payment_num": 491700.0,
-    "thumbnail": "content/playing/뱀피르/thumbnail.jpg",
+    "thumbnail": "",
     "current": false,
     "current_order": 99,
     "tasting": false
