@@ -1,6 +1,6 @@
 name: 조작
 order: 59
-category: UX
+category: Core
 date: 2024년 11월 27일
 roles: 시스템 기획
-desc:
+desc: PC 키매핑, 게임패드 대응

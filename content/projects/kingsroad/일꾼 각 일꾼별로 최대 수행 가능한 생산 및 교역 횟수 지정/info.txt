@@ -4,4 +4,4 @@ category: Management
 date: 2025년 8월 21일
 roles: 시스템 기획
 desc:
-minor: yes
+hidden: yes

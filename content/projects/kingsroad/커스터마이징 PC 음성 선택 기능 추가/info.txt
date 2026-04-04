@@ -3,4 +3,4 @@ order: 62
 category: Collect
 date: 2024년 8월 5일
 roles: 시스템 기획
-desc:
+desc: 캐릭터 음성을 선호에 따라 변경할 수 있는 기능

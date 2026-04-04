@@ -85,7 +85,7 @@
         "order": 4,
         "category": "BM",
         "date": "2024년 5월 24일",
-        "featured": false,
+        "featured": true,
         "hidden": false,
         "minor": false,
         "roles": [
@@ -124,7 +124,7 @@
         "order": 6,
         "category": "BM",
         "date": "2024년 5월 24일",
-        "featured": false,
+        "featured": true,
         "hidden": false,
         "minor": false,
         "roles": [
@@ -372,6 +372,18 @@
           {
             "file": "content/projects/kingsroad/생산/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/생산/생산 1.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/생산/생산 2.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/생산/생산 3.png",
+            "caption": ""
           }
         ]
       },
@@ -602,7 +614,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/PC 키매핑.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "RP 충전 시 상품 안내",
@@ -639,7 +656,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가/가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "계정 탈퇴",
@@ -668,8 +690,8 @@
         "category": "Trade",
         "date": "2024년 11월 15일",
         "featured": false,
-        "hidden": false,
-        "minor": true,
+        "hidden": true,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -759,7 +781,7 @@
         "images": []
       },
       {
-        "name": "지렁이길 내 특정 스테이지 처리",
+        "name": "특정 스테이지가 해금되는 시점을 설정할 수 있도록 처리",
         "order": 36,
         "category": "Dungeon",
         "date": "2025년 7월 3일",
@@ -813,7 +835,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/빠른 이동 시 비용 요구 기능 추가/빠른 이동 시 비용 요구 기능 추가.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급",
@@ -829,7 +856,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급/세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "언어",
@@ -883,7 +915,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/우편 보상 정렬 규칙 추가/우편 보상 정렬 규칙 추가.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "우편에 ‘영구 보관’ 기능 추가",
@@ -915,7 +952,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/월드맵 탐험 콘텐츠 출력 개선/월드맵 탐험 콘텐츠 출력 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "웹뷰",
@@ -1003,7 +1045,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리/유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응",
@@ -1011,7 +1058,7 @@
         "category": "UX",
         "date": "2024년 9월 11일",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "시스템 기획"
@@ -1020,6 +1067,35 @@
         "sub": "",
         "bullets": [],
         "images": []
+      },
+      {
+        "name": "유물 탐사",
+        "order": 50,
+        "category": "Collect",
+        "date": "2024년 9월 11일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물탐사/유물 탐사 1.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물탐사/유물 탐사 2.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물탐사/유물 탐사 3.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "일괄 장착",
@@ -1052,8 +1128,8 @@
         "category": "Management",
         "date": "2025년 8월 21일",
         "featured": false,
-        "hidden": false,
-        "minor": true,
+        "hidden": true,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
@@ -1134,7 +1210,7 @@
       {
         "name": "조작",
         "order": 59,
-        "category": "UX",
+        "category": "Core",
         "date": "2024년 11월 27일",
         "featured": false,
         "hidden": false,
@@ -1142,7 +1218,7 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
+        "desc": "PC 키매핑, 게임패드 대응",
         "sub": "",
         "bullets": [],
         "images": []
@@ -1201,7 +1277,7 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
+        "desc": "캐릭터 음성을 선호에 따라 변경할 수 있는 기능",
         "sub": "",
         "bullets": [],
         "images": []
@@ -1275,7 +1351,7 @@
         ]
       },
       {
-        "name": "패스 즉시 달성 못하게 하는 처리",
+        "name": "필요에 따라 패스 즉시 달성 못하게 하는 처리",
         "order": 68,
         "category": "BM",
         "date": "2025년 6월 17일",
@@ -1288,7 +1364,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/패스 즉시 달성 못하게 하는 처리/필요에 따라 패스 즉시 달성 못하게 하는 처리.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "프롤로그 스킵 기능 구현",

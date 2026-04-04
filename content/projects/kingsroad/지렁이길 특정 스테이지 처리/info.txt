@@ -1,4 +1,4 @@
-name: 지렁이길 내 특정 스테이지 처리
+name: 특정 스테이지가 해금되는 시점을 설정할 수 있도록 처리
 order: 36
 category: Dungeon
 date: 2025년 7월 3일
