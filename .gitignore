@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 
+# Steam credentials
+steam_config.py
+
 # OS
 desktop.ini
 .DS_Store

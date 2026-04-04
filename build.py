@@ -4,8 +4,47 @@ build.py — content/ 폴더를 스캔해서 data/projects.json 생성
 """
 import os
 import json
+import re
+import urllib.request
 
 CONTENT_DIR = os.path.join(os.path.dirname(__file__), "content", "projects")
+
+# Steam 플레이타임 캐시 (build 실행 시 1회 fetch)
+_steam_playtime = None  # appid(int) -> minutes(int)
+
+
+def _normalize(name):
+    """이름 비교용 정규화: 소문자, 특수문자·공백 제거"""
+    return re.sub(r"[^a-z0-9가-힣]", "", name.lower())
+
+
+def fetch_steam_playtime():
+    """Steam API에서 게임별 플레이타임(분) 딕셔너리 반환. 실패 시 {}"""
+    global _steam_playtime
+    if _steam_playtime is not None:
+        return _steam_playtime
+    try:
+        from steam_config import STEAM_API_KEY, STEAM_ID
+        url = (
+            f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/"
+            f"?key={STEAM_API_KEY}&steamid={STEAM_ID}"
+            f"&include_appinfo=true&format=json"
+        )
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
+        games = data.get("response", {}).get("games", [])
+        # appid -> minutes, name -> minutes (정규화된 이름으로도 접근)
+        by_appid = {g["appid"]: g["playtime_forever"] for g in games}
+        by_name = {_normalize(g["name"]): g["playtime_forever"] for g in games}
+        _steam_playtime = {"by_appid": by_appid, "by_name": by_name}
+        print(f"Steam: {len(games)}개 게임 플레이타임 로드")
+    except ImportError:
+        _steam_playtime = {}
+    except Exception as e:
+        print(f"Steam API 실패 (무시): {e}")
+        _steam_playtime = {}
+    return _steam_playtime
 PLAYING_DIR = os.path.join(os.path.dirname(__file__), "content", "playing")
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "data", "projects.json")
 PLAYING_FILE = os.path.join(os.path.dirname(__file__), "data", "playing.json")
@@ -109,6 +148,10 @@ def build_project(project_id, project_folder):
 
 
 def build_playing():
+    steam = fetch_steam_playtime()
+    steam_by_appid = steam.get("by_appid", {})
+    steam_by_name = steam.get("by_name", {})
+
     games = []
     if not os.path.isdir(PLAYING_DIR):
         return games
@@ -125,8 +168,22 @@ def build_playing():
                 thumbnail = f"content/playing/{entry}/{fname}"
                 break
 
-        # playtime을 숫자로 파싱 (정렬용)
+        # playtime: package 게임은 Steam API 우선, 없으면 info.txt
+        is_package = info.get("package", "No").lower() == "yes"
         playtime_raw = info.get("playtime", "")
+        if is_package and steam_by_appid:
+            appid = info.get("appid", "")
+            steam_minutes = None
+            if appid:
+                steam_minutes = steam_by_appid.get(int(appid))
+            if steam_minutes is None:
+                # 이름으로 매칭 시도
+                game_name = info.get("name", entry)
+                key = _normalize(game_name)
+                steam_minutes = steam_by_name.get(key)
+            if steam_minutes is not None:
+                playtime_raw = str(round(steam_minutes / 60, 1))
+
         try:
             playtime_num = float(playtime_raw) if playtime_raw else 0
         except ValueError:
