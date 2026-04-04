@@ -1,3 +1,7 @@
-name: The Elder Scrolls V: Skyrim Special Edition
-package: Yes
+name: 스카이림
+release: 
+developer: 
+platform: 
+package: No
+comment: 
 playtime: 94.6

@@ -1,5 +1,20 @@
 [
   {
+    "id": "ARC Raiders",
+    "name": "아크 레이더스",
+    "release": "2026",
+    "developer": "Nexon",
+    "platform": "PC",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "2.4",
+    "playtime_num": 2.4,
+    "payment": "58900",
+    "payment_num": 58900.0,
+    "thumbnail": "content/playing/ARC Raiders/thumbnail.jpg",
+    "current": false
+  },
+  {
     "id": "Albion Online",
     "name": "Albion Online",
     "release": "",
@@ -150,6 +165,21 @@
     "current": false
   },
   {
+    "id": "Crimson Desert",
+    "name": "붉은사막",
+    "release": "2026",
+    "developer": "Pearl Abyss",
+    "platform": "PC",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "2.1",
+    "playtime_num": 2.1,
+    "payment": "79800",
+    "payment_num": 79800.0,
+    "thumbnail": "content/playing/Crimson Desert/thumbnail.jpg",
+    "current": true
+  },
+  {
     "id": "Crusader Kings III",
     "name": "Crusader Kings III",
     "release": "",
@@ -237,6 +267,36 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Dragonheir Silent Gods(드래곤에어 침묵의 신)/thumbnail.png",
+    "current": false
+  },
+  {
+    "id": "ELDEN RING",
+    "name": "엘든 링",
+    "release": "",
+    "developer": "",
+    "platform": "",
+    "package": "No",
+    "comment": "",
+    "playtime": "95.7",
+    "playtime_num": 95.7,
+    "payment": "",
+    "payment_num": 0,
+    "thumbnail": "content/playing/ELDEN RING/thumbnail.jpg",
+    "current": false
+  },
+  {
+    "id": "Eternal Return",
+    "name": "이터널 리턴",
+    "release": "2020년 10월 14일",
+    "developer": "님블뉴런",
+    "platform": "Windows",
+    "package": "No",
+    "comment": "",
+    "playtime": "36.4",
+    "playtime_num": 36.4,
+    "payment": "",
+    "payment_num": 0,
+    "thumbnail": "content/playing/Eternal Return/thumbnail.png",
     "current": false
   },
   {
@@ -720,6 +780,21 @@
     "current": false
   },
   {
+    "id": "Shape of Dreams",
+    "name": "쉐이프 오브 드림즈",
+    "release": "2024",
+    "developer": "Pearl Abyss",
+    "platform": "PC, Mobile",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "9.7",
+    "playtime_num": 9.7,
+    "payment": "27000",
+    "payment_num": 27000.0,
+    "thumbnail": "content/playing/Shape of Dreams/thumbnail.jpg",
+    "current": false
+  },
+  {
     "id": "Sid Meier's Civilization Beyond Earth",
     "name": "Sid Meier's Civilization: Beyond Earth",
     "release": "",
@@ -780,18 +855,48 @@
     "current": false
   },
   {
+    "id": "Stellar Blade™",
+    "name": "스텔라 블레이드",
+    "release": "2024",
+    "developer": "Shift Up",
+    "platform": "PS5, PC",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "8.3",
+    "playtime_num": 8.3,
+    "payment": "67000",
+    "payment_num": 67000.0,
+    "thumbnail": "content/playing/Stellar Blade™/thumbnail.jpg",
+    "current": false
+  },
+  {
+    "id": "THRONE AND LIBERTY",
+    "name": "쓰론 앤 리버티",
+    "release": "2023년 12월 7일",
+    "developer": "엔씨소프트",
+    "platform": "Windows, macOS",
+    "package": "No",
+    "comment": "",
+    "playtime": "57.0",
+    "playtime_num": 57.0,
+    "payment": "49800",
+    "payment_num": 49800.0,
+    "thumbnail": "content/playing/THRONE AND LIBERTY/thumbnail.png",
+    "current": false
+  },
+  {
     "id": "The Elder Scrolls V Skyrim Special Edition",
-    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "name": "스카이림",
     "release": "",
     "developer": "",
     "platform": "",
-    "package": "Yes",
+    "package": "No",
     "comment": "",
     "playtime": "94.6",
     "playtime_num": 94.6,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.jpg",
+    "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.png",
     "current": false
   },
   {
@@ -1575,21 +1680,6 @@
     "current": false
   },
   {
-    "id": "붉은사막",
-    "name": "붉은사막",
-    "release": "2026",
-    "developer": "Pearl Abyss",
-    "platform": "PC",
-    "package": "Yes",
-    "comment": "",
-    "playtime": "2.1",
-    "playtime_num": 2.1,
-    "payment": "79800",
-    "payment_num": 79800.0,
-    "thumbnail": "",
-    "current": true
-  },
-  {
     "id": "브라운더스트 2",
     "name": "브라운더스트 2",
     "release": "2023년 2월 22일",
@@ -1725,36 +1815,6 @@
     "current": false
   },
   {
-    "id": "쉐이프 오브 드림즈(Shape Of Dreams)",
-    "name": "쉐이프 오브 드림즈",
-    "release": "2024",
-    "developer": "Pearl Abyss",
-    "platform": "PC, Mobile",
-    "package": "Yes",
-    "comment": "",
-    "playtime": "9.7",
-    "playtime_num": 9.7,
-    "payment": "27000",
-    "payment_num": 27000.0,
-    "thumbnail": "content/playing/쉐이프 오브 드림즈(Shape Of Dreams)/thumbnail.jpg",
-    "current": false
-  },
-  {
-    "id": "스카이림",
-    "name": "스카이림",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "94.6",
-    "playtime_num": 94.6,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/스카이림/thumbnail.png",
-    "current": false
-  },
-  {
     "id": "스타시드 아스니아 트리거",
     "name": "스타시드 아스니아 트리거",
     "release": "",
@@ -1770,21 +1830,6 @@
     "current": false
   },
   {
-    "id": "스텔라 블레이드",
-    "name": "스텔라 블레이드",
-    "release": "2024",
-    "developer": "Shift Up",
-    "platform": "PS5, PC",
-    "package": "Yes",
-    "comment": "",
-    "playtime": "8.3",
-    "playtime_num": 8.3,
-    "payment": "67000",
-    "payment_num": 67000.0,
-    "thumbnail": "content/playing/스텔라 블레이드/thumbnail.jpg",
-    "current": false
-  },
-  {
     "id": "승리의 여신 니케",
     "name": "승리의 여신 니케",
     "release": "",
@@ -1797,21 +1842,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "쓰론 앤 리버티",
-    "name": "쓰론 앤 리버티",
-    "release": "2023년 12월 7일",
-    "developer": "엔씨소프트",
-    "platform": "Windows, macOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "57.0",
-    "playtime_num": 57.0,
-    "payment": "49800",
-    "payment_num": 49800.0,
-    "thumbnail": "content/playing/쓰론 앤 리버티/thumbnail.png",
     "current": false
   },
   {
@@ -1841,21 +1871,6 @@
     "playtime_num": 0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "아크 레이더스",
-    "name": "아크 레이더스",
-    "release": "2026",
-    "developer": "Nexon",
-    "platform": "PC",
-    "package": "Yes",
-    "comment": "",
-    "playtime": "2.4",
-    "playtime_num": 2.4,
-    "payment": "58900",
-    "payment_num": 58900.0,
     "thumbnail": "",
     "current": false
   },
@@ -1920,21 +1935,6 @@
     "current": false
   },
   {
-    "id": "엘든 링",
-    "name": "엘든 링",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "95.7",
-    "playtime_num": 95.7,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "연운",
     "name": "연운",
     "release": "",
@@ -1962,21 +1962,6 @@
     "payment": "2287600",
     "payment_num": 2287600.0,
     "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "이터널 리턴",
-    "name": "이터널 리턴",
-    "release": "2020년 10월 14일",
-    "developer": "님블뉴런",
-    "platform": "Windows",
-    "package": "No",
-    "comment": "",
-    "playtime": "36.4",
-    "playtime_num": 36.4,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "content/playing/이터널 리턴/thumbnail.png",
     "current": false
   },
   {
