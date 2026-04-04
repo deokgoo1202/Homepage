@@ -4,3 +4,4 @@ developer: 넥슨
 platform: Windows
 package: No
 comment: 
+childhood: yes

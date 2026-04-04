@@ -5,3 +5,4 @@ platform: Windows
 package: No
 comment: 
 payment: 500000
+childhood: yes

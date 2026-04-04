@@ -76,17 +76,16 @@ function updateStats() {
 }
 
 function getFilteredGames() {
-    if (currentTab === 'all') return allGames;
-    if (currentTab === 'live') return allGames.filter(g => g.package !== 'Yes' && !g.tasting);
     if (currentTab === 'package') return allGames.filter(g => g.package === 'Yes' && !g.tasting);
+    if (currentTab === 'live') return allGames.filter(g => g.package !== 'Yes' && !g.tasting && !g.childhood);
+    if (currentTab === 'childhood') return allGames.filter(g => g.childhood);
     if (currentTab === 'tasting') return allGames.filter(g => g.tasting);
     return allGames;
 }
 
 function getSortKey(g) {
     if (currentTab === 'live' || currentTab === 'tasting') return g.payment_num || 0;
-    if (currentTab === 'package') return g.playtime_num || 0;
-    // 전체: tasting 맨 아래, 라이브는 과금순, 패키지는 플레이시간순
+    if (currentTab === 'package' || currentTab === 'childhood') return g.playtime_num || 0;
     return 0;
 }
 

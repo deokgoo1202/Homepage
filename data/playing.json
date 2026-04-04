@@ -14,7 +14,8 @@
     "thumbnail": "content/playing/Archeland/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "Assassin's Creed Origins",
@@ -31,7 +32,8 @@
     "thumbnail": "content/playing/Assassin's Creed Origins/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Baldur's Gate 3",
@@ -48,7 +50,8 @@
     "thumbnail": "content/playing/Baldur's Gate 3/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Battle Brothers",
@@ -65,7 +68,8 @@
     "thumbnail": "content/playing/Battle Brothers/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "BioShock Infinite",
@@ -82,7 +86,8 @@
     "thumbnail": "content/playing/BioShock Infinite/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Borderlands 2",
@@ -99,7 +104,8 @@
     "thumbnail": "content/playing/Borderlands 2/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Brawl Stars",
@@ -116,7 +122,8 @@
     "thumbnail": "content/playing/Brawl Stars/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "Crimson Desert",
@@ -133,7 +140,8 @@
     "thumbnail": "content/playing/Crimson Desert/thumbnail.jpg",
     "current": true,
     "current_order": 1,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Crusader Kings III",
@@ -150,7 +158,8 @@
     "thumbnail": "content/playing/Crusader Kings III/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Cyberpunk 2077",
@@ -167,7 +176,8 @@
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Darkest Dungeon®",
@@ -184,7 +194,8 @@
     "thumbnail": "content/playing/Darkest Dungeon®/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Divinity Original Sin 2",
@@ -201,7 +212,8 @@
     "thumbnail": "content/playing/Divinity Original Sin 2/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Dota 2",
@@ -218,7 +230,8 @@
     "thumbnail": "content/playing/Dota 2/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "ELDEN RING",
@@ -235,7 +248,8 @@
     "thumbnail": "content/playing/ELDEN RING/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Eternal Return",
@@ -252,7 +266,8 @@
     "thumbnail": "content/playing/Eternal Return/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Fallout 4",
@@ -269,7 +284,8 @@
     "thumbnail": "content/playing/Fallout 4/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Fallout New Vegas",
@@ -286,7 +302,8 @@
     "thumbnail": "content/playing/Fallout New Vegas/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Far Cry 4",
@@ -303,7 +320,8 @@
     "thumbnail": "content/playing/Far Cry 4/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Football Manager 2016",
@@ -320,7 +338,8 @@
     "thumbnail": "content/playing/Football Manager 2016/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Football Manager 2017",
@@ -337,7 +356,8 @@
     "thumbnail": "content/playing/Football Manager 2017/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Football Manager 2019",
@@ -354,7 +374,8 @@
     "thumbnail": "content/playing/Football Manager 2019/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Frostpunk",
@@ -371,7 +392,8 @@
     "thumbnail": "content/playing/Frostpunk/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Grand Theft Auto V Legacy",
@@ -388,7 +410,8 @@
     "thumbnail": "content/playing/Grand Theft Auto V Legacy/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "HEARTHSTONE",
@@ -405,7 +428,8 @@
     "thumbnail": "content/playing/HEARTHSTONE/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "Heroes Of The Storm(히어로즈 오브 더 스톰)",
@@ -422,7 +446,8 @@
     "thumbnail": "content/playing/Heroes Of The Storm(히어로즈 오브 더 스톰)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": true
   },
   {
     "id": "Kingdom Come Deliverance",
@@ -439,7 +464,8 @@
     "thumbnail": "content/playing/Kingdom Come Deliverance/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "League Of Legends",
@@ -456,7 +482,8 @@
     "thumbnail": "content/playing/League Of Legends/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": true
   },
   {
     "id": "MISTOVER",
@@ -473,7 +500,8 @@
     "thumbnail": "content/playing/MISTOVER/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Middle-earth™ Shadow of Mordor™",
@@ -490,7 +518,8 @@
     "thumbnail": "content/playing/Middle-earth™ Shadow of Mordor™/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Middle-earth™ Shadow of War™",
@@ -507,7 +536,8 @@
     "thumbnail": "content/playing/Middle-earth™ Shadow of War™/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Mount & Blade II Bannerlord",
@@ -524,7 +554,8 @@
     "thumbnail": "content/playing/Mount & Blade II Bannerlord/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Mount & Blade Warband",
@@ -541,7 +572,8 @@
     "thumbnail": "content/playing/Mount & Blade Warband/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "PUBG BATTLEGROUNDS",
@@ -558,7 +590,8 @@
     "thumbnail": "content/playing/PUBG BATTLEGROUNDS/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Palworld",
@@ -575,7 +608,8 @@
     "thumbnail": "content/playing/Palworld/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Path Of Exile 2(POE 2)",
@@ -592,7 +626,8 @@
     "thumbnail": "content/playing/Path Of Exile 2(POE 2)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Pillars of Eternity II Deadfire",
@@ -609,7 +644,8 @@
     "thumbnail": "content/playing/Pillars of Eternity II Deadfire/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Ratropolis",
@@ -626,7 +662,8 @@
     "thumbnail": "content/playing/Ratropolis/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Red Dead Redemption 2",
@@ -643,7 +680,8 @@
     "thumbnail": "content/playing/Red Dead Redemption 2/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "RimWorld",
@@ -660,7 +698,8 @@
     "thumbnail": "content/playing/RimWorld/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Romance of the Three Kingdoms XIII",
@@ -677,7 +716,8 @@
     "thumbnail": "content/playing/Romance of the Three Kingdoms XIII/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Royal Match",
@@ -694,7 +734,8 @@
     "thumbnail": "content/playing/Royal Match/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "Sid Meier's Civilization Beyond Earth",
@@ -711,7 +752,8 @@
     "thumbnail": "content/playing/Sid Meier's Civilization Beyond Earth/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Sid Meier's Civilization V",
@@ -728,7 +770,8 @@
     "thumbnail": "content/playing/Sid Meier's Civilization V/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "South Park The Fractured But Whole",
@@ -745,7 +788,8 @@
     "thumbnail": "content/playing/South Park The Fractured But Whole/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "South Park™ The Stick of Truth™",
@@ -762,7 +806,8 @@
     "thumbnail": "content/playing/South Park™ The Stick of Truth™/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "THRONE AND LIBERTY",
@@ -779,7 +824,8 @@
     "thumbnail": "content/playing/THRONE AND LIBERTY/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "The Elder Scrolls V Skyrim Special Edition",
@@ -796,7 +842,8 @@
     "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "This War of Mine",
@@ -813,7 +860,8 @@
     "thumbnail": "content/playing/This War of Mine/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Thronebreaker The Witcher Tales",
@@ -830,7 +878,8 @@
     "thumbnail": "content/playing/Thronebreaker The Witcher Tales/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War ATTILA",
@@ -847,7 +896,8 @@
     "thumbnail": "content/playing/Total War ATTILA/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War ROME II - Emperor Edition",
@@ -864,7 +914,8 @@
     "thumbnail": "content/playing/Total War ROME II - Emperor Edition/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War THREE KINGDOMS",
@@ -881,7 +932,8 @@
     "thumbnail": "content/playing/Total War THREE KINGDOMS/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War WARHAMMER",
@@ -898,7 +950,8 @@
     "thumbnail": "content/playing/Total War WARHAMMER/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War WARHAMMER II",
@@ -915,7 +968,8 @@
     "thumbnail": "content/playing/Total War WARHAMMER II/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Total War WARHAMMER III",
@@ -932,7 +986,8 @@
     "thumbnail": "content/playing/Total War WARHAMMER III/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "Tropico 5",
@@ -949,7 +1004,8 @@
     "thumbnail": "content/playing/Tropico 5/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "World Of Warcraft",
@@ -966,7 +1022,8 @@
     "thumbnail": "content/playing/World Of Warcraft/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "XCOM 2",
@@ -983,7 +1040,8 @@
     "thumbnail": "content/playing/XCOM 2/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "XCOM Enemy Unknown",
@@ -1000,7 +1058,8 @@
     "thumbnail": "content/playing/XCOM Enemy Unknown/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "ヘブン バーンズ レッド(헤븐 번즈 레드)",
@@ -1017,7 +1076,8 @@
     "thumbnail": "content/playing/ヘブン バーンズ レッド(헤븐 번즈 레드)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "メメントモリ(메멘토 모리)",
@@ -1034,7 +1094,8 @@
     "thumbnail": "content/playing/メメントモリ(메멘토 모리)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "原神(원신)",
@@ -1051,7 +1112,8 @@
     "thumbnail": "content/playing/原神(원신)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "天工之劍(2X)",
@@ -1068,7 +1130,8 @@
     "thumbnail": "content/playing/天工之劍(2X)/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "崩坏：星穹铁道(붕괴 스타레일)",
@@ -1085,7 +1148,8 @@
     "thumbnail": "content/playing/崩坏：星穹铁道(붕괴 스타레일)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "绝区零 · 絕區零(젠레스 존 제로)",
@@ -1102,7 +1166,8 @@
     "thumbnail": "content/playing/绝区零 · 絕區零(젠레스 존 제로)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "鸣潮(명조 워더링 웨이브)",
@@ -1119,7 +1184,8 @@
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "龙之国物语(아카디아M)",
@@ -1136,7 +1202,8 @@
     "thumbnail": "content/playing/龙之国物语(아카디아M)/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "가디언 테일즈",
@@ -1153,7 +1220,8 @@
     "thumbnail": "content/playing/가디언 테일즈/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "나 혼자만 레벨업 어라이즈",
@@ -1170,7 +1238,8 @@
     "thumbnail": "content/playing/나 혼자만 레벨업 어라이즈/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "나이트 워커",
@@ -1187,7 +1256,8 @@
     "thumbnail": "content/playing/나이트 워커/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "나이트크로우",
@@ -1204,7 +1274,8 @@
     "thumbnail": "content/playing/나이트크로우/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "더 스타라이트",
@@ -1221,7 +1292,8 @@
     "thumbnail": "content/playing/더 스타라이트/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "던전앤파이터",
@@ -1238,7 +1310,8 @@
     "thumbnail": "content/playing/던전앤파이터/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": true
   },
   {
     "id": "던전앤파이터 모바일",
@@ -1255,7 +1328,8 @@
     "thumbnail": "content/playing/던전앤파이터 모바일/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "디펜스 더비",
@@ -1272,7 +1346,8 @@
     "thumbnail": "content/playing/디펜스 더비/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "레이븐 2",
@@ -1289,7 +1364,8 @@
     "thumbnail": "content/playing/레이븐 2/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "로스트아크",
@@ -1306,7 +1382,8 @@
     "thumbnail": "content/playing/로스트아크/thumbnail.webp",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "리니지2M",
@@ -1323,7 +1400,8 @@
     "thumbnail": "content/playing/리니지2M/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "리니지W",
@@ -1340,7 +1418,8 @@
     "thumbnail": "content/playing/리니지W/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "마비노기 모바일",
@@ -1357,7 +1436,8 @@
     "thumbnail": "content/playing/마비노기 모바일/thumbnail.webp",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "마비노기 영웅전",
@@ -1374,7 +1454,8 @@
     "thumbnail": "content/playing/마비노기 영웅전/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": true
   },
   {
     "id": "메이플 키우기",
@@ -1391,7 +1472,8 @@
     "thumbnail": "content/playing/메이플 키우기/thumbnail.jpg",
     "current": true,
     "current_order": 3,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "명일방주_ 엔드필드",
@@ -1408,7 +1490,8 @@
     "thumbnail": "content/playing/명일방주_ 엔드필드/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "뱀피르",
@@ -1425,7 +1508,8 @@
     "thumbnail": "content/playing/뱀피르/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "블레이드 & 소울 2",
@@ -1442,7 +1526,8 @@
     "thumbnail": "content/playing/블레이드 & 소울 2/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "블루 아카이브",
@@ -1459,7 +1544,8 @@
     "thumbnail": "content/playing/블루 아카이브/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "서머너즈 워 _ 크로니클",
@@ -1476,7 +1562,8 @@
     "thumbnail": "content/playing/서머너즈 워 _ 크로니클/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "서머너즈 워 백년전쟁",
@@ -1493,7 +1580,8 @@
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "세븐나이츠 레볼루션",
@@ -1510,7 +1598,8 @@
     "thumbnail": "content/playing/세븐나이츠 레볼루션/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "세븐나이츠 키우기",
@@ -1527,7 +1616,8 @@
     "thumbnail": "content/playing/세븐나이츠 키우기/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "소울 스트라이크",
@@ -1544,7 +1634,8 @@
     "thumbnail": "content/playing/소울 스트라이크/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "승리의 여신 니케",
@@ -1561,7 +1652,8 @@
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "아키에이지 워",
@@ -1578,7 +1670,8 @@
     "thumbnail": "content/playing/아키에이지 워/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "어나더던전",
@@ -1595,7 +1688,8 @@
     "thumbnail": "content/playing/어나더던전/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "에버소울",
@@ -1612,7 +1706,8 @@
     "thumbnail": "content/playing/에버소울/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "오딘_ 발할라 라이징",
@@ -1629,7 +1724,8 @@
     "thumbnail": "content/playing/오딘_ 발할라 라이징/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "카오스 제로 나이트메어",
@@ -1646,7 +1742,8 @@
     "thumbnail": "content/playing/카오스 제로 나이트메어/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "컴투스프로야구 V22",
@@ -1663,7 +1760,8 @@
     "thumbnail": "content/playing/컴투스프로야구 V22/thumbnail.jpg",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "트릭컬 리바이브",
@@ -1680,7 +1778,8 @@
     "thumbnail": "content/playing/트릭컬 리바이브/thumbnail.png",
     "current": true,
     "current_order": 2,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "프라시아 전기",
@@ -1697,7 +1796,8 @@
     "thumbnail": "content/playing/프라시아 전기/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": false
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "호연",
@@ -1714,7 +1814,8 @@
     "thumbnail": "content/playing/호연/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   },
   {
     "id": "히트2",
@@ -1731,6 +1832,7 @@
     "thumbnail": "content/playing/히트2/thumbnail.png",
     "current": false,
     "current_order": 99,
-    "tasting": true
+    "tasting": true,
+    "childhood": false
   }
 ]

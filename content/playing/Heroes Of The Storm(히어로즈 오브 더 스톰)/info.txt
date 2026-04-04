@@ -4,3 +4,4 @@ developer: Blizzard
 platform: Windows, macOS
 package: No
 comment: 
+childhood: yes
