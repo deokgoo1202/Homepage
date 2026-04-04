@@ -4,4 +4,5 @@ category: Core
 date: 2024년 11월 22일
 roles: 시스템 기획
 desc: 사망 시 부활까지 N초 간 대기해야하는 로직 추가, 사망 횟수가 증가할수록 부활 대기 시간 증가
-minor: yeshidden: yes
+minor: yes
+hidden: yes

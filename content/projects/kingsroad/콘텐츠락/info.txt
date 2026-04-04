@@ -1,4 +1,4 @@
-name: 콘텐츠 타입
+name: 콘텐츠락
 order: 305
 category: Core
 date: 2025년 9월 26일
