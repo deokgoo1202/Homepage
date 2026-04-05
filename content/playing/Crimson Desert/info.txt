@@ -1,4 +1,5 @@
 name: 붉은사막
+appid: 3321460
 release: 2026
 developer: Pearl Abyss
 platform: PC
