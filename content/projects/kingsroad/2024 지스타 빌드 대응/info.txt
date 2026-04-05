@@ -1,4 +1,4 @@
-name: 2024 지스타 빌드 대응
+name: 2024 지스타
 order: 26
 category: Event
 featured: yes

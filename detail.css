@@ -402,6 +402,22 @@
         justify-content: flex-start;
     }
 
+    .history-row {
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
+        padding: 0.8rem 0.6rem;
+    }
+
+    .history-date {
+        font-size: 0.75rem;
+        color: #777;
+    }
+
+    .history-name {
+        font-size: 0.95rem;
+        color: #ddd;
+    }
+
     #other-preview-popup {
         position: fixed;
         left: 50% !important;

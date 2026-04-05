@@ -367,10 +367,6 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/생산/01.jpg",
-            "caption": ""
-          },
-          {
             "file": "content/projects/kingsroad/생산/생산 1.png",
             "caption": ""
           },
@@ -576,7 +572,7 @@
         ]
       },
       {
-        "name": "2024 지스타 빌드 대응",
+        "name": "2024 지스타",
         "order": 26,
         "category": "Event",
         "date": "2024년 9월 5일",
