@@ -405,8 +405,8 @@
 
     .history-row {
         display: flex !important;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column !important;
+        align-items: flex-start !important;
         gap: 0.35rem;
         padding: 0.75rem 0.6rem;
     }
