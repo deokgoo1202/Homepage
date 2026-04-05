@@ -45,21 +45,14 @@
     opacity: 0.4;
 }
 
-/* Playing page grid pattern background */
-.playing-main {
-    position: relative;
-}
-
-.playing-main::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    z-index: -1;
+/* Playing page background */
+body:has(.playing-main) {
     background-image:
-        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-    background-size: 48px 48px;
-    pointer-events: none;
+        linear-gradient(rgba(10,10,10,0.6), rgba(10,10,10,0.75)),
+        url('./assets/playlist_bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 }
 
 /* Now Playing */
