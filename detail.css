@@ -413,7 +413,8 @@
     .history-date {
         font-size: 0.72rem;
         color: #777;
-        text-align: left;
+        text-align: left !important;
+        width: 100%;
     }
 
     .history-name {
