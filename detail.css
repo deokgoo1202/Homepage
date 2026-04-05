@@ -403,19 +403,29 @@
     }
 
     .history-row {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 0.3rem;
-        padding: 0.8rem 0.6rem;
+        padding: 0.75rem 0.6rem;
     }
 
     .history-date {
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         color: #777;
+        order: 1;
+    }
+
+    .history-cat {
+        order: 2;
+        align-self: flex-start;
     }
 
     .history-name {
         font-size: 0.95rem;
         color: #ddd;
+        order: 3;
+        white-space: normal;
+        word-break: keep-all;
     }
 
     #other-preview-popup {
