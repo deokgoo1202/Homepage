@@ -1385,6 +1385,13 @@ h4,
 }
 
 /* Hero intro */
+.intro-break { display: none; }
+
+@media (max-width: 480px) {
+    .intro-break { display: inline; }
+    .intro-br { display: none; }
+}
+
 .hero-intro {
     font-size: 1.1rem;
     color: var(--text-light);
