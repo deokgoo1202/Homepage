@@ -1,3 +1,3 @@
-name: 액션패밀리
+name: 부족전쟁
 childhood: yes
 release: 2003

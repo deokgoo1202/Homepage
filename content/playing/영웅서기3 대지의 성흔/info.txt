@@ -1,0 +1,3 @@
+name: 영웅서기3: 대지의 성흔
+childhood: yes
+release: 2004

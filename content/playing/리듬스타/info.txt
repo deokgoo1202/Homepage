@@ -1,0 +1,3 @@
+name: 리듬스타
+childhood: yes
+release: 2004

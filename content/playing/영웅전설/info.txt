@@ -1,3 +1,0 @@
-name: 영웅전설
-childhood: yes
-release: 1992
