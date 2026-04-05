@@ -1,0 +1,3 @@
+name: 에이지 오브 엠파이어 2
+childhood: yes
+release: 1999

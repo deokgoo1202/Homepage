@@ -1,0 +1,3 @@
+name: 버블보블
+childhood: yes
+release: 1986

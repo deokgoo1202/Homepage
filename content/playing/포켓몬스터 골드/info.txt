@@ -1,0 +1,3 @@
+name: 포켓몬스터 골드
+childhood: yes
+release: 1999
