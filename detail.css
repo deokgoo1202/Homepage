@@ -413,6 +413,7 @@
     .history-date {
         font-size: 0.72rem;
         color: #777;
+        text-align: left;
     }
 
     .history-name {
@@ -420,6 +421,7 @@
         color: #ddd;
         white-space: normal;
         word-break: keep-all;
+        text-align: left;
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -430,6 +432,7 @@
         order: -1;
         align-self: flex-start;
         flex-shrink: 0;
+        text-align: left;
     }
 
     #other-preview-popup {
