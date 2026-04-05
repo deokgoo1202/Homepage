@@ -1992,7 +1992,7 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
-    "current": false,
+    "current": true,
     "current_order": 99,
     "tasting": false,
     "childhood": false
@@ -2104,6 +2104,24 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true
+  },
+  {
+    "id": "엘트릭스",
+    "name": "엘트릭스",
+    "release": "",
+    "developer": "",
+    "platform": "PC",
+    "package": "No",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
+    "thumbnail": "content/playing/엘트릭스/thumbnail.jpg",
+    "current": true,
+    "current_order": 99,
+    "tasting": false,
+    "childhood": false
   },
   {
     "id": "오딘_ 발할라 라이징",

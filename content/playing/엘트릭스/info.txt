@@ -1,0 +1,4 @@
+name: 엘트릭스
+platform: PC
+current: yes
+current_order: 5
