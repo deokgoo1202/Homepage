@@ -225,9 +225,10 @@ body:has(.playing-main) {
 }
 
 .tab-btn.active {
-    border-color: var(--text-light);
-    color: var(--text-light);
-    background: rgba(255,255,255,0.08);
+    border-color: var(--accent-yellow);
+    color: #111;
+    background: var(--accent-yellow);
+    font-weight: 700;
 }
 
 .tab-hint {
