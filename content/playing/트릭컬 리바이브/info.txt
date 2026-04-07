@@ -4,7 +4,7 @@ developer: 에피드게임즈
 platform: Android, iOS
 package: No
 comment: 
-payment: 2374500
+payment: 2381100
 current: yes
 order: 2
 current_order: 2
