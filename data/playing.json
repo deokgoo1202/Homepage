@@ -2502,6 +2502,24 @@
     "childhood": true
   },
   {
+    "id": "테스트게임",
+    "name": "테스트게임",
+    "release": "",
+    "developer": "",
+    "platform": "",
+    "package": "No",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "1500",
+    "payment_num": 1500.0,
+    "thumbnail": "",
+    "current": false,
+    "current_order": 99,
+    "tasting": true,
+    "childhood": false
+  },
+  {
     "id": "테일즈런너",
     "name": "테일즈런너",
     "release": "2005",

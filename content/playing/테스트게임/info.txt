@@ -1,0 +1,8 @@
+name: 테스트게임
+release: 
+developer: 
+platform: 
+package: No
+comment: 
+payment: 1500
+tasting: yes
