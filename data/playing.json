@@ -1746,6 +1746,24 @@
     "childhood": false
   },
   {
+    "id": "몬길_ 스타 다이브",
+    "name": "몬길: 스타 다이브",
+    "release": "2026년 4월 15일",
+    "developer": "Netmarble",
+    "platform": "Android, iOS, PC",
+    "package": "No",
+    "comment": "",
+    "playtime": "0",
+    "playtime_num": 0.0,
+    "payment": "47000",
+    "payment_num": 47000.0,
+    "thumbnail": "content/playing/몬길_ 스타 다이브/thumbnail.jpg",
+    "current": true,
+    "current_order": 5,
+    "tasting": false,
+    "childhood": false
+  },
+  {
     "id": "믹스마스터",
     "name": "믹스마스터",
     "release": "2003",
