@@ -3,7 +3,6 @@ release: 2026년 4월 15일
 developer: Netmarble
 platform: Android, iOS, PC
 package: No
-playtime: 0
 payment: 47000
 comment:
 current: yes
