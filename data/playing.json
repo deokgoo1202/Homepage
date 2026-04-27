@@ -2082,8 +2082,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
-    "current": false,
-    "current_order": 99,
+    "current": true,
+    "current_order": 3,
     "tasting": false,
     "childhood": false
   },
