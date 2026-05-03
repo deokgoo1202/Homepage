@@ -5,5 +5,3 @@ package: No
 comment:
 payment:
 playtime:
-current: yes
-current_order: 3
