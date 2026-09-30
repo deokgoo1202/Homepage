@@ -1,0 +1,80 @@
+/* fx.css — 인터랙션 이펙트 (커스텀 커서 · 3D 틸트 · 마그네틱 · 헤더 스크롤 숨김)
+   바닐라, 외부 의존 없음. 터치/모션축소 환경에선 JS가 커서·틸트를 아예 켜지 않음. */
+
+/* ---- 커스텀 커서 ---- */
+.fx-cursor-dot,
+.fx-cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity .3s;
+    will-change: transform;
+}
+body.fx-cursor-on .fx-cursor-dot,
+body.fx-cursor-on .fx-cursor-ring { opacity: 1; }
+
+.fx-cursor-dot {
+    width: 7px;
+    height: 7px;
+    background: var(--accent-yellow, #FFFF00);
+    box-shadow: 0 0 8px rgba(255, 255, 0, .55);
+}
+.fx-cursor-ring {
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid rgba(255, 255, 0, .5);
+    transition: width .25s, height .25s, border-color .25s, background-color .25s, opacity .3s;
+}
+.fx-cursor-ring.is-hot {
+    width: 52px;
+    height: 52px;
+    border-color: rgba(255, 255, 0, .9);
+    background: rgba(255, 255, 0, .07);
+}
+
+/* 커서 활성 시 네이티브 커서 숨김 (fine pointer일 때만 JS가 body 클래스 부여) */
+body.fx-cursor-on,
+body.fx-cursor-on a,
+body.fx-cursor-on button,
+body.fx-cursor-on [role="button"],
+body.fx-cursor-on .game-card,
+body.fx-cursor-on .archive-img-item { cursor: none; }
+/* 텍스트 입력은 네이티브 커서 유지 */
+body.fx-cursor-on input,
+body.fx-cursor-on textarea { cursor: text; }
+
+/* ---- 3D 틸트 카드 + 홀로그램 광택 ---- */
+.game-card,
+.now-playing-card,
+.project-card,
+.etc-card,
+.archive-cat-card { position: relative; }
+
+.fx-tilt {
+    transition: transform .12s ease-out, box-shadow .3s ease;
+    will-change: transform;
+}
+.fx-tilt::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity .3s;
+    background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 50%),
+            rgba(255, 255, 0, .13), rgba(255, 255, 255, .05) 32%, transparent 62%);
+}
+.fx-tilt.fx-glow::after { opacity: 1; }
+
+/* ---- 헤더 스크롤 숨김 ---- */
+.framer-nav {
+    transition: transform .35s ease, box-shadow .3s ease, background-color .3s ease;
+}
+.framer-nav.nav-hidden { transform: translateY(-100%); }
+.framer-nav.nav-pinned { box-shadow: 0 6px 24px rgba(0, 0, 0, .35); }
