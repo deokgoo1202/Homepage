@@ -1,0 +1,6 @@
+name: 쿠키런: 크럼블
+developer: 데브시스터즈
+platform: 모바일
+package: No
+current: yes
+current_order: 3

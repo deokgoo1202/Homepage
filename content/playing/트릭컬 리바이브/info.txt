@@ -5,6 +5,4 @@ platform: Android, iOS
 package: No
 comment: 
 payment: 2381100
-current: yes
 order: 2
-current_order: 3

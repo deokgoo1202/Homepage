@@ -1,0 +1,8 @@
+name: 디아블로 IV
+release: 2023년 6월 6일
+developer: Blizzard Entertainment
+platform: PlayStation, Windows, Xbox
+package: Yes
+appid: 2344520
+current: yes
+current_order: 2

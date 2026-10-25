@@ -4,5 +4,3 @@ platform: PC
 package: Yes
 appid: 814380
 playtime: 3.0
-current: yes
-current_order: 2

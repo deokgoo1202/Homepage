@@ -6,5 +6,3 @@ package: No
 appid: 4214820
 payment:
 comment:
-current: yes
-current_order: 1

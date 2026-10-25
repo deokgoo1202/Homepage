@@ -5,5 +5,3 @@ platform: Android, iOS
 package: No
 payment: 134100
 comment:
-current: yes
-current_order: 4

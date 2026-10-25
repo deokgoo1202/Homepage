@@ -1,0 +1,5 @@
+name: 태스크바 히어로
+platform: PC
+package: Yes
+current: yes
+current_order: 4
