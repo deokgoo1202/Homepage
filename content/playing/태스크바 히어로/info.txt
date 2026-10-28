@@ -1,5 +1,8 @@
 name: 태스크바 히어로
+developer: Nugem Studio
+release: 2026
 platform: PC
 package: Yes
+appid: 3678970
 current: yes
-current_order: 4
+current_order: 3
