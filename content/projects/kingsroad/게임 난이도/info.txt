@@ -1,0 +1,7 @@
+name: 게임 난이도
+order: 9
+category: Environment
+minor: yes
+date: 2026년 8월 7일
+roles: 시스템 기획
+desc: 옵션에서 필드 PvE 난이도를 쉬움·보통·어려움으로 선택하는 기능 추가

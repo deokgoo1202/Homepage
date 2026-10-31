@@ -1,0 +1,8 @@
+name: 통합 프리셋
+order: 51
+category: Growth
+featured: yes
+date: 2026년 8월 7일
+roles: 시스템 기획
+desc: 장비·유물·특성·탄환·퀵슬롯을 하나로 묶어 저장·전환하는 통합 프리셋 기능
+sub: 프리셋 요약 페이지 추가 · 퀵슬롯 deck 개념 변경 및 탄환 슬롯 통합
