@@ -1,84 +1,17 @@
 // archive.js — UI Reference Archive (사이드바 + 해시 라우팅 단일 페이지)
 
-// 카테고리 한글명 매핑
-const CAT_KO = {
-    Account: '계정', AccountGrowth: '계정 성장', TimeConsume: '시간 소모', Achievement: '업적', ActionTutorial: '액션 튜토리얼', 
-    Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
-    Artifact: '유물', Astrology: '점성술', Event_Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
-    BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
-    Camp: '캠프', Card: '카드', Channel: '채널', CharacterAscension: '캐릭터 승급', CharacterCreate: '캐릭터 생성',
-    CharacterInfo: '캐릭터 정보', CharacterLevel: '캐릭터 레벨', CharacterSelect: '캐릭터 선택',
-    CharacterSkill: '캐릭터 스킬', Chat: '채팅', Codex: '도감', CollectionGrowth: '컬렉션 성장(재료 소모)', Class: '클래스',
-    ClassChange: '전직', ClassTree: '클래스 트리', Community: '커뮤니티',
-    Constellation: '별자리', Construction: '건설', 
-    Cooking: '요리',   Crafting: '제작', 
-    Customizing: '커스터마이징', Cyberware: '사이버웨어', DailyTraining: '일일 훈련',
-    Death: '사망',  Decompose: '분해',
-    Dispatch: '파견', AcquireInfo: '획득처', Dungeon: '던전', EffectDetailInfo: '효과 정보', PossessionEffect: '보유 효과', Emote: '감정표현',
-    Etc: '기타', Enhancement: '강화', Event: '이벤트', Market: '거래소',
-    Exploration: '탐험',     
-    FieldBoss: '필드 보스', Event_FirstPurchase: '첫 구매', BMShopDouble: '두배 상품', Friend: '친구',
-    BMGacha: '뽑기', ProbabilityNotice: '확률고지', GameTips: '튜토리얼 다시보기',
-    GrowthEvent: '성장 이벤트', GrowthCollection: '수집', Guardian: '수호자', GuardianPromotion: '수호자 승급',
-    Guide: '가이드', GuideMission: '가이드 미션', Guild: '길드', 
-    Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨',
-    HeroRating: '영웅 평가', Housing: '하우징', HUDEdit: 'HUD 설정', Inventory: '인벤토리', ItemDetail: '아이템 상세',
-    KeyBinding: '키 설정', Launcher: '런처', Lifestyle: '생활', Loading: '로딩', Lobby: '로비',
-    Mail: '우편', MainScreen: '메인 화면',
-    Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹',
-    Menu: '메뉴', BMShopProductTypeAchive: '달성형 상품',  Event_Minigame: '미니게임', Mission: '미션',
-    MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
-    Notice: '공지', Notification: '알림', NpcShop: 'NPC 상점', NpcAffinity: '호감도', NpcDialog: '다이얼로그', GadgetInteraction: '가젯 상호작용', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
-    Party: '파티', PatchProcess: '패치 프로세스', BMPass: '패스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
-    PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '자동 수급', Profile: '프로필',
-    Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
-    Queue: '대기열', Raid: '레이드', Rally: '집결', Ranking: '랭킹', RingMenu: '링 메뉴', Refine: '재련', Replay: '리플레이',
-    Reward: '보상',  Rune: '룬',
-    Scan: '스캔',  Season: '시즌', Settings: '게임 설정', BMShop: 'BM상점',
-    Shortcut: '바로가기', SiegeBattle: '공성전', Simulation: '시뮬레이션', Skill: '스킬', SoulCore: '소울 코어',
-    BMShopProductTypeConditional: '조건형 상품', BMShopDiscountCoupon: 'BM상점 할인 쿠폰', BMShopProductTypeGuildDonation: '길드 기여 상품', BMShopProductTypeBonusPurchaseCount: '구매 횟수 보너스 상품', BMShopProductTypeChoice: '선택형 상품', BMShopProductTypePeriod: '기간형 상품', BMShopProductTypeAttendance: '출석 상품', Stage: '스테이지', BMActivityCharge: '활동력 충전', StarterPack: '스타터 팩',
-    Statistics: '통계형 가이드', Stats: '캐릭터 스탯', StatFilter: '스탯 필터', BMShopProductTypeStepup: '스텝업 상품',
-    Storage: '창고',  Membership: '멤버쉽', Synthesis: '합성',
-    TeamFormation: '편성', Title: '타이틀',
-    CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
-    TravelLevel: '여행 레벨', Tutorial: '튜토리얼', BMVIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
-    WebView: '웹뷰', Wiki: '백과사전', Event_PCCafe: 'PC방', equipment: '장비',
-    level_art: '레벨 아트', meme: '밈', monster: '몬스터',
-};
-
-// 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
-const GROUP_DEF = [
-    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Channel','Loading']],
-    ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
-    ['TitleGroup', '타이틀', ['Title','PatchProcess','Queue']],
-    ['Launching', '실행', ['Launcher']],
-    ['MainGroup', '메인 화면', ['MainScreen','Lobby','Menu']],
-    ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
-    ['World', '월드', ['Map']],
-    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection','Stats']],
-    ['Trade', '교환', ['Crafting','Decompose','NpcShop']],
-    ['Accomplishment', '달성', ['Achievement','Trophy','Codex','Mission','Ranking','Quest','Season']],
-    ['AccountGrowthGroup', '계정 성장', ['AccountGrowth','CollectionGrowth','TimeConsume']],
-    ['Collect', '수집', ['CharacterTitle']],
-    ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
-    ['Social', '소셜', ['Profile','Chat','Emote','Friend','Party','Guild']],
-    ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog']],
-    ['Gadget', '가젯', ['GadgetInteraction']],
-    ['Economy', '경제', ['Market']],
-    ['Management', '경영', ['Housing','Construction','Camp']],
-    ['Idle', '방치', ['Production','Dispatch','OfflinePlay']],
-    ['UX', 'UX', ['NumericInput','StatFilter']],
-    ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
-    ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
-    ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
-    ['BM', 'BM', ['BMShop','BMPass','BMGacha','BMVIP','BMActivityCharge','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopProductTypeStepup','BMShopProductTypeAchive','BMShopProductTypeConditional','BMShopProductTypeBonusPurchaseCount','BMShopProductTypeChoice','BMShopProductTypeGuildDonation','BMShopDiscountCoupon','BMShopDouble']],
-    ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Event_Minigame','Event_Attendance','Event_PCCafe']],
-    ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','PreRegistration','WebView','Push','Notice']],
-    ['Misc', '기타', ['Etc','PhotoMode','Replay','level_art','meme']],
-];
+// 카테고리 한글명 · 분류 그룹 — 🔴 여기에 손으로 적지 않는다(2026-10-31).
+// build_archive.py --groups 가 분류 정본(Game-Oriented/Studio/.claude/instructions/design/system/system_classification.md)에서
+// data/archive_groups.json 을 만든다. 예전엔 여기 손으로 적었고 «정본 기준»이라 했지만 따로 놀았다.
+let CAT_KO = {};
+let GROUP_DEF = [];      // [[그룹 key, 한글, [카테고리…]]] — 정본에 적힌 순서
 const GROUP_OF = {};
-const CAT_ORDER = {};   // 그룹 내 정렬 순서(GROUP_DEF 멤버 순서 기준)
-GROUP_DEF.forEach(([key, , members]) => members.forEach((m, i) => { GROUP_OF[m] = key; CAT_ORDER[m] = i; }));
+const CAT_ORDER = {};   // 그룹 내 정렬 순서(정본 순서)
+function applyGroups(data) {
+    CAT_KO = data.labels;
+    GROUP_DEF = data.groups.map(g => [g.key, g.ko, g.members]);
+    GROUP_DEF.forEach(([key, , members]) => members.forEach((m, i) => { GROUP_OF[m] = key; CAT_ORDER[m] = i; }));
+}
 
 function catKo(name) { return CAT_KO[name] || name; }
 function catLabel(name) {
@@ -127,7 +60,8 @@ let GAME_INDEX = [];      // [{name, screens:[{cat, images}], image_count}]
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const res = await fetch('./data/archive.json');
+        const [res, gres] = await Promise.all([fetch('./data/archive.json'), fetch('./data/archive_groups.json')]);
+        applyGroups(await gres.json());
         ARCHIVE = await res.json();
         // 완전 제외 카테고리
         const HIDE = new Set(['level_art']);
@@ -318,8 +252,8 @@ function renderScreenSidebar() {
     GROUP_DEF.forEach(([key]) => { buckets[key] = []; });
     ARCHIVE.categories.forEach(c => {
         if (ALL_GALLERY_CATS.has(c.name)) return;
-        const g = GROUP_OF[c.name] || 'Misc';
-        (buckets[g] || buckets['Misc']).push(c);
+        const g = GROUP_OF[c.name] || 'Miscellaneous';
+        (buckets[g] || buckets['Miscellaneous']).push(c);
     });
     // 그룹 내 순서를 GROUP_DEF 멤버 순서대로 정렬
     Object.values(buckets).forEach(arr => arr.sort((a, b) => (CAT_ORDER[a.name] ?? 999) - (CAT_ORDER[b.name] ?? 999)));

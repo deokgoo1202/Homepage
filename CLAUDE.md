@@ -19,7 +19,12 @@
 - `python build_archive.py --fix-counts` — 개수 숫자만 고친다
 - `python build_archive.py --add` — `Game-Oriented/References/references/{카테고리}/{게임}/` 의 새 그림을 **뒤에 붙인다**(지우지 않음 · 중복 안 붙임)
 - 카테고리를 옮기거나 합칠 때는 **목록과 파일을 같이** 옮긴다(`git mv`). 목록만 고쳐서 깨진 그림이 6장 있었다(2026-10-31 정리)
-- 카테고리 이름의 기준 = `Game-Oriented/Studio/.claude/instructions/design/system/system_classification.md`
+- 🔴 **카테고리 이름 = 분류 정본의 영문 키** — `Game-Oriented/Studio/.claude/instructions/design/system/system_classification.md`
+  - 2026-10-31 40개를 정본 키로 개명했다(`Settings`→`GameOption` · `BMGacha`→`BMSummon` 등, 합침 2: `CharacterSkill`→`Skill` · `PerkPoint`→`TraitPoint`)
+  - 정본에 없는 카테고리는 **검사에서 실패한다.** 새 화면 유형이면 **정본에 먼저 넣고** 그 키로 만든다
+  - 예외(게임 시스템이 아님): `detail` · `meme` · `monsterref`(갤러리 탭) · `level_art`(숨김) — `build_archive.py` 의 `NON_SYSTEM`
+- 메뉴의 그룹 · 한글 이름은 `archive.js` 에 **손으로 적지 않는다** — `python build_archive.py --groups` 가 정본에서 `data/archive_groups.json` 을 만든다.
+  정본을 고쳤으면 이걸 다시 돌린다(안 돌리면 검사 [6] 이 실패한다)
 
 ## 핵심 파일
 - `build.py` — content/ 스캔 → data/projects.json, data/playing.json 생성. 실행 후 git push 필요

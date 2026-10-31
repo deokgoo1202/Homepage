@@ -14,6 +14,12 @@ build_archive.py — UI 레퍼런스 목록(data/archive.json) 검사 · 개수 
   python build_archive.py --add [폴더]  폴더/{Category}/{Game}/*.png 를 webp 로 바꿔 **뒤에 붙인다**
                                         (기존 항목은 지우지도 바꾸지도 않는다 · 같은 원본은 두 번 안 붙인다)
                                         폴더 기본값 = REF_SRC (_Unmapped 는 건너뛴다)
+  python build_archive.py --groups      메뉴의 분류 그룹 · 한글 이름(data/archive_groups.json)을
+                                        **분류 정본(CANON)에서** 다시 만든다
+
+🔴 카테고리 이름 = 분류 정본(system_classification.md)의 영문 키다(2026-10-31).
+   예전엔 archive.js 에 한글 이름 · 그룹을 손으로 적었고, «정본 기준»이라 적혀 있었지만
+   실제로는 따로 놀았다(170개 중 키까지 같은 것 41개). 이제 정본에 없는 카테고리는 검사에서 실패한다.
 """
 import argparse
 import hashlib
@@ -30,6 +36,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(ROOT, "archive")
 MANIFEST = os.path.join(ROOT, "data", "archive.json")
 SOURCES = os.path.join(ROOT, "data", "archive_sources.json")   # --add 로 붙인 원본의 sha1 → 붙은 경로
+
+CANON = r"C:\Users\deokgoo\Desktop\Game-Oriented\Studio\.claude\instructions\design\system\system_classification.md"
+GROUPS = os.path.join(ROOT, "data", "archive_groups.json")
+# 게임 시스템이 아니라 정본에 없는 것 — 갤러리 탭(detail · meme · monsterref) · 숨김(level_art)
+NON_SYSTEM = {"detail": "디테일", "meme": "밈", "monsterref": "몬스터 레퍼런스", "level_art": "레벨 아트"}
 
 IMG_EXTS = {".png", ".jpg", ".jpeg", ".jfif", ".gif", ".webp"}
 SKIP_TOP = {"_Unmapped"}
@@ -110,8 +121,66 @@ def check(m):
     print(f"\n[4] 합계 — 적힌 값 {said_tot} / 실제 {real_tot}" + ("" if said_tot == real_tot else "  ← 다르다"))
     problems += said_tot != real_tot
 
+    problems += check_groups(m)
+
     print(f"\n결과: 문제 {problems}건" + (" — 개수는 --fix-counts 로 고친다. [1][2] 는 사람이 판단한다" if problems else ""))
     return problems
+
+
+def canon_groups(m):
+    """정본 §1 → (메뉴 데이터, 정본에 없는 카테고리 목록). 그룹 = ### 분류, 순서 = 정본에 적힌 순서."""
+    if not os.path.exists(CANON):
+        return None, ["(정본 파일이 없다: %s)" % CANON]
+    with io.open(CANON, encoding="utf-8") as f:
+        sec1 = f.read().split("\n## 2.")[0]
+    order, sect = [], None                   # [(key, 한글, 그룹 key)]
+    sections = {}                            # 그룹 key -> 한글
+    for line in sec1.splitlines():
+        h = re.match(r"^### (.+?)\s*$", line)
+        if h:
+            title = h.group(1)
+            mk = re.search(r"\(([^()]+)\)\s*$", title)
+            sect = re.sub(r"[^A-Za-z0-9]", "", mk.group(1)) if mk else title
+            sections[sect] = re.sub(r"\s*\([^()]*\)\s*$", "", title).strip()
+            order.append((sect, sections[sect], sect))   # 분류 자체 키(Event · Guide …)도 카테고리가 될 수 있다
+            continue
+        if sect is None:
+            continue
+        it = re.match(r"^\s*- (?:⏳\s*)?(?:\[(.+?)\]\(\S+?\.md\)|([^—]+))", line)
+        if not it:
+            continue
+        name = (it.group(1) or it.group(2)).strip()
+        k = re.search(r"\(([A-Za-z][A-Za-z0-9_]*)\)\s*$", name)
+        if k:
+            order.append((k.group(1), name[:k.start()].strip(), sect))
+    pos = {}
+    for i, (key, ko, g) in enumerate(order):
+        pos.setdefault(key, (i, ko, g))
+    labels, members, missing = dict(NON_SYSTEM), {}, []
+    for c in m["categories"]:
+        n = c["name"]
+        if n in NON_SYSTEM:
+            continue
+        if n not in pos:
+            missing.append(n)
+            continue
+        i, ko, g = pos[n]
+        labels[n] = ko
+        members.setdefault(g, []).append((i, n))
+    groups = [{"key": g, "ko": sections[g], "members": [n for _, n in sorted(members[g])]}
+              for g in sections if g in members]
+    return {"source": "Game-Oriented/Studio/.claude/instructions/design/system/system_classification.md",
+            "groups": groups, "labels": dict(sorted(labels.items()))}, missing
+
+
+def check_groups(m):
+    data, missing = canon_groups(m)
+    print(f"\n[5] 정본에 없는 카테고리 — {len(missing)}건" + ("  (정본에 넣거나 정본 키로 개명한다)" if missing else ""))
+    for n in missing:
+        print("     ", n)
+    stale = data is not None and load_json(GROUPS) != data
+    print("[6] 메뉴(data/archive_groups.json)가 정본과 " + ("다르다  ← --groups 로 다시 만든다" if stale else "같다"))
+    return len(missing) + int(stale)
 
 
 def fix_counts(m):
@@ -187,6 +256,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fix-counts", action="store_true")
     ap.add_argument("--add", nargs="?", const=REF_SRC, default=None, metavar="폴더")
+    ap.add_argument("--groups", action="store_true")
     a = ap.parse_args()
 
     m = load_json(MANIFEST)
@@ -195,6 +265,14 @@ def main():
         return 1
     before = sum(len(g.get("images", [])) for c in m["categories"] for g in c["games"])
 
+    if a.groups:
+        data, missing = canon_groups(m)
+        if missing:
+            print("🔴 정본에 없는 카테고리가 있어 멈춘다:", missing)
+            return 1
+        save_json(GROUPS, data)
+        print(f"메뉴를 정본에서 다시 만들었다 — 그룹 {len(data['groups'])} · 카테고리 {len(data['labels'])}")
+        return 0
     if a.add:
         rc = add(m, a.add)
     elif a.fix_counts:
