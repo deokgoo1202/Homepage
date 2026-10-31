@@ -228,6 +228,22 @@
         ]
       },
       {
+        "name": "웨스턴 → 아시아 통합 이전",
+        "order": 6,
+        "category": "Service",
+        "date": "2026년 9월 9일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "웨스턴 서버 유저를 아시아 서버로 이전하는 통합 이전 기능 (계정·보상 이관)",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "효용",
         "order": 7,
         "category": "Core",
