@@ -6,8 +6,20 @@
 - Google Analytics: G-D1BEYHSFY3
 
 ## 로컬 경로
-- 소스: `G:/내 드라이브/1_Game Design/20260303_홈페이지/`
+- 소스: `C:/Users/deokgoo/OneDrive/바탕 화면/OneDrive/05. AX(2026~)/3_Homepage/`
+  (옛 표기 `G:/내 드라이브/1_Game Design/20260303_홈페이지/` 는 2026-10-31 확인 시 없다)
+  ⚠️ git 저장소가 OneDrive 안에 있다 — 동기화 충돌 사본(`이름-Game-Oriented.webp`)이 실제로 커밋된 적이 있다(2026-10-31 정리)
 - 이미지/작업 임시 폴더: `C:/Users/deokgoo/Desktop/홈페이지/`
+
+## UI 레퍼런스 (archive.html) — 🔴 정본은 `data/archive.json`
+- 사이트는 `data/archive.json` + `archive/{카테고리}/{게임}/NNN.webp` 만 읽는다
+- **분류된 원본은 없다** — 2026-06-22 webp 가 Git 에 있으니 원본 43GB 를 지우고 `_Unmapped` 만 남겼다.
+  그 뒤 `archive.json` 을 손으로 고쳐 왔다(개명 · 합치기 · note · 영상). **그래서 목록을 처음부터 다시 만들면 안 된다**
+- `python build_archive.py` — **검사만** 한다(깨진 그림 · 목록에 없는 파일 · 개수). 어긋나면 exit 1
+- `python build_archive.py --fix-counts` — 개수 숫자만 고친다
+- `python build_archive.py --add` — `Game-Oriented/References/references/{카테고리}/{게임}/` 의 새 그림을 **뒤에 붙인다**(지우지 않음 · 중복 안 붙임)
+- 카테고리를 옮기거나 합칠 때는 **목록과 파일을 같이** 옮긴다(`git mv`). 목록만 고쳐서 깨진 그림이 6장 있었다(2026-10-31 정리)
+- 카테고리 이름의 기준 = `Game-Oriented/Studio/.claude/instructions/design/system/system_classification.md`
 
 ## 핵심 파일
 - `build.py` — content/ 스캔 → data/projects.json, data/playing.json 생성. 실행 후 git push 필요
